@@ -2,7 +2,7 @@ import sys
 import os
 from pathlib import Path
 
-# Añadir el directorio 'src' al path para las importaciones
+# Add 'src' directory to path for imports
 project_root = Path(__file__).parent.parent
 src_path = str(project_root / "src")
 
@@ -11,58 +11,58 @@ if src_path not in sys.path:
 
 try:
     from preprocess.core.factory import ProcessorFactory
-    print("Importaciones desde 'src' exitosas.")
+    print("Imports from 'src' successful.")
 except ImportError as e:
-    print(f"Error de importación: {e}")
+    print(f"Import error: {e}")
     sys.exit(1)
 
 def run_test_on_file(file_name, doc_type):
     """
-    Ejecuta el procesamiento sobre un archivo específico y muestra resultados.
+    Runs processing on a specific file and displays results.
     """
-    # El archivo está en el directorio raíz (un nivel arriba de tests/)
+    # The file is in the root directory (one level above tests/)
     project_root = Path(__file__).parent.parent
     file_path = str(project_root / file_name)
     
     print(f"\n" + "="*60)
-    print(f"PROBANDO: {file_name}")
-    print(f"TIPO: {doc_type}")
+    print(f"TESTING: {file_name}")
+    print(f"TYPE: {doc_type}")
     print("="*60)
     
     if not os.path.exists(file_path):
-        print(f"ERROR: El archivo no se encuentra en {file_path}")
+        print(f"ERROR: File not found at {file_path}")
         return False
     
     try:
-        # 1. Crear procesador
-        print(f"Iniciando procesador para {doc_type}...")
+        # 1. Create processor
+        print(f"Starting processor for {doc_type}...")
         processor = ProcessorFactory.create_processor(file_path, doc_type)
         
-        # 2. Procesar
-        print("Ejecutando limpieza y extracción...")
+        # 2. Process
+        print("Running cleaning and extraction...")
         processor.process()
         
-        # 3. Validar resultados básicos
+        # 3. Validate basic results
         num_secciones = len(processor.sections)
-        print(f"OK: Se han extraído {num_secciones} secciones.")
+        print(f"OK: {num_secciones} sections extracted.")
         
-        # 4. Generar Markdown de prueba en la raíz
+        # 4. Generate test Markdown in the root
         output_md = project_root / f"TEST_RESULT_{doc_type}.md"
         processor.get_md(str(output_md))
-        print(f"OK: Markdown generado en {output_md.name}")
+        print(f"OK: Markdown generated at {output_md.name}")
         
         return True
         
     except Exception as e:
-        print(f"ERROR CRÍTICO durante el procesamiento: {str(e)}")
+        print(f"CRITICAL ERROR during processing: {str(e)}")
         import traceback
         traceback.print_exc()
         return False
 
 if __name__ == "__main__":
-    print("INICIANDO PRUEBA DE INTEGRACIÓN MODULAR")
+    print("STARTING MODULAR INTEGRATION TEST")
     
-    # Lista de archivos a probar
+    # List of files to test
     tests = [
         ("alta.pdf", "alta"),
         ("Anamnesis_10.pdf", "anamnesis"),
@@ -75,5 +75,5 @@ if __name__ == "__main__":
             success_count += 1
     
     print("\n" + "="*60)
-    print(f"RESUMEN: {success_count}/{len(tests)} archivos procesados con éxito.")
+    print(f"SUMMARY: {success_count}/{len(tests)} files processed successfully.")
     print("="*60)

@@ -13,7 +13,7 @@ from gui.worker import ProcessWorker
 
 class MedicalReportApp(QMainWindow):
     """
-    Ventana principal de la aplicación para el procesamiento de informes médicos.
+    Main window of the application for processing medical reports.
     """
     def __init__(self):
         super().__init__()
@@ -30,7 +30,7 @@ class MedicalReportApp(QMainWindow):
     
     def init_ui(self):
         """
-        Inicializa los componentes de la interfaz de usuario.
+        Initializes the user interface components.
         """
         scroll = QScrollArea()
         scroll.setWidgetResizable(True)
@@ -44,12 +44,12 @@ class MedicalReportApp(QMainWindow):
         layout.setSpacing(15)
         layout.setContentsMargins(20, 20, 20, 20)
         
-        # Cabecera
+        # Header
         title = QLabel("Procesador de Informes Médicos")
         title.setFont(QFont("Arial", 14, QFont.Weight.Bold))
         layout.addWidget(title)
         
-        # Selección de tipo de documento
+        # Document type selection
         layout.addWidget(QLabel("Seleccione el tipo de informe:"))
         radio_layout = QHBoxLayout()
         self.doc_type_group = QButtonGroup()
@@ -65,7 +65,7 @@ class MedicalReportApp(QMainWindow):
         radio_layout.addStretch()
         layout.addLayout(radio_layout)
         
-        # Controles de carga de archivos
+        # File loading controls
         btn_layout = QHBoxLayout()
         self.btn_add = self._create_styled_button("📄 Seleccionar Archivos", "#3498db", self.select_files)
         self.btn_folder = self._create_styled_button("📁 Seleccionar Carpeta", "#3498db", self.select_folder)
@@ -73,13 +73,13 @@ class MedicalReportApp(QMainWindow):
         btn_layout.addWidget(self.btn_folder)
         layout.addLayout(btn_layout)
         
-        # Visualización de archivos seleccionados
+        # Selected files display
         self.file_display = QLabel("No hay archivos seleccionados")
         self.file_display.setWordWrap(True)
         self.file_display.setStyleSheet("padding: 10px; background: #f9f9f9; border: 1px solid #ddd; border-radius: 4px;")
         layout.addWidget(self.file_display)
         
-        # Opciones de exportación
+        # Export options
         layout.addWidget(QLabel("Formatos de salida:"))
         format_layout = QHBoxLayout()
         self.btn_txt = QPushButton("Estructura TXT")
@@ -93,7 +93,7 @@ class MedicalReportApp(QMainWindow):
         format_layout.addStretch()
         layout.addLayout(format_layout)
         
-        # Configuración de salida
+        # Output configuration
         layout.addWidget(QLabel("Carpeta de destino:"))
         output_layout = QHBoxLayout()
         self.output_display = QLabel(self.output_directory)
@@ -106,7 +106,7 @@ class MedicalReportApp(QMainWindow):
         output_layout.addWidget(btn_output)
         layout.addLayout(output_layout)
         
-        # Indicadores de progreso y logs
+        # Progress indicators and logs
         self.progress_bar = QProgressBar()
         self.progress_bar.setVisible(False)
         layout.addWidget(self.progress_bar)
@@ -118,7 +118,7 @@ class MedicalReportApp(QMainWindow):
         self.log_text.setStyleSheet("background: #2c3e50; color: #ecf0f1; font-family: 'Consolas', monospace;")
         layout.addWidget(self.log_text)
         
-        # Acciones finales
+        # Final actions
         action_layout = QHBoxLayout()
         btn_toggle = QPushButton("Alternar Log")
         btn_toggle.clicked.connect(self.toggle_log)
@@ -138,6 +138,7 @@ class MedicalReportApp(QMainWindow):
         main_widget.setLayout(layout)
 
     def _create_styled_button(self, text, color, callback):
+        """Creates a QPushButton with custom styling."""
         btn = QPushButton(text)
         btn.clicked.connect(callback)
         btn.setMinimumHeight(45)
@@ -158,12 +159,14 @@ class MedicalReportApp(QMainWindow):
         return btn
 
     def select_files(self):
+        """Opens a file dialog to select PDF files."""
         files, _ = QFileDialog.getOpenFileNames(self, "Seleccionar archivos PDF", "", "PDF (*.pdf)")
         if files:
             self.selected_files = files
             self.update_file_display()
     
     def select_folder(self):
+        """Opens a directory dialog to select all PDF files within a folder."""
         folder = QFileDialog.getExistingDirectory(self, "Seleccionar carpeta")
         if folder:
             pdf_files = list(Path(folder).glob("*.pdf"))
@@ -174,6 +177,7 @@ class MedicalReportApp(QMainWindow):
                 QMessageBox.warning(self, "Aviso", "No se encontraron archivos PDF en la carpeta seleccionada.")
     
     def update_file_display(self):
+        """Updates the label displaying the currently selected files."""
         if not self.selected_files:
             self.file_display.setText("No hay archivos seleccionados")
         else:
@@ -183,15 +187,18 @@ class MedicalReportApp(QMainWindow):
             self.file_display.setText(f"Archivos listos ({count}):\n{names}")
     
     def select_output_dir(self):
+        """Opens a directory dialog to select the output destination."""
         folder = QFileDialog.getExistingDirectory(self, "Seleccionar carpeta de destino", self.output_directory)
         if folder:
             self.output_directory = folder
             self.output_display.setText(folder)
     
     def on_doc_type_changed(self, doc_type):
+        """Handles changes in the selected document type."""
         self.document_type = doc_type
     
     def start_processing(self):
+        """Starts the background processing of selected files."""
         if not self.selected_files:
             QMessageBox.warning(self, "Atención", "Debe seleccionar al menos un archivo PDF.")
             return
@@ -219,14 +226,17 @@ class MedicalReportApp(QMainWindow):
         self.worker.start()
     
     def log_message(self, message):
+        """Appends a message to the UI log window."""
         self.log_text.insertPlainText(message + "\n")
         self.log_text.moveCursor(QTextCursor.MoveOperation.End)
         QApplication.processEvents()
     
     def toggle_log(self):
+        """Toggles the visibility of the log window."""
         self.log_text.setVisible(not self.log_text.isVisible())
     
     def on_finished(self, success, message):
+        """Handles the completion of the processing task."""
         self.btn_process.setEnabled(True)
         if success:
             QMessageBox.information(self, "Éxito", message)
@@ -234,6 +244,7 @@ class MedicalReportApp(QMainWindow):
             QMessageBox.critical(self, "Error", message)
     
     def open_output_folder(self):
+        """Opens the output directory in the system's file explorer."""
         if sys.platform == "win32":
             os.startfile(self.output_directory)
         elif sys.platform == "darwin":

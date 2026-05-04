@@ -2,7 +2,7 @@ import sys
 import os
 from pathlib import Path
 
-# Añadir el directorio 'src' al path si se ejecuta desde la raíz para resolver importaciones
+# Add 'src' directory to path if running from root to resolve imports
 src_path = str(Path(__file__).parent)
 if src_path not in sys.path:
     sys.path.append(src_path)
@@ -12,11 +12,11 @@ from gui.main_window import MedicalReportApp
 
 def main():
     """
-    Punto de entrada principal de la aplicación.
+    Main entry point of the application.
     """
     app = QApplication(sys.argv)
     
-    # Configuración de estilo global (opcional)
+    # Global style configuration (optional)
     app.setStyle("Fusion")
     
     window = MedicalReportApp()

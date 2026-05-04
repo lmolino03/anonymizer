@@ -2,19 +2,19 @@ import logging
 
 def clean_structured_text(structured_text, substrings):
     """
-    Limpia el structured_text eliminando líneas que contengan cualquiera de los substrings.
+    Cleans structured_text by removing lines containing any of the substrings.
     
     Args:
-        structured_text (dict): Diccionario con estructura de PDF
-        substrings (list): Lista de substrings a filtrar
+        structured_text (dict): Dictionary with PDF structure
+        substrings (list): List of substrings to filter
         
     Returns:
-        dict: Structured_text limpio e información sobre líneas eliminadas
+        tuple: (dict: cleaned structured_text, int: count of removed lines)
     """
     if not structured_text or not substrings:
         return structured_text, 0
     
-    # Crear copia de la estructura
+    # Create a copy of the structure
     cleaned_structure = {
         "archivo": structured_text["archivo"],
         "total_paginas": structured_text["total_paginas"],
@@ -24,7 +24,7 @@ def clean_structured_text(structured_text, substrings):
     
     total_lines_removed = 0
     
-    # Procesar cada página
+    # Process each page
     for pagina in structured_text["paginas"]:
         cleaned_page = {
             "pagina": pagina["pagina"],
@@ -32,11 +32,11 @@ def clean_structured_text(structured_text, substrings):
             "lineas": []
         }
         
-        # Filtrar líneas que NO contengan ninguno de los substrings
+        # Filter lines that do NOT contain any of the substrings
         for linea in pagina["lineas"]:
             texto_completo = linea.get("texto_completo", "")
             
-            # Verificar si algún substring está presente (case insensitive)
+            # Check if any substring is present (case insensitive)
             contains_substring = any(
                 substring.lower() in texto_completo.lower() 
                 for substring in substrings

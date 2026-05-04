@@ -10,12 +10,12 @@ from preprocess.readers.pdf_analyzer import PDFLineAnalyzer
 import traceback
 
 class PDFReader:
-    """Clase para leer archivos PDF con diferentes métodos de extracción."""
+    """Class to read PDF files using different extraction methods."""
     
     @staticmethod
     def read_pdf_text(file_path):
         """
-        Lee un archivo PDF y extrae solo el texto plano.
+        Reads a PDF file and extracts only plain text.
         """
         try:
             doc = fitz.open(file_path)
@@ -32,7 +32,7 @@ class PDFReader:
     @staticmethod
     def read_pdf_structured(file_path):
         """
-        Lee un archivo PDF y extrae información estructurada línea por línea.
+        Reads a PDF file and extracts structured information line by line.
         """
         analyzer = PDFLineAnalyzer(file_path)
         try:
@@ -47,7 +47,7 @@ class PDFReader:
     @staticmethod
     def analyze_and_report(pdf_path, output_json_path=None, output_txt_path=None, export_tables=False):
         """
-        Función de utilidad para analizar un PDF y generar reportes en consola y archivos.
+        Utility function to analyze a PDF and generate console and file reports.
         """
         analyzer = PDFLineAnalyzer(pdf_path)
         try:
@@ -64,16 +64,16 @@ class PDFReader:
             stats = analyzer.get_statistics()
             if stats:
                 print("\n" + "="*80)
-                print("ESTADÍSTICAS DEL DOCUMENTO")
+                print("DOCUMENT STATISTICS")
                 print("="*80)
-                print(f"Total de páginas: {stats['total_paginas']}")
-                print(f"Total de líneas: {stats['total_lineas']}")
-                print(f"Total de tablas: {stats['total_tablas']}")
-                print(f"Fuentes usadas: {', '.join(stats['fuentes_usadas'])}")
+                print(f"Total pages: {stats['total_paginas']}")
+                print(f"Total lines: {stats['total_lineas']}")
+                print(f"Total tables: {stats['total_tablas']}")
+                print(f"Fonts used: {', '.join(stats['fuentes_usadas'])}")
             
             return analysis
         except Exception as e:
-            print(f"Error durante el análisis: {str(e)}")
+            print(f"Error during analysis: {str(e)}")
             traceback.print_exc()
             return None
         finally:
@@ -82,14 +82,14 @@ class PDFReader:
     @staticmethod
     def extract_only_text(pdf_path, include_tables=True):
         """
-        Extrae solo el texto del PDF de forma simple pero respetando la estructura detectada.
+        Extracts only the text from the PDF simply while respecting the detected structure.
         """
         analyzer = PDFLineAnalyzer(pdf_path)
         try:
             analysis = analyzer.analyze_full_document()
             texto_completo = []
             for page in analysis["paginas"]:
-                texto_completo.append(f"\n--- PÁGINA {page['pagina']} ---\n")
+                texto_completo.append(f"\n--- PAGE {page['pagina']} ---\n")
                 for line in page["lineas"]:
                     if not include_tables and line["ubicacion_tabla"]["ubicacion"] == "dentro_tabla":
                         continue
@@ -101,7 +101,7 @@ class PDFReader:
     @staticmethod
     def search_in_pdf(pdf_path, search_term, ignore_case=True):
         """
-        Busca un término en el PDF y retorna las líneas que lo contienen.
+        Searches for a term in the PDF and returns lines containing it.
         """
         analyzer = PDFLineAnalyzer(pdf_path)
         try:
@@ -123,5 +123,3 @@ class PDFReader:
             return results
         finally:
             analyzer.close()
-
-

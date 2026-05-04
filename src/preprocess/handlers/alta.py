@@ -9,22 +9,21 @@ from pathlib import Path
 import pypandoc
 
 class ProcessorAlta(BaseProcessor):
-    """Procesador específico para documentos de alta hospitalaria."""
+    """Specific processor for hospital discharge reports."""
     
     def __init__(self, file_path):
         """
-        Inicializa el procesador de alta.
+        Initializes the discharge processor.
         
         Args:
-            file_path (str): Ruta al archivo PDF de alta
+            file_path (str): Path to the discharge PDF file
         """
         super().__init__(file_path)
     
     def _clean(self):
         """
-        Implementa la limpieza específica para documentos de alta.
-        Elimina todas las líneas que tienen spans dentro.
-        Luego elimina líneas cuyo x_inicio sea mayor al x_inicio más común.
+        Implements specific cleaning for discharge documents.
+        Filters lines and removes segments based on common x_inicio position.
         """
 
         if not self.structured_text:
@@ -32,7 +31,7 @@ class ProcessorAlta(BaseProcessor):
             return
         
         try:
-            # Crear una copia del structured_text para modificar
+            # Create a copy of structured_text to modify
             cleaned_structured_text = {
                 "archivo": self.structured_text["archivo"],
                 "total_paginas": self.structured_text["total_paginas"],
@@ -40,7 +39,7 @@ class ProcessorAlta(BaseProcessor):
                 "paginas": []
             }
             
-            # Procesar cada página
+            # Process each page
             for pagina in self.structured_text["paginas"]:
                 cleaned_page = {
                     "pagina": pagina["pagina"],
@@ -48,29 +47,24 @@ class ProcessorAlta(BaseProcessor):
                     "lineas": []
                 }
                 
-                # Primera limpieza: Filtrar líneas que NO tienen spans (mantener solo las que tienen 0 o 1 spans)
+                # Copy all lines for initial processing
                 for linea in pagina["lineas"]:
-                    # Verificar si la línea tiene spans detallados
-                    '''if not linea.get("spans_detallados") or len(linea.get("spans_detallados", [])) == 1:
-                        cleaned_page["lineas"].append(linea)
-                    else:
-                        print(f"Eliminando línea con spans: '{linea.get('texto_completo', '')[:50]}...'")'''
                     cleaned_page["lineas"].append(linea)
 
                 cleaned_page["total_lineas_restantes"] = len(cleaned_page["lineas"])
                 cleaned_structured_text["paginas"].append(cleaned_page)
 
             
-            # Actualizar el structured_text con la primera limpieza
+            # Update structured_text with the first cleaning results
             self.structured_text = cleaned_structured_text
             
             logging.info(f"Cleaned structured text for {self.file_path}. Removed lines with spans.")
             
-            # ========== NUEVA FUNCIONALIDAD: Filtro por x_inicio_comun ==========
+            # ========== NEW FUNCTIONALITY: Filter by x_inicio_comun ==========
             
-            # Recopilar todos los valores de x_inicio de las líneas limpias
+            # Collect all x_inicio values from cleaned lines
             all_x_inicio_values = []
-            tolerance = 22.0  # Tolerancia para agrupar x_inicio similares
+            tolerance = 22.0  # Tolerance to group similar x_inicio values
             
             for pagina in self.structured_text["paginas"]:
                 for linea in pagina["lineas"]:
@@ -79,13 +73,13 @@ class ProcessorAlta(BaseProcessor):
                         all_x_inicio_values.append(x_inicio)
             
             if not all_x_inicio_values:
-                logging.warning(f"No se encontraron valores x_inicio para {self.file_path}")
+                logging.warning(f"No x_inicio values found for {self.file_path}")
             else:
-                # Agrupar valores similares usando tolerancia
+                # Group similar values using tolerance
                 grouped_x_values = {}
                 
                 for x_val in all_x_inicio_values:
-                    # Buscar si ya existe un grupo similar
+                    # Find if a similar group already exists
                     found_group = None
                     for group_key in grouped_x_values.keys():
                         if abs(x_val - group_key) <= tolerance:
@@ -97,14 +91,14 @@ class ProcessorAlta(BaseProcessor):
                     else:
                         grouped_x_values[x_val] = [x_val]
                 
-                # Encontrar el grupo más común (x_inicio_comun)
+                # Find the most common group (x_inicio_comun)
                 most_common_group = max(grouped_x_values.items(), key=lambda item: len(item[1]))
-                x_inicio_comun = most_common_group[0]  # Usar la clave del grupo como referencia
+                x_inicio_comun = most_common_group[0]  # Use group key as reference
                 frequency = len(most_common_group[1])
                 
-                logging.info(f"x_inicio_comun encontrado: {x_inicio_comun:.2f} (frecuencia: {frequency})")
+                logging.info(f"x_inicio_comun found: {x_inicio_comun:.2f} (frequency: {frequency})")
                 
-                # Segunda limpieza: Eliminar líneas cuyo x_inicio sea mayor a x_inicio_comun
+                # Second cleaning: Remove lines whose x_inicio is greater than x_inicio_comun
                 lines_removed_count = 0
                 
                 for pagina in self.structured_text["paginas"]:
@@ -113,22 +107,22 @@ class ProcessorAlta(BaseProcessor):
                     for linea in pagina["lineas"]:
                         x_inicio = linea.get("posicion", {}).get("x_inicio", 0)
                         
-                        # Mantener líneas cuyo x_inicio sea menor o igual al común (con tolerancia)
+                        # Keep lines whose x_inicio is less than or equal to common (with tolerance)
                         if x_inicio <= x_inicio_comun + tolerance:
                             filtered_lines.append(linea)
                         else:
                             lines_removed_count += 1
-                            logging.debug(f"Eliminando línea por x_inicio > x_comun: '{linea.get('texto_completo', '')[:50]}...' (x_inicio: {x_inicio:.2f})")
+                            logging.debug(f"Removing line due to x_inicio > x_comun: '{linea.get('texto_completo', '')[:50]}...' (x_inicio: {x_inicio:.2f})")
                     
-                    # Actualizar las líneas de la página
+                    # Update page lines
                     pagina["lineas"] = filtered_lines
                     pagina["total_lineas_restantes"] = len(filtered_lines)
                 
-                logging.info(f"Eliminadas {lines_removed_count} líneas por x_inicio > x_inicio_comun ({x_inicio_comun:.2f})")
+                logging.info(f"Removed {lines_removed_count} lines due to x_inicio > x_inicio_comun ({x_inicio_comun:.2f})")
             
-            # ========== FIN NUEVA FUNCIONALIDAD ==========
+            # ========== END NEW FUNCTIONALITY ==========
         
-            # ========== NUEVO FILTRO: Eliminar líneas que solo contengan "a." ==========
+            # ========== NEW FILTER: Remove lines containing only "a." ==========
             
             lines_removed_by_a_filter = 0
             
@@ -139,25 +133,25 @@ class ProcessorAlta(BaseProcessor):
                     n_text = linea.get("texto_completo", "")
                     texto_limpio = n_text.strip().rstrip(":").strip().lower()
                     
-                    # Verificar si la línea contiene únicamente "a."
+                    # Check if line contains only "a."
                     if texto_limpio == "a.":
                         lines_removed_by_a_filter += 1
-                        logging.debug(f"Eliminando línea que solo contiene 'a.': '{linea.get('texto_completo', '')}'")
+                        logging.debug(f"Removing line containing only 'a.': '{linea.get('texto_completo', '')}'")
                     else:
                         filtered_lines.append(linea)
                 
-                # Actualizar las líneas de la página
+                # Update page lines
                 pagina["lineas"] = filtered_lines
                 pagina["total_lineas_restantes"] = len(filtered_lines)
             
-            logging.info(f"Eliminadas {lines_removed_by_a_filter} líneas que contenían únicamente 'a.'")
+            logging.info(f"Removed {lines_removed_by_a_filter} lines containing only 'a.'")
             
-            # ========== FIN FILTRO "a." ==========
+            # ========== END "a." FILTER ==========
 
             
-            # ========== BÚSQUEDA Y ELIMINACIÓN POR ANTECEDENTES/MOTIVO ==========
+            # ========== SEARCH AND CUT BY ANTECEDENTS/MOTIVE ==========
             
-            # Crear una lista global de todas las líneas con su posición original
+            # Create a global list of all lines with their original position
             all_lines_with_position = []
             
             for page_idx, pagina in enumerate(self.structured_text["paginas"]):
@@ -170,61 +164,59 @@ class ProcessorAlta(BaseProcessor):
                         "texto": linea.get("texto_completo", "").lower()
                     })
             
-            # Buscar "antecedentes" en todas las líneas
+            # Search for "antecedentes" in all lines
             antecedentes_idx = None
             for i, line_info in enumerate(all_lines_with_position):
                 if "antecedentes" in line_info["texto"]:
                     antecedentes_idx = i
-                    logging.info(f"Encontrada línea con 'antecedentes' en posición global {i}: '{line_info['linea'].get('texto_completo', '')[:50]}...'")
+                    logging.info(f"Found 'antecedentes' at global index {i}: '{line_info['linea'].get('texto_completo', '')[:50]}...'")
                     break
             
-            # Determinar línea de corte
+            # Determine cut line
             cut_line_idx = None
             
             if antecedentes_idx is not None:
-                print("DEntro antecedntes")
-                # Buscar "motivo" por encima de antecedentes (más cercano)
+                # Search for "motivo" above antecedents (closest)
                 motivo_idx = None
-                for i in range(antecedentes_idx - 1, -1, -1):  # Buscar hacia atrás desde antecedentes
+                for i in range(antecedentes_idx - 1, -1, -1):  # Search backwards from antecedents
                     if "motivo" in all_lines_with_position[i]["texto"].lower():
-                        print("encontrado")
                         motivo_idx = i
-                        logging.info(f"Encontrada línea con 'motivo' en posición global {i} (por encima de antecedentes): '{all_lines_with_position[i]['linea'].get('texto_completo', '')[:50]}...'")
+                        logging.info(f"Found 'motivo' at global index {i} (above antecedents): '{all_lines_with_position[i]['linea'].get('texto_completo', '')[:50]}...'")
                         break
                 
                 if motivo_idx is not None:
-                    # Eliminar todo por encima de motivo
+                    # Remove everything above motivo
                     cut_line_idx = motivo_idx
-                    logging.info(f"Se eliminará todo por encima de la línea con 'motivo' (posición {motivo_idx})")
+                    logging.info(f"Will remove everything above 'motivo' (index {motivo_idx})")
                 else:
-                    # No se encontró motivo, eliminar todo por encima de antecedentes
+                    # Motivo not found, remove everything above antecedents
                     cut_line_idx = antecedentes_idx
-                    logging.info(f"No se encontró 'motivo' por encima de 'antecedentes'. Se eliminará todo por encima de 'antecedentes' (posición {antecedentes_idx})")
+                    logging.info(f"'motivo' not found above 'antecedentes'. Will remove everything above 'antecedentes' (index {antecedentes_idx})")
             
             else:
-                # No se encontró antecedentes, buscar motivo directamente
+                # Antecedents not found, search for motivo directly
                 motivo_idx = None
                 for i, line_info in enumerate(all_lines_with_position):
                     if "motivo" in line_info["texto"]:
                         motivo_idx = i
-                        logging.info(f"No se encontró 'antecedentes'. Encontrada línea con 'motivo' en posición global {i}: '{line_info['linea'].get('texto_completo', '')[:50]}...'")
+                        logging.info(f"'antecedentes' not found. Found 'motivo' at global index {i}: '{line_info['linea'].get('texto_completo', '')[:50]}...'")
                         break
                 
                 if motivo_idx is not None:
-                    # Eliminar todo por encima de motivo
+                    # Remove everything above motivo
                     cut_line_idx = motivo_idx
-                    logging.info(f"Se eliminará todo por encima de la línea con 'motivo' (posición {motivo_idx})")
+                    logging.info(f"Will remove everything above 'motivo' (index {motivo_idx})")
                 else:
-                    # No se encontró ni antecedentes ni motivo - ERROR
-                    error_msg = f"No se encontraron las palabras 'antecedentes' ni 'motivo' en el documento {self.file_path}"
+                    # Neither antecedents nor motivo found - ERROR
+                    error_msg = f"Words 'antecedentes' or 'motivo' not found in document {self.file_path}"
                     logging.error(error_msg)
                     raise ValueError(error_msg)
             
-            # Realizar el corte si se determinó una línea de corte
+            # Perform cut if a cut line was determined
             if cut_line_idx is not None:
                 lines_removed_by_cut = 0
                 
-                # Crear nueva estructura sin las líneas que están por encima del corte
+                # Create new structure without lines above the cut
                 filtered_pages = []
                 global_line_counter = 0
                 
@@ -237,30 +229,30 @@ class ProcessorAlta(BaseProcessor):
                     
                     for line_idx, linea in enumerate(pagina["lineas"]):
                         if global_line_counter >= cut_line_idx:
-                            # Mantener esta línea
+                            # Keep this line
                             filtered_page["lineas"].append(linea)
                         else:
-                            # Eliminar esta línea
+                            # Remove this line
                             lines_removed_by_cut += 1
-                            logging.debug(f"Eliminando línea por corte antecedentes/motivo: '{linea.get('texto_completo', '')[:50]}...'")
+                            logging.debug(f"Removing line due to antecedents/motive cut: '{linea.get('texto_completo', '')[:50]}...'")
                         
                         global_line_counter += 1
                     
-                    # Solo añadir páginas que tengan líneas restantes
+                    # Only add pages that have lines remaining
                     if filtered_page["lineas"]:
                         filtered_page["total_lineas_restantes"] = len(filtered_page["lineas"])
                         filtered_pages.append(filtered_page)
                 
-                # Actualizar la estructura
+                # Update the structure
                 self.structured_text["paginas"] = filtered_pages
                 
-                logging.info(f"Eliminadas {lines_removed_by_cut} líneas por corte antecedentes/motivo")
+                logging.info(f"Removed {lines_removed_by_cut} lines due to antecedents/motive cut")
             
-            # ========== FIN BÚSQUEDA ANTECEDENTES/MOTIVO ==========
+            # ========== END ANTECEDENTS/MOTIVE SEARCH ==========
             
-            # Opcional: También limpiar el texto plano eliminando líneas correspondientes
+            # Optional: Also clean plain text by removing corresponding lines
             if self.text:
-                # Reconstruir el texto plano sin las líneas que fueron eliminadas
+                # Reconstruct plain text without removed lines
                 clean_text_lines = []
                 for pagina in self.structured_text["paginas"]:
                     for linea in pagina["lineas"]:
@@ -273,24 +265,24 @@ class ProcessorAlta(BaseProcessor):
             
         except Exception as e:
             logging.error(f"Error cleaning structured text for {self.file_path}: {e}")
-            # En caso de error, mantener el texto original
+            # In case of error, keep original text
             pass
 
-        # Limpieza por substrings (código original)
+        # Cleaning by substrings (original logic)
         substrings_to_remove = ["Pág", "Page", "Pag", "http", "fdo", "Fdo", "Jaén", "NHC:"]
         self.cleaned_structured_text, lines_removed = clean_structured_text(self.structured_text, substrings_to_remove)
 
     
     def _join_from_index(self, text_list, start_index):
         """
-        Utility method para unir elementos de una lista desde un índice específico.
+        Utility method to join elements of a list from a specific index.
         
         Args:
-            text_list (list): Lista de strings
-            start_index (int): Índice desde donde empezar a unir
+            text_list (list): List of strings
+            start_index (int): Index from which to start joining
             
         Returns:
-            str: String unido
+            str: Joined string
         """
         if len(text_list) <= start_index:
             return ""
@@ -305,7 +297,7 @@ class ProcessorAlta(BaseProcessor):
 
     def _validate_result(self):
         """
-        Validación específica para documentos de alta.
+        Specific validation for discharge documents.
         """
         super()._validate_result()
 
@@ -315,13 +307,13 @@ class ProcessorAlta(BaseProcessor):
 
     def _extract_sections(self):
         """
-        Extrae secciones en negrita y su contenido posterior del structured_text,
-        incluyendo soporte para secciones anidadas (máximo 2 niveles).
+        Extracts bold sections and their subsequent content from structured_text,
+        including support for nested sections (max 2 levels).
         
         Returns:
-            list: Lista de diccionarios con formato:
-                - Para secciones principales: {'seccion': str, 'cuerpo': str, 'nivel': 1, 'subsecciones': []}
-                - Para subsecciones: {'seccion': str, 'cuerpo': str, 'nivel': 2, 'x_posicion': float}
+            list: List of dictionaries with format:
+                - For main sections: {'seccion': str, 'cuerpo': str, 'nivel': 1, 'subsecciones': []}
+                - For subsections: {'seccion': str, 'cuerpo': str, 'nivel': 2, 'x_posicion': float}
         """
         if not hasattr(self, 'cleaned_structured_text') or not self.cleaned_structured_text or "paginas" not in self.cleaned_structured_text:
             logging.warning(f"No cleaned structured text available for section extraction in {self.file_path}")
@@ -331,9 +323,9 @@ class ProcessorAlta(BaseProcessor):
         current_main_section = None
         current_subsection = None
         current_body_lines = []
-        main_section_x_start = None  # Posición X de la sección principal
+        main_section_x_start = None  # X position of the main section
         
-        # Crear una lista global de todas las líneas
+        # Create global list of all lines
         all_lines = []
 
         for pagina in self.cleaned_structured_text["paginas"]:
@@ -343,21 +335,21 @@ class ProcessorAlta(BaseProcessor):
         
         def get_bold_info(linea):
             """
-            Extrae información sobre texto en negrita de una línea.
+            Extracts bold text information from a line.
             Returns: (is_bold, bold_text, x_start_position)
             """
             texto_completo = linea.get("texto_completo", "").strip()
             spans_detallados = linea.get("spans_detallados", [])
             x_start = linea.get("posicion", {}).get("x_inicio", 0)
             
-            # Verificar el formato principal de la línea
+            # Check main format of the line
             formato_principal = linea.get("formato_principal", {})
             estilos_principales = formato_principal.get("estilos", [])
             
             if "negrita" in estilos_principales:
                 return True, texto_completo, x_start
             
-            # Si no es negrita en formato principal, verificar spans detallados
+            # If not bold in main format, check detailed spans
             bold_text = ""
             min_x_start = float('inf')
             has_bold = False
@@ -374,7 +366,7 @@ class ProcessorAlta(BaseProcessor):
                 if has_bold:
                     return True, bold_text.strip(), min_x_start if min_x_start != float('inf') else x_start
             
-            # Criterios heurísticos para detectar posibles títulos/secciones
+            # Heuristic criteria to detect possible titles/sections
             if not spans_detallados and texto_completo:
                 if (len(texto_completo) < 50 and 
                     (texto_completo.isupper() or 
@@ -385,54 +377,54 @@ class ProcessorAlta(BaseProcessor):
             return False, "", x_start
         
         def save_current_section():
-            """Guarda la sección o subsección actual en la estructura de datos."""
+            """Saves current section or subsection to data structure."""
             nonlocal current_main_section, current_subsection, current_body_lines, sections
             
             if current_subsection is not None:
-                # Estamos guardando una subsección
+                # Saving a subsection
                 current_subsection['cuerpo'] = '\n'.join(current_body_lines).strip()
                 
-                # Buscar la sección principal actual y agregar la subsección
+                # Find current main section and add the subsection
                 if sections and sections[-1]['nivel'] == 1:
                     sections[-1]['subsecciones'].append(current_subsection)
                 else:
-                    # Si no hay sección principal, crear una temporal
+                    # If no main section exists, create a temporary one
                     temp_main = {
-                        'seccion': f"Sección principal para: {current_subsection['seccion']}",
+                        'seccion': f"Main section for: {current_subsection['seccion']}",
                         'cuerpo': '',
                         'nivel': 1,
                         'subsecciones': [current_subsection],
-                        'x_posicion': current_subsection['x_posicion'] - 10  # Asumir que está más a la izquierda
+                        'x_posicion': current_subsection['x_posicion'] - 10  # Assume it's further left
                     }
                     sections.append(temp_main)
                 
                 current_subsection = None
                 
             elif current_main_section is not None:
-                # Estamos guardando una sección principal
+                # Saving a main section
                 current_main_section['cuerpo'] = '\n'.join(current_body_lines).strip()
                 sections.append(current_main_section)
                 current_main_section = None
         
-        # Procesar todas las líneas
+        # Process all lines
         for i, linea in enumerate(all_lines):
             texto_completo = linea.get("texto_completo", "").strip()
             is_bold, bold_text, x_start = get_bold_info(linea)
             
             if is_bold and bold_text.strip():
-                # Determinar si es sección principal o subsección
+                # Determine if main section or subsection
                 is_subsection = False
                 
                 if main_section_x_start is not None:
-                    # Si tenemos una sección principal previa, comparar posiciones X
+                    # Compare X positions with previous main section
                     if x_start > main_section_x_start:
                         is_subsection = True
                 
-                # Guardar sección anterior antes de crear nueva
+                # Save previous section before creating new one
                 save_current_section()
                 
                 if is_subsection:
-                    # Crear nueva subsección
+                    # Create new subsection
                     current_subsection = {
                         'seccion': bold_text.strip().rstrip(":").strip(),
                         'cuerpo': '',
@@ -443,7 +435,7 @@ class ProcessorAlta(BaseProcessor):
 
                     current_body_lines = []
                 else:
-                    # Crear nueva sección principal
+                    # Create new main section
                     current_main_section = {
                         'seccion': bold_text.strip().rstrip(":").strip(),
                         'cuerpo': '',
@@ -453,22 +445,20 @@ class ProcessorAlta(BaseProcessor):
                     }
                     main_section_x_start = x_start
                     current_body_lines = []
-                    current_subsection = None  # Reset subsección actual
-
-
+                    current_subsection = None  # Reset current subsection
                 
             elif texto_completo:
-                # Agregar línea al cuerpo de la sección/subsección actual
+                # Add line to current section/subsection body
                 if current_subsection is not None or current_main_section is not None:
                     current_body_lines.append(texto_completo)
         
-        # No olvidar la última sección
+        # Don't forget last section
         save_current_section()
         
-        # Guardar las secciones como atributo de la instancia
+        # Save sections as instance attribute
         self.sections = sections
         
-        # Convertir secciones al formato compatible con el primer script
+        # Convert sections to format compatible with previous scripts
         self._convert_sections_to_args()
         
         logging.info(f"Extracted {len(sections)} main sections with nested subsections from {self.file_path}")
@@ -477,12 +467,10 @@ class ProcessorAlta(BaseProcessor):
 
     def _convert_sections_to_args(self):
         """
-        Convierte las secciones extraídas al formato del primer script.
-        Busca las secciones específicas y las asigna en el orden correcto:
-        (motivo, antecedentes, enfermedad, pruebas_complementarias, evolucion, 
-         intervencion, juicio, actuacion, tratamiento, revisiones)
+        Converts extracted sections to original script format.
+        Maps specific sections and assigns them in correct order.
         """
-        # Inicializar todas las variables como None
+        # Initialize variables as None
         motivo = None
         antecedentes = None
         enfermedad = None
@@ -494,7 +482,7 @@ class ProcessorAlta(BaseProcessor):
         tratamiento = None
         revisiones = None
         
-        # Mapeo de nombres de sección a variables (case-insensitive)
+        # Mapping of section names to variables (case-insensitive)
         section_mapping = {
             'motivo de consulta': 'motivo',
             'motivo de ingreso': 'motivo',
@@ -518,21 +506,21 @@ class ProcessorAlta(BaseProcessor):
             'revisiones': 'revisiones'
         }
         
-        # Diccionario para almacenar los contenidos encontrados
+        # Store found contents
         found_sections = {}
         
-        # Recorrer todas las secciones extraídas
+        # Iterate over extracted sections
         for section in self.sections:
             if section['nivel'] == 1:
                 section_name = section['seccion'].lower().strip()
                 
-                # Buscar coincidencia en el mapeo
+                # Search for match in mapping
                 for key, var_name in section_mapping.items():
                     if key in section_name:
-                        # Combinar el cuerpo de la sección principal con sus subsecciones
+                        # Combine main section body with subsections
                         content = section['cuerpo']
                         
-                        # Agregar subsecciones si existen
+                        # Add subsections if they exist
                         if section.get('subsecciones'):
                             subsection_texts = []
                             for subsec in section['subsecciones']:
@@ -548,7 +536,7 @@ class ProcessorAlta(BaseProcessor):
                         found_sections[var_name] = content.strip() if content.strip() else None
                         break
         
-        # Asignar los valores encontrados a las variables
+        # Assign found values
         motivo = found_sections.get('motivo')
         antecedentes = found_sections.get('antecedentes')
         enfermedad = found_sections.get('enfermedad')
@@ -560,7 +548,7 @@ class ProcessorAlta(BaseProcessor):
         tratamiento = found_sections.get('tratamiento')
         revisiones = found_sections.get('revisiones')
         
-        # Crear la tupla en el orden especificado
+        # Create tuple in specified order
         self.args = (
             motivo, 
             antecedentes, 
@@ -578,7 +566,7 @@ class ProcessorAlta(BaseProcessor):
 
     def print_bold_sections(self):
         """
-        Imprime las secciones extraídas en formato legible, incluyendo subsecciones anidadas.
+        Prints extracted sections in readable format, including nested subsections.
         """
         if not hasattr(self, 'sections') or not self.sections:
             sections = self._extract_sections()
@@ -586,35 +574,35 @@ class ProcessorAlta(BaseProcessor):
             sections = self.sections
         
         if not sections:
-            print(f"No se encontraron secciones en negrita en {self.file_path}")
+            print(f"No bold sections found in {self.file_path}")
             return
         
         print(f"\n{self.file_path}")
-        print(f"Se encontraron {len(sections)} secciones principales:")
+        print(f"Found {len(sections)} main sections:")
         print("=" * 80)
         
         section_counter = 1
         for section in sections:
             if section['nivel'] == 1:
-                print(f"\nSECCIÓN PRINCIPAL {section_counter}: {section['seccion']}")
-                print(f"Posición X: {section.get('x_posicion', 'N/A')}")
+                print(f"\nMAIN SECTION {section_counter}: {section['seccion']}")
+                print(f"X Position: {section.get('x_posicion', 'N/A')}")
                 print("-" * 60)
                 
                 if section['cuerpo'].strip():
-                    print(f"CUERPO:")
+                    print(f"BODY:")
                     print(section['cuerpo'])
                     print()
                 
-                # Mostrar subsecciones si existen
+                # Show subsections if they exist
                 if section.get('subsecciones'):
-                    print(f"SUBSECCIONES ({len(section['subsecciones'])}):")
+                    print(f"SUBSECTIONS ({len(section['subsecciones'])}):")
                     for i, subsection in enumerate(section['subsecciones'], 1):
                         print(f"  {section_counter}.{i} {subsection['seccion']}")
-                        print(f"      Posición X: {subsection.get('x_posicion', 'N/A')}")
+                        print(f"      X Position: {subsection.get('x_posicion', 'N/A')}")
                         if subsection['cuerpo'].strip():
-                            # Indentar el cuerpo de la subsección
+                            # Indent subsection body
                             subsection_body = '\n'.join(['      ' + line for line in subsection['cuerpo'].split('\n')])
-                            print(f"      CUERPO:")
+                            print(f"      BODY:")
                             print(subsection_body)
                         print()
                 
@@ -623,10 +611,10 @@ class ProcessorAlta(BaseProcessor):
 
     def get_sections_summary(self):
         """
-        Obtiene un resumen de la estructura de secciones encontradas.
+        Gets a summary of extracted section structure.
         
         Returns:
-            dict: Resumen con estadísticas de las secciones
+            dict: Summary with section statistics
         """
         if not hasattr(self, 'sections') or not self.sections:
             sections = self._extract_sections()
@@ -666,7 +654,7 @@ class ProcessorAlta(BaseProcessor):
     
     def get_arguments(self):
         """
-        Devuelve los argumentos en el formato compatible con el primer script.
+        Returns arguments in compatible format.
         
         Returns:
             tuple: (motivo, antecedentes, enfermedad, pruebas_complementarias, evolucion,
@@ -680,88 +668,86 @@ class ProcessorAlta(BaseProcessor):
 
     def get_md(self, output_path=None, case_id=None):
         """
-        Genera y guarda el informe en formato Markdown.
+        Generates and saves report in Markdown format.
         
         Args:
-            output_path (str|Path): Ruta donde guardar el archivo MD. 
-                                    Si es None, se guarda en el mismo directorio del archivo fuente
-            case_id (str): Identificador del caso (opcional)
+            output_path (str|Path): Path to save MD file. 
+            case_id (str): Optional case identifier
         
         Returns:
-            Path|None: Ruta del archivo MD generado, o None si hubo error
+            Path|None: Path of generated MD file, or None if error
         """
         try:
-            # Asegurarse de que las secciones están extraídas
+            # Ensure sections are extracted
             if not hasattr(self, 'args'):
                 self._extract_sections()
             
-            # Determinar la ruta de salida
+            # Determine output path
             if output_path is None:
                 source_path = Path(self.file_path)
                 output_path = source_path.parent / f"{source_path.stem}_informe.md"
             else:
                 output_path = Path(output_path)
             
-            # Crear directorio si no existe
+            # Create directory if missing
             output_path.parent.mkdir(parents=True, exist_ok=True)
             
-            # Obtener el nombre del archivo fuente
+            # Get source filename
             file_name = Path(self.file_path).name
             
-            # Generar el contenido Markdown
+            # Generate Markdown content
             md_content = self._generate_markdown_content(case_id, file_name)
             
-            # Guardar el archivo
+            # Save the file
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(md_content)
             
-            logging.info(f"Informe MD generado para {self.file_path}: {output_path}")
+            logging.info(f"MD report generated for {self.file_path}: {output_path}")
             return output_path
             
         except Exception as e:
-            logging.error(f"Error al generar archivo MD para {self.file_path}: {e}")
+            logging.error(f"Error generating MD file for {self.file_path}: {e}")
             return None
 
 
     def get_pdf(self, output_path=None, case_id=None):
         """
-        Genera y guarda el informe en formato PDF.
+        Generates and saves report in PDF format.
         
         Args:
-            output_path (str|Path): Ruta donde guardar el PDF. 
-                                    Si es None, se guarda en el mismo directorio del archivo fuente
-            case_id (str): Identificador del caso (opcional)
+            output_path (str|Path): Path to save PDF. 
+            case_id (str): Optional case identifier
         
         Returns:
-            Path|None: Ruta del PDF generado, o None si hubo error
+            Path|None: Path of generated PDF, or None if error
         """
         try:
-            # Asegurarse de que las secciones están extraídas
+            # Ensure sections are extracted
             if not hasattr(self, 'args'):
                 self._extract_sections()
             
-            # Determinar la ruta de salida
+            # Determine output path
             if output_path is None:
                 source_path = Path(self.file_path)
                 output_path = source_path.parent / f"{source_path.stem}_informe.pdf"
             else:
                 output_path = Path(output_path)
             
-            # Crear directorio si no existe
+            # Create directory
             output_path.parent.mkdir(parents=True, exist_ok=True)
             
-            # Obtener el nombre del archivo fuente
+            # Get source filename
             file_name = Path(self.file_path).name
             
-            # Generar el contenido Markdown
+            # Generate Markdown content
             md_content = self._generate_markdown_content(case_id, file_name)
             
-            # Guardar Markdown temporal
+            # Save temporary Markdown
             temp_md = output_path.parent / f"{output_path.stem}_temp.md"
             with open(temp_md, 'w', encoding='utf-8') as f:
                 f.write(md_content)
             
-            # Convertir a PDF usando pypandoc
+            # Convert to PDF using pypandoc
             pypandoc.convert_file(
                 str(temp_md),
                 'pdf',
@@ -770,71 +756,68 @@ class ProcessorAlta(BaseProcessor):
                     '--pdf-engine=xelatex',
                     '-V', 'geometry:margin=2.5cm',
                     '-V', 'fontsize=11pt',
-                    '-V', 'mainfont=Arial',  # Usa Arial que está instalada en Windows
+                    '-V', 'mainfont=Arial',
                     '--standalone'
                 ]
             )
             
-            # Eliminar archivo temporal
+            # Remove temporary file
             temp_md.unlink()
             
-            logging.info(f"Informe PDF generado para {self.file_path}: {output_path}")
+            logging.info(f"PDF report generated for {self.file_path}: {output_path}")
             return output_path
             
         except Exception as e:
-            logging.error(f"Error al generar PDF para {self.file_path}: {e}")
+            logging.error(f"Error generating PDF for {self.file_path}: {e}")
             return None
 
 
     def _clean_separator_lines(self, content):
         """
-        Elimina líneas que contienen solo guiones (separadores visuales) del contenido.
+        Removes lines containing only dashes (visual separators).
         
         Args:
-            content (str): Contenido Markdown a limpiar
+            content (str): Markdown content to clean
         
         Returns:
-            str: Contenido sin líneas de separadores
+            str: Content without separator lines
         """
         if not content:
             return ""
         
-        # Dividir en líneas
+        # Split into lines
         lines = content.split('\n')
         cleaned_lines = []
         
         for line in lines:
-            # Verificar si la línea contiene solo guiones y espacios opcionales
-            # Consideramos que 3 o más guiones consecutivos es un separador
+            # Check if line contains only dashes and spaces
             if re.match(r'^\s*-{3,}\s*$', line):
                 cleaned_lines.append("\n")
-                continue  # Saltar esta línea (no agregarla)
+                continue
             
             cleaned_lines.append(line)
 
-        
-        # Reconstruir el contenido
         return '\n'.join(cleaned_lines)
 
 
     def _merge_wrapped_lines(self, content):
         """
-        Une líneas que fueron separadas solo por motivos de formato visual.
-        Detecta cuando una línea no termina con puntuación fuerte y la une con la siguiente.
+        Merges lines separated only for visual formatting.
+        Detects lines not ending with strong punctuation and joins with next.
         
         Args:
-            content (str): Contenido con posibles saltos de línea innecesarios
+            content (str): Content with possible unnecessary line breaks
         
         Returns:
-            str: Contenido con líneas unidas apropiadamente
+            str: Content with appropriately merged lines
         """
         if not content:
             return ""
         
-        # Caracteres que indican fin de oración/párrafo real
+        # Punctuation indicating sentence/paragraph end
         end_punctuation = {'.', '!', '?', ':', ';'}
         
-        # Patrones que indican inicio de nueva línea válida
+        # Patterns indicating valid new line start
         list_markers = ['-', '•', '*', '·']
         
         lines = content.split('\n')
@@ -844,7 +827,7 @@ class ProcessorAlta(BaseProcessor):
         for i, line in enumerate(lines):
             stripped = line.strip()
             
-            # Si la línea está vacía, es un párrafo nuevo
+            # If line is empty, it's a new paragraph
             if not stripped:
                 if current_line:
                     merged_lines.append(current_line)
@@ -852,7 +835,7 @@ class ProcessorAlta(BaseProcessor):
                 merged_lines.append("")
                 continue
             
-            # Si es inicio de lista o numeración
+            # If start of list or numbering
             is_list_item = any(stripped.startswith(marker) for marker in list_markers)
             is_numbered = len(stripped) > 2 and stripped[0].isdigit() and stripped[1] in '.)-'
             
@@ -862,109 +845,102 @@ class ProcessorAlta(BaseProcessor):
                 current_line = stripped
                 continue
             
-            # Si la línea actual tiene contenido
+            # If current line has content
             if current_line:
-                # Verificar si la línea anterior termina con puntuación fuerte
+                # Check if previous line ends with strong punctuation
                 last_char = current_line.rstrip()[-1] if current_line.rstrip() else ''
                 
                 if last_char in end_punctuation:
-                    # Es fin de oración, guardar y empezar nueva línea
                     merged_lines.append(current_line)
                     current_line = stripped
                 else:
-                    # No termina con puntuación fuerte, unir con espacio
                     current_line += " " + stripped
             else:
                 current_line = stripped
         
-        # No olvidar la última línea
+        # Don't forget last line
         if current_line:
             merged_lines.append(current_line)
         
         return '\n'.join(merged_lines)
 
 
-    # Modificar el método _generate_markdown_content para incluir la limpieza
     def _generate_markdown_content(self, case_id=None, file_name=None):
         """
-        Genera el contenido en formato Markdown desde los argumentos extraídos.
+        Generates Markdown content from extracted arguments.
         """
         (motivo, antecedentes, enfermedad, pruebas_complementarias, evolucion,
         intervencion, juicio, actuacion, tratamiento, revisiones) = self.args
         
-        md_content = "# INFORME DE ALTA HOSPITALARIA\n\n"
+        md_content = "# HOSPITAL DISCHARGE REPORT\n\n"
         
         if case_id:
-            md_content += f"**Número de Caso:** {case_id}\n\n"
+            md_content += f"**Case Number:** {case_id}\n\n"
         
         if file_name:
-            md_content += f"**Archivo Fuente:** {file_name}\n\n"
+            md_content += f"**Source File:** {file_name}\n\n"
         
         md_content += "---\n\n"
         
         sections_data = [
-            (motivo, "Motivo de Ingreso"),
-            (antecedentes, "Antecedentes"),
-            (enfermedad, "Historia Actual"),
-            (pruebas_complementarias, "Pruebas Complementarias"),
-            (evolucion, "Evolución"),
-            (intervencion, "Procedimientos e Intervención Quirúrgica"),
-            (juicio, "Juicio Clínico y Diagnósticos"),
-            (actuacion, "Plan Terapéutico"),
-            (tratamiento, "Tratamiento"),
-            (revisiones, "Revisiones")
+            (motivo, "Reason for Admission"),
+            (antecedentes, "Background"),
+            (enfermedad, "Current History"),
+            (pruebas_complementarias, "Complementary Tests"),
+            (evolucion, "Evolution"),
+            (intervencion, "Procedures and Surgical Intervention"),
+            (juicio, "Clinical Judgment and Diagnoses"),
+            (actuacion, "Therapeutic Plan"),
+            (tratamiento, "Treatment"),
+            (revisiones, "Follow-ups")
         ]
         
         for content, section_name in sections_data:
             if content and content.strip() and content != 'None':
-                # APLICAR LIMPIEZA EN ORDEN:
-                # 1. Limpiar separadores de guiones
+                # CLEANING ORDER:
                 cleaned_content = self._clean_separator_lines(content.strip())
-                # 2. Unir líneas wrapeadas
                 merged_content = self._merge_wrapped_lines(cleaned_content)
-                # 3. Formatear saltos de línea
                 formatted_content = self._format_markdown_linebreaks(merged_content)
                 
                 md_content += f"## {section_name}\n\n{formatted_content}\n\n"
         
-        md_content += "---\n\n*Informe generado automáticamente*\n"
+        md_content += "---\n\n*Automatically generated report*\n"
         
         return md_content
 
 
     def _format_markdown_linebreaks(self, content):
         """
-        Formatea el contenido para que Markdown preserve los saltos de línea.
-        Agrega dos espacios al final de cada línea (sintaxis Markdown) o 
-        convierte saltos simples en dobles donde sea apropiado.
+        Formats content so Markdown preserves line breaks.
+        Adds two spaces at end of each line or converts simple breaks to double.
         
         Args:
-            content (str): Contenido a formatear
+            content (str): Content to format
         
         Returns:
-            str: Contenido formateado para Markdown
+            str: Formatted content
         """
         if not content:
             return ""
         
-        # Dividir en líneas
+        # Split into lines
         lines = content.split('\n')
         formatted_lines = []
         
         for line in lines:
             stripped = line.strip()
             if stripped:
-                # Si la línea termina con un carácter de puntuación fuerte, agregar línea extra
+                # If line ends with strong punctuation, add extra line
                 if stripped.endswith(('.', ':', '?', '!')):
                     formatted_lines.append(line)
-                    formatted_lines.append('')  # Línea vacía para separación
-                # Si es una línea de lista (empieza con -, *, número, etc.)
+                    formatted_lines.append('')
+                # If list line
                 elif stripped.startswith(('-', '*', '•')) or (len(stripped) > 2 and stripped[0].isdigit() and stripped[1] in '.)-'):
-                    formatted_lines.append(line + '  ')  # Dos espacios al final
+                    formatted_lines.append(line + '  ')
                 else:
-                    formatted_lines.append(line + '  ')  # Dos espacios al final por defecto
+                    formatted_lines.append(line + '  ')
             else:
-                # Preservar líneas vacías
+                # Preserve empty lines
                 formatted_lines.append('')
         
         return '\n'.join(formatted_lines)
@@ -972,103 +948,82 @@ class ProcessorAlta(BaseProcessor):
 
     def _clean_markdown_content(self, content, is_first_section=False):
         """
-        Limpia el contenido markdown eliminando encabezados redundantes.
-        Método auxiliar privado.
+        Cleans markdown content by removing redundant headers.
+        Private helper method.
         
         Args:
-            content (str): Contenido a limpiar
-            is_first_section (bool): Si es la primera sección (Motivo de Ingreso)
+            content (str): Content to clean
+            is_first_section (bool): If first section
         
         Returns:
-            str: Contenido limpio
+            str: Cleaned content
         """
         if not content:
             return ""
         
-        # Eliminar encabezados de nivel 2 que contengan el nombre de la sección
+        # Remove level 2 headers containing section name
         content = re.sub(r'^##\s+.*?\n', '', content, flags=re.MULTILINE)
         
-        # Dividir en líneas
+        # Split into lines
         lines = content.split('\n')
         
-        # Si no es la primera sección, eliminar la primera línea que tenga texto
+        # If not first section, remove first line with text
         if not is_first_section and lines:
             for i, line in enumerate(lines):
-                if line.strip():  # Primera línea con contenido
-                    lines = lines[i+1:]  # Eliminar desde el inicio hasta esta línea incluida
+                if line.strip():
+                    lines = lines[i+1:]
                     break
         
-        # Reconstruir contenido manteniendo saltos de línea
         content = '\n'.join(lines)
         
         return content.strip()
     
     def get_structured_text(self, output_dir=None):
         """
-        Genera una estructura de carpetas con archivos .txt para cada sección.
-        Trabaja directamente con self.sections para preservar la jerarquía original.
-        
-        Estructura generada:
-        output_dir/
-        ├── 01_Motivo_de_ingreso.txt
-        ├── 02_Antecedentes/
-        │   ├── _principal.txt
-        │   ├── Personales.txt
-        │   └── Familiares.txt
-        ├── 03_Historia_actual.txt
-        ├── 04_Pruebas_complementarias.txt
-        ├── 05_Evolucion.txt
-        ├── 06_Procedimientos_intervencion.txt
-        ├── 07_Juicio_clinico_Diagnosticos/
-        │   ├── _principal.txt
-        │   ├── Diagnostico_principal.txt
-        │   └── Secundarios.txt
-        ├── 08_Plan_terapeutico.txt
-        ├── 09_Tratamiento.txt
-        └── 10_Revisiones.txt
+        Generates folder structure with .txt files for each section.
+        Works directly with self.sections to preserve original hierarchy.
         
         Args:
-            output_dir (str|Path): Directorio base donde crear la estructura.
-                                Si es None, se crea junto al archivo fuente.
+            output_dir (str|Path): Base directory for structure.
         
         Returns:
-            Path: Ruta del directorio raíz creado
+            Path: Root path of created directory
         """
         try:
-            # Asegurarse de que las secciones están extraídas
+            # Ensure sections are extracted
             if not hasattr(self, 'sections') or not self.sections:
                 self._extract_sections()
             
-            # Determinar directorio de salida
+            # Determine output directory
             if output_dir is None:
                 source_path = Path(self.file_path)
                 output_dir = source_path.parent / f"{source_path.stem}_structured"
             else:
                 output_dir = Path(output_dir)
             
-            # Crear directorio base
+            # Create base directory
             output_dir.mkdir(parents=True, exist_ok=True)
             
-            # Contador para numeración de secciones
+            # Counter for section numbering
             section_counter = 1
             
-            # Procesar cada sección principal
+            # Process each main section
             for section in self.sections:
                 if section['nivel'] != 1:
                     continue
                 
-                # Sanitizar nombre de sección
+                # Sanitize section name
                 section_name = self._sanitize_filename(section['seccion'])
                 
-                # Verificar si tiene subsecciones
+                # Check for subsections
                 has_subsections = section.get('subsecciones') and len(section['subsecciones']) > 0
                 
                 if has_subsections:
-                    # Crear carpeta para sección con subsecciones
+                    # Create folder for section with subsections
                     section_dir = output_dir / f"{section_name}"
                     section_dir.mkdir(exist_ok=True)
                     
-                    # Guardar contenido principal si existe
+                    # Save main content if exists
                     if section['cuerpo'].strip():
                         main_content = self._clean_separator_lines(section['cuerpo'])
                         main_content = self._merge_wrapped_lines(main_content)
@@ -1076,12 +1031,12 @@ class ProcessorAlta(BaseProcessor):
                         
                         with open(main_file, 'w', encoding='utf-8') as f:
                             f.write(main_content)
-                        logging.info(f"Creado archivo principal: {main_file}")
+                        logging.info(f"Created main file: {main_file}")
                     
-                    # Guardar cada subsección
+                    # Save each subsection
                     for subsection in section['subsecciones']:
                         if subsection['cuerpo'].strip():
-                            # Sanitizar nombre de subsección
+                            # Sanitize subsection name
                             subsec_name = self._sanitize_filename(subsection['seccion'])
                             subsec_content = self._clean_separator_lines(subsection['cuerpo'])
                             subsec_content = self._merge_wrapped_lines(subsec_content)
@@ -1089,12 +1044,12 @@ class ProcessorAlta(BaseProcessor):
                             subsec_file = section_dir / f"{subsec_name}.txt"
                             with open(subsec_file, 'w', encoding='utf-8') as f:
                                 f.write(subsec_content)
-                            logging.info(f"Creada subsección: {subsec_file}")
+                            logging.info(f"Created subsection: {subsec_file}")
                     
-                    logging.info(f"Creada carpeta con subsecciones: {section_dir}")
+                    logging.info(f"Created folder with subsections: {section_dir}")
                 
                 else:
-                    # Crear archivo único para sección sin subsecciones
+                    # Create single file for section without subsections
                     content = self._clean_separator_lines(section['cuerpo'])
                     content = self._merge_wrapped_lines(content)
                     
@@ -1102,20 +1057,20 @@ class ProcessorAlta(BaseProcessor):
                         section_file = output_dir / f"{section_name}.txt"
                         with open(section_file, 'w', encoding='utf-8') as f:
                             f.write(content)
-                        logging.info(f"Creado archivo: {section_file}")
+                        logging.info(f"Created file: {section_file}")
                 
                 section_counter += 1
             
-            # Crear archivo README con información
+            # Create README file with info
             readme_path = output_dir / "README.txt"
             with open(readme_path, 'w', encoding='utf-8') as f:
-                f.write(f"ESTRUCTURA GENERADA DE INFORME DE ALTA\n")
+                f.write(f"GENERATED DISCHARGE REPORT STRUCTURE\n")
                 f.write("=" * 60 + "\n\n")
-                f.write(f"Archivo fuente: {self.file_path}\n")
-                f.write(f"Total de secciones principales: {len([s for s in self.sections if s['nivel'] == 1])}\n")
-                f.write(f"Total de subsecciones: {sum(len(s.get('subsecciones', [])) for s in self.sections if s['nivel'] == 1)}\n\n")
+                f.write(f"Source file: {self.file_path}\n")
+                f.write(f"Total main sections: {len([s for s in self.sections if s['nivel'] == 1])}\n")
+                f.write(f"Total subsections: {sum(len(s.get('subsecciones', [])) for s in self.sections if s['nivel'] == 1)}\n\n")
                 
-                f.write("ESTRUCTURA DE CONTENIDO:\n")
+                f.write("CONTENT STRUCTURE:\n")
                 f.write("-" * 60 + "\n\n")
                 
                 counter = 1
@@ -1125,7 +1080,7 @@ class ProcessorAlta(BaseProcessor):
                         subsections = section.get('subsecciones', [])
                         
                         if subsections:
-                            f.write(f"{counter:02d}. {section_name}/ (carpeta)\n")
+                            f.write(f"{counter:02d}. {section_name}/ (folder)\n")
                             if section['cuerpo'].strip():
                                 f.write(f"    - _principal.txt\n")
                             for subsec in subsections:
@@ -1135,11 +1090,11 @@ class ProcessorAlta(BaseProcessor):
                         
                         counter += 1
             
-            logging.info(f"Estructura de texto generada en: {output_dir}")
+            logging.info(f"Structured text generated at: {output_dir}")
             return output_dir
         
         except Exception as e:
-            logging.error(f"Error al generar estructura de texto para {self.file_path}: {e}")
+            logging.error(f"Error generating structured text for {self.file_path}: {e}")
             import traceback
             logging.error(traceback.format_exc())
             return None
@@ -1147,31 +1102,31 @@ class ProcessorAlta(BaseProcessor):
 
     def _sanitize_filename(self, filename):
         """
-        Sanitiza un nombre para usarlo como nombre de archivo.
+        Sanitizes a name for use as a filename.
         
         Args:
-            filename (str): Nombre original
+            filename (str): Original name
         
         Returns:
-            str: Nombre sanitizado
+            str: Sanitized name
         """
-        # Eliminar caracteres no permitidos en nombres de archivo
+        # Remove forbidden characters
         sanitized = re.sub(r'[<>:"/\\|?*]', '', filename)
         
-        # Reemplazar espacios y guiones por guiones bajos
+        # Replace spaces and dashes with underscores
         sanitized = re.sub(r'[\s\-–—]+', '_', sanitized)
         
-        # Eliminar puntos, comas y dos puntos del final
+        # Remove trailing punctuation
         sanitized = sanitized.strip('.:,;')
         
-        # Eliminar caracteres de puntuación adicionales
+        # Remove extra punctuation
         sanitized = re.sub(r'[/()]', '', sanitized)
         
-        # Limitar longitud del nombre
+        # Limit length
         if len(sanitized) > 80:
             sanitized = sanitized[:80]
         
-        # Capitalizar primera letra de cada palabra
+        # Capitalize each word
         sanitized = '_'.join(word.capitalize() for word in sanitized.split('_') if word)
         
-        return sanitized or "Sin_titulo"
+        return sanitized or "Untitled"

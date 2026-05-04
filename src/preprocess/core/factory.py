@@ -3,8 +3,23 @@ from preprocess.handlers.anamnesis import ProcessorAnamnesis
 from preprocess.handlers.evolucion import ProcessorEvolucion
 
 class ProcessorFactory:
+    """Factory class to create appropriate document processors."""
+    
     @staticmethod
     def create_processor(file_path, document_type):
+        """
+        Creates and returns a processor instance based on document type.
+        
+        Args:
+            file_path (str): Path to the document file
+            document_type (str): Type of document ('alta', 'evolucion', 'anamnesis')
+            
+        Returns:
+            BaseProcessor: An instance of a specific document processor
+            
+        Raises:
+            ValueError: If the document type is not supported
+        """
         processors = {
             'alta': ProcessorAlta,
             'evolucion': ProcessorEvolucion,
