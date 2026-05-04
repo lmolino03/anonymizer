@@ -51,7 +51,7 @@ To perform technical analysis of a PDF structure from the command line:
 python src/eda.py path/to/file.pdf --json output.json --tables
 ```
 
-### 🚀 Executable Generation (.exe)
+### Executable Generation (.exe)
 To compile the application into a standalone Windows executable, use the optimized PyInstaller configuration:
 
 ```bash
