@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales
+venv/
+.venv
+.env
+env/
+
+# IDEs y Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de empaquetado específicos
+*.spec
+
+# MacOS
+.DS_Store
+
+# Datos de prueba (PDFs)
+alta.pdf
+Hoja_evolucion_10.pdf
+Anamnesis_10.pdf
+*.pdf
+
+# Resultados de pruebas y logs
+TEST_RESULT_*.md
+TEST_RESULT_*.txt
+*.log
+debug_*.py
+inspect_pdf.py
+dump_table.py
+table_analysis.json
+*_structured/
+registros/
