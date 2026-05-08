@@ -321,7 +321,7 @@ class ProcessorAnamnesis(BaseProcessor):
             formato_principal = linea.get("formato_principal", {})
             estilos_principales = formato_principal.get("estilos", [])
             
-            if "negrita" in estilos_principales:
+            if "bold" in estilos_principales:
                 return True, texto_completo, x_start
             
             # If not bold in main format, check detailed spans
@@ -332,7 +332,7 @@ class ProcessorAnamnesis(BaseProcessor):
             if spans_detallados:
                 for span in spans_detallados:
                     estilos_span = span.get("estilos", [])
-                    if "negrita" in estilos_span:
+                    if "bold" in estilos_span:
                         has_bold = True
                         bold_text += span.get("texto", "")
                         span_x = span.get("posicion", {}).get("x0", 0)
