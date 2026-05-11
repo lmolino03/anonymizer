@@ -99,18 +99,6 @@ To implement support for new document types, create a new "handler" inheriting f
 
 ---
 
-## 5. Version History
-
-### Version 3.0.0
-*   Professional modular restructuring of the source code.
-*   Implementation of advanced table processing and structural mapping.
-*   Unified technical documentation.
-
-### Version 2.0.0
-*   Markdown generation support for all report types.
-*   Updated GUI for batch processing.
-
----
 
 **Last Update:** May 2024
 **Project Status:** Stable / Production
