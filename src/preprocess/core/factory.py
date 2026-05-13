@@ -1,6 +1,7 @@
 from preprocess.handlers.alta import ProcessorAlta
 from preprocess.handlers.anamnesis import ProcessorAnamnesis
 from preprocess.handlers.evolucion import ProcessorEvolucion
+from preprocess.handlers.tc import ProcessorTC
 
 class ProcessorFactory:
     """Factory class to create appropriate document processors."""
@@ -23,7 +24,8 @@ class ProcessorFactory:
         processors = {
             'alta': ProcessorAlta,
             'evolucion': ProcessorEvolucion,
-            'anamnesis': ProcessorAnamnesis
+            'anamnesis': ProcessorAnamnesis,
+            'tc': ProcessorTC
         }
         if document_type not in processors:
             raise ValueError(f"Document type '{document_type}' not supported")
