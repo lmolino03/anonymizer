@@ -27,14 +27,17 @@ class ProcessorTC(BaseProcessor):
             # 2. Eliminar el pie de página (la URL rara de emdae... y la fecha de impresión)
             texto = re.sub(r"http://emdae[^\n]+\n", "", texto, flags=re.IGNORECASE)
             
-            # 3. EL GRAN CORTE: Borrar desde el inicio hasta "Datos del Informe" (o "Datos Clínicos" si no hay Datos del Informe)
+            # Borrar desde el inicio hasta "Datos del Informe"
             # Esto ignora el nombre específico del hospital y los datos de paciente/peticionario
             patron_cabecera = r"^.*?(Datos del Informe|Datos Clínicos\s*/\s*Sospecha Diagnóstica)"
             texto = re.sub(patron_cabecera, r"\1", texto, flags=re.DOTALL | re.IGNORECASE)
             
-            # 4. CORTE FINAL: Borrar desde "Estado del Informe:" hasta el final del documento.
+            # Borrar desde "Estado del Informe:" hasta el final del documento.
             patron_pie = r"Estado del Informe:.*$"
             texto = re.sub(patron_pie, "", texto, flags=re.DOTALL | re.IGNORECASE)
+            
+            # Eliminar el Código de Informe
+            texto = re.sub(r"Código de Informe:.*?\n", "", texto, flags=re.IGNORECASE)
             
             # Guardamos el texto resultante limpio
             self.cleaned_structured_text = texto.strip()
@@ -51,12 +54,12 @@ class ProcessorTC(BaseProcessor):
         try:
             texto_seguro = getattr(self, "cleaned_structured_text", "")
             
-            # Patrones para identificar el inicio de cada sección (soportando pérdida de tildes por OCR)
+            # Patrones EXACTOS para tu estructura
             secciones = {
                 "datos_informe": r"Datos del Informe",
                 "informe_principal": r"Informe Principal",
                 "datos_clinicos": r"Datos Cl[íi]nicos\s*/\s*Sospecha Diagn[óo]stica",
-                "exploraciones": r"Exploraciones Realizadas",
+                "exploraciones": r"Exploraciones\s+Realizadas",
                 "anatomias": r"Anatom[íi]as Estudiadas",
                 "hallazgos": r"Hallazgos",
                 "indicacion": r"Indicaci[óo]n diagn[óo]stica",
@@ -71,23 +74,54 @@ class ProcessorTC(BaseProcessor):
                     posiciones[key] = match.start()
                     
             # Extraer el contenido de cada sección
-            contenido_secciones = {}
+            contenido_secciones = {k: "" for k in secciones.keys()}
             for key, patron in secciones.items():
                 match = re.search(patron, texto_seguro, flags=re.IGNORECASE)
                 if match:
                     inicio = match.end()
                     
-                    # Encontrar el fin de la sección actual (el inicio de la siguiente que esté después)
+                    # Encontrar el fin de la sección actual buscando la siguiente más cercana
                     siguientes = [pos for k, pos in posiciones.items() if pos > match.start()]
                     fin = min(siguientes) if siguientes else len(texto_seguro)
                     
-                    # Limpiar el contenido extraído
+                    # Limpiar el contenido extraído (sin borrar guiones)
                     contenido = texto_seguro[inicio:fin].strip()
-                    # Eliminar el guión inicial y saltos de línea extra si los hay al principio
-                    if contenido.startswith('-'):
-                        contenido = contenido[1:].strip()
                     contenido_secciones[key] = contenido
             
+            if "hallazgos" in contenido_secciones:
+                texto_hallazgos = contenido_secciones["hallazgos"]
+                
+                # Buscamos la tabla desubicada
+                patron_tabla = r"(Fecha\s+Exploraci[óo]n\s+C[óo]digo.*)"
+                match_tabla = re.search(patron_tabla, texto_hallazgos, flags=re.IGNORECASE | re.DOTALL)
+                
+                if match_tabla:
+                    tabla_texto = match_tabla.group(1).strip()
+                    # 1. Recortamos la tabla de los hallazgos
+                    contenido_secciones["hallazgos"] = texto_hallazgos[:match_tabla.start()].strip()
+                    
+                    # 2. Reconstruimos la tabla como texto plano limpio
+                    lineas = [linea.strip() for linea in tabla_texto.split('\n') if linea.strip()]
+                    
+                    # Comprobamos que tenemos al menos las cabeceras y una fila de datos (5 líneas)
+                    if len(lineas) >= 5 and "Fecha" in lineas[0]:
+                        # Unimos las cabeceras separadas por unos cuantos espacios
+                        cabecera = f"{lineas[0]}    {lineas[1]}    {lineas[2]}"
+                        
+                        # Unimos la fecha correcta (línea 3) y la exploración (línea 4)
+                        # Ignoramos intencionadamente la línea 5 (la fecha extra que sobra)
+                        datos = f"{lineas[3]}    {lineas[4]}"
+                        
+                        # Lo guardamos todo junto, limpio y estructurado
+                        contenido_secciones["exploraciones"] = f"{cabecera}\n{datos}"
+                    else:
+                        # Si el formato es distinto, lo dejamos como estaba por seguridad
+                        contenido_secciones["exploraciones"] = tabla_texto
+            
+            # Guardamos el diccionario para que get_structured_text cree los ficheros
+            self.secciones_diccionario = contenido_secciones
+
+            # Guardamos en el modelo de datos
             datos = InformeTC(
                 texto_anonimizado=texto_seguro,
                 datos_informe=contenido_secciones.get("datos_informe", ""),
@@ -100,12 +134,10 @@ class ProcessorTC(BaseProcessor):
                 recomendaciones=contenido_secciones.get("recomendaciones", "")
             )
             
-            # OBLIGATORIO: Guardar el resultado en self.args como una tupla
             self.args = (datos,)
             
         except Exception as e:
             logger.error(f"Error extrayendo secciones en ProcessorTC: {e}")
-            # Si hay fallo crítico, instanciamos el modelo con el texto plano para no bloquear
             datos = InformeTC(texto_anonimizado=getattr(self, "cleaned_structured_text", ""))
             self.args = (datos,)
 
@@ -114,7 +146,7 @@ class ProcessorTC(BaseProcessor):
             # Determina la ruta original de manera segura
             source_path = Path(getattr(self, 'file_path', 'informe_desconocido.pdf'))
             
-            # Determina dónde guardar el archivo
+            # Determina dónde guardar los archivos
             if output_dir is None:
                 output_dir = source_path.parent / f"{source_path.stem}_procesado"
             else:
@@ -122,14 +154,16 @@ class ProcessorTC(BaseProcessor):
                 
             output_dir.mkdir(parents=True, exist_ok=True)
             
-            texto_final = getattr(self, "cleaned_structured_text", "")
+            # Recuperamos el diccionario de secciones que guardamos antes
+            secciones = getattr(self, "secciones_diccionario", {})
             
-            # Archivo de salida dinámico para evitar sobreescribir si están en la misma carpeta
-            nombre_archivo = f"{source_path.stem}_Anonimizado.txt"
-            ruta_archivo = output_dir / nombre_archivo
-            
-            with open(ruta_archivo, 'w', encoding='utf-8') as f:
-                f.write(texto_final)
+            # Creamos un archivo por cada sección (tenga contenido o esté vacía)
+            for nombre_seccion, contenido in secciones.items():
+                nombre_archivo = f"{nombre_seccion}.txt"
+                ruta_archivo = output_dir / nombre_archivo
+                
+                with open(ruta_archivo, 'w', encoding='utf-8') as f:
+                    f.write(contenido.strip())
                 
             return output_dir
             
@@ -143,21 +177,27 @@ class ProcessorTC(BaseProcessor):
             
             # Determinar la ruta de salida
             if output_path is None:
-                output_path = source_path.parent / f"{source_path.stem}_informe.md"
+                output_dir = source_path.parent / f"{source_path.stem}_informe_md"
             else:
-                output_path = Path(output_path)
+                # En lugar de un solo archivo, creamos una carpeta "markdown" dentro del reporte
+                output_dir = Path(output_path).parent / "markdown"
                 
-            output_path.parent.mkdir(parents=True, exist_ok=True)
+            output_dir.mkdir(parents=True, exist_ok=True)
             
-            texto_final = getattr(self, "cleaned_structured_text", "")
-            md_content = f"# Informe de Tomografía (TC)\n\n{texto_final}"
+            secciones = getattr(self, "secciones_diccionario", {})
             
-            # Guardar el archivo
-            with open(output_path, 'w', encoding='utf-8') as f:
-                f.write(md_content)
+            for nombre_seccion, contenido in secciones.items():
+                nombre_archivo = f"{nombre_seccion}.md"
+                ruta_archivo = output_dir / nombre_archivo
                 
-            return output_path
+                titulo = nombre_seccion.replace("_", " ").title()
+                md_content = f"# {titulo}\n\n{contenido.strip()}"
+                
+                with open(ruta_archivo, 'w', encoding='utf-8') as f:
+                    f.write(md_content)
+                
+            return output_dir
             
         except Exception as e:
-            logger.error(f"Error generando el archivo Markdown en ProcessorTC: {e}")
+            logger.error(f"Error generando los archivos Markdown en ProcessorTC: {e}")
             return None
