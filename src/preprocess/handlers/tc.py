@@ -2,6 +2,7 @@ import logging
 import re
 from pathlib import Path
 from preprocess.core.base_processor import BaseProcessor
+from preprocess.readers.pdf_reader import PDFReader
 from models.tc import InformeTC
 
 logger = logging.getLogger(__name__)
@@ -13,26 +14,10 @@ class ProcessorTC(BaseProcessor):
         Limpia el texto bruto eliminando la cabecera, los datos personales del paciente,
         del peticionario y el estado final del informe.
         """
-        if not hasattr(self, 'text') or not self.text:
-            self.cleaned_structured_text = ""
-            logger.warning("El texto de entrada está vacío o es nulo en ProcessorTC.")
-            return
-
-        texto = self.text
-        
         try:
-            # 1. Borrar los "Page X of Y" (ignorando mayúsculas/minúsculas)
-            texto = re.sub(r"Page \d+ of \d+\n", "", texto, flags=re.IGNORECASE)
+            texto = PDFReader.extract_only_text(self.file_path, include_tables=False, clean_medical_report=True)
             
-            # 2. Eliminar el pie de página (la URL rara de emdae... y la fecha de impresión)
-            texto = re.sub(r"http://emdae[^\n]+\n", "", texto, flags=re.IGNORECASE)
-            
-            # Borrar desde el inicio hasta "Datos del Informe"
-            # Esto ignora el nombre específico del hospital y los datos de paciente/peticionario
-            patron_cabecera = r"^.*?(Datos del Informe|Datos Clínicos\s*/\s*Sospecha Diagnóstica)"
-            texto = re.sub(patron_cabecera, r"\1", texto, flags=re.DOTALL | re.IGNORECASE)
-            
-            # Borrar desde "Estado del Informe:" hasta el final del documento.
+            # Borrar desde "Estado del Informe:" hasta el final del documento (por si clean_medical_report no lo pilló)
             patron_pie = r"Estado del Informe:.*$"
             texto = re.sub(patron_pie, "", texto, flags=re.DOTALL | re.IGNORECASE)
             
@@ -44,8 +29,8 @@ class ProcessorTC(BaseProcessor):
             
         except Exception as e:
             logger.error(f"Error al aplicar las expresiones regulares en ProcessorTC: {e}")
-            # Guardamos el texto aunque haya fallado algún regex, para no dejar el programa bloqueado
-            self.cleaned_structured_text = texto.strip()
+            if not hasattr(self, "cleaned_structured_text"):
+                self.cleaned_structured_text = ""
         
     def _extract_sections(self):
         """
@@ -100,23 +85,25 @@ class ProcessorTC(BaseProcessor):
                     # 1. Recortamos la tabla de los hallazgos
                     contenido_secciones["hallazgos"] = texto_hallazgos[:match_tabla.start()].strip()
                     
-                    # 2. Reconstruimos la tabla como texto plano limpio
-                    lineas = [linea.strip() for linea in tabla_texto.split('\n') if linea.strip()]
+                    contenido_secciones["exploraciones"] = tabla_texto
+            
+            # 4. Asegurarnos de quitar 'Código' de la sección de exploraciones, esté donde esté
+            if "exploraciones" in contenido_secciones:
+                contenido_secciones["exploraciones"] = contenido_secciones["exploraciones"].replace("Código", "").replace("Codigo", "").strip()
+                contenido_secciones["exploraciones"] = re.sub(r"^[ \t]*\n", "", contenido_secciones["exploraciones"], flags=re.MULTILINE)
+                contenido_secciones["exploraciones"] = re.sub(r"\n{3,}", "\n\n", contenido_secciones["exploraciones"])
+            
+            # Añadir el contenido de TODAS las secciones a 'datos_informe'
+            texto_todas_secciones = []
+            if contenido_secciones.get("datos_informe", "").strip():
+                texto_todas_secciones.append(contenido_secciones["datos_informe"].strip())
+                
+            for k, v in contenido_secciones.items():
+                if k != "datos_informe" and v.strip():
+                    titulo = k.replace('_', ' ').title()
+                    texto_todas_secciones.append(f"--- {titulo} ---\n{v.strip()}")
                     
-                    # Comprobamos que tenemos al menos las cabeceras y una fila de datos (5 líneas)
-                    if len(lineas) >= 5 and "Fecha" in lineas[0]:
-                        # Unimos las cabeceras separadas por unos cuantos espacios
-                        cabecera = f"{lineas[0]}    {lineas[1]}    {lineas[2]}"
-                        
-                        # Unimos la fecha correcta (línea 3) y la exploración (línea 4)
-                        # Ignoramos intencionadamente la línea 5 (la fecha extra que sobra)
-                        datos = f"{lineas[3]}    {lineas[4]}"
-                        
-                        # Lo guardamos todo junto, limpio y estructurado
-                        contenido_secciones["exploraciones"] = f"{cabecera}\n{datos}"
-                    else:
-                        # Si el formato es distinto, lo dejamos como estaba por seguridad
-                        contenido_secciones["exploraciones"] = tabla_texto
+            contenido_secciones["datos_informe"] = "\n\n".join(texto_todas_secciones)
             
             # Guardamos el diccionario para que get_structured_text cree los ficheros
             self.secciones_diccionario = contenido_secciones
@@ -141,12 +128,35 @@ class ProcessorTC(BaseProcessor):
             datos = InformeTC(texto_anonimizado=getattr(self, "cleaned_structured_text", ""))
             self.args = (datos,)
 
+    def _parsear_exploraciones_a_json(self, cuerpo):
+        exploraciones = []
+        lineas = [l.strip() for l in cuerpo.splitlines() if l.strip()]
+
+        for linea in lineas:
+            linea_lower = linea.lower()
+            if "fecha" in linea_lower or "exploración" in linea_lower:
+                continue
+
+            patron_fecha = r"^((0[1-9]|[12][0-9]|3[01])\s/\s(0[1-9]|1[0-2])\s/\s\d{4})"
+            patron = re.match(patron_fecha, linea)
+
+            if patron:
+                fecha_sola = patron.group(1)
+                fecha = re.sub(r'\s*/\s*', '/', fecha_sola).strip()
+                exploracion = linea[patron.end():].strip()
+
+                exploraciones.append({
+                    "fecha": fecha,
+                    "exploracion": exploracion,
+                    "codigo": ""
+                })
+
+        return exploraciones
+
     def get_structured_text(self, output_dir=None):
         try:
-            # Determina la ruta original de manera segura
             source_path = Path(getattr(self, 'file_path', 'informe_desconocido.pdf'))
             
-            # Determina dónde guardar los archivos
             if output_dir is None:
                 output_dir = source_path.parent / f"{source_path.stem}_procesado"
             else:
@@ -154,16 +164,29 @@ class ProcessorTC(BaseProcessor):
                 
             output_dir.mkdir(parents=True, exist_ok=True)
             
-            # Recuperamos el diccionario de secciones que guardamos antes
             secciones = getattr(self, "secciones_diccionario", {})
             
-            # Creamos un archivo por cada sección (tenga contenido o esté vacía)
+            import json
             for nombre_seccion, contenido in secciones.items():
+                contenido_limpio = contenido.strip()
+                
+                if len(contenido_limpio) <= 1:
+                    contenido_limpio = ""
+                    
                 nombre_archivo = f"{nombre_seccion}.txt"
+                
+                if "explorac" in nombre_seccion.lower():
+                    datos_json = self._parsear_exploraciones_a_json(contenido_limpio)
+                    if datos_json:
+                        json_file = output_dir / f"{nombre_seccion}.json"
+                        with open(json_file, 'w', encoding='utf-8') as f:
+                            json.dump(datos_json, f, ensure_ascii=False, indent=4)
+                        continue
+
                 ruta_archivo = output_dir / nombre_archivo
                 
                 with open(ruta_archivo, 'w', encoding='utf-8') as f:
-                    f.write(contenido.strip())
+                    f.write(contenido_limpio)
                 
             return output_dir
             
@@ -187,11 +210,17 @@ class ProcessorTC(BaseProcessor):
             secciones = getattr(self, "secciones_diccionario", {})
             
             for nombre_seccion, contenido in secciones.items():
+                contenido_limpio = contenido.strip()
+                
+                # Si la sección tiene 1 carácter o menos (ej. un guion suelto), se vacía
+                if len(contenido_limpio) <= 1:
+                    contenido_limpio = ""
+
                 nombre_archivo = f"{nombre_seccion}.md"
                 ruta_archivo = output_dir / nombre_archivo
                 
                 titulo = nombre_seccion.replace("_", " ").title()
-                md_content = f"# {titulo}\n\n{contenido.strip()}"
+                md_content = f"# {titulo}\n\n{contenido_limpio}"
                 
                 with open(ruta_archivo, 'w', encoding='utf-8') as f:
                     f.write(md_content)

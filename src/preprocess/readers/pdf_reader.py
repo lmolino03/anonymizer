@@ -107,7 +107,8 @@ class PDFReader:
                         texto_completo.append(line["texto_completo"])
                         continue
                         
-                    line_spans_text = []
+                    line_text_parts = []
+                    last_x1 = None
                     for span in line["spans_detallados"]:
                         texto = span["texto"].strip()
                         if not texto:
@@ -122,9 +123,10 @@ class PDFReader:
                             if "paciente" in texto_lower or "peticionario" in texto_lower:
                                 in_patient_data_section = True
                                 continue
-                            elif "datos del informe" in texto_lower or "datos clínicos" in texto_lower or "sospecha diagnóstica" in texto_lower:
+                            elif "datos del informe" in texto_lower or "datos de informe" in texto_lower or "datos clínicos" in texto_lower or "sospecha diagnóstica" in texto_lower:
                                 in_patient_data_section = False
-                                line_spans_text.append(texto)
+                                last_x1 = span.get("posicion", {}).get("x1")
+                                line_text_parts.append(texto)
                                 continue
                                 
                         texto_lower = texto.lower()
@@ -141,10 +143,19 @@ class PDFReader:
                         if in_patient_data_section:
                             continue
                             
-                        line_spans_text.append(texto)
+                        if last_x1 is not None:
+                            distance = span.get("posicion", {}).get("x0", 0) - last_x1
+                            if distance > 15:
+                                num_spaces = max(5, int(distance / 3))
+                                line_text_parts.append(" " * num_spaces)
+                            else:
+                                line_text_parts.append(" ")
+                                
+                        line_text_parts.append(texto)
+                        last_x1 = span.get("posicion", {}).get("x1")
                         
-                    if line_spans_text:
-                        line_text = " ".join(line_spans_text)
+                    if line_text_parts:
+                        line_text = "".join(line_text_parts)
                         
                         line_text_lower = line_text.lower()
                         if line_text_lower.startswith("estado del informe:"):
