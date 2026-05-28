@@ -10,6 +10,7 @@ from preprocess.core.factory import ProcessorFactory
 from preprocess.handlers.alta import ProcessorAlta
 from preprocess.handlers.anamnesis import ProcessorAnamnesis
 from preprocess.handlers.evolucion import ProcessorEvolucion
+from preprocess.handlers.rmn import ProcessorRMN
 
 class TestProcessorFactory(unittest.TestCase):
     """
@@ -39,6 +40,14 @@ class TestProcessorFactory(unittest.TestCase):
         """
         processor = ProcessorFactory.create_processor("dummy_path.pdf", "evolucion")
         self.assertIsInstance(processor, ProcessorEvolucion)
+
+    def test_create_rmn_processor(self):
+        """
+        Verifies that the factory returns a ProcessorRMN instance 
+        when the document type 'rmn' is requested.
+        """
+        processor = ProcessorFactory.create_processor("dummy_path.pdf", "rmn")
+        self.assertIsInstance(processor, ProcessorRMN)
 
     def test_invalid_document_type(self):
         """
