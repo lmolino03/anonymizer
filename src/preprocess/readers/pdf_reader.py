@@ -6,7 +6,6 @@ import re
 
 
 from preprocess.readers.pdf_analyzer import PDFLineAnalyzer
-
 import traceback
 
 class PDFReader:
