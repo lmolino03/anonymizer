@@ -146,6 +146,7 @@ class PDFReader:
                         if last_x1 is not None:
                             distance = span.get("posicion", {}).get("x0", 0) - last_x1
                             if distance > 15:
+                                # Calculamos el número de espacios de forma proporcional a la distancia real
                                 num_spaces = max(5, int(distance / 3))
                                 line_text_parts.append(" " * num_spaces)
                             else:
