@@ -54,7 +54,13 @@ class MedicalReportApp(QMainWindow):
         radio_layout = QHBoxLayout()
         self.doc_type_group = QButtonGroup()
         
-        types = [("Informe de Alta", "alta"), ("Anamnesis", "anamnesis"), ("Evolución", "evolucion")]
+        types = [
+            ("Informe de Alta", "alta"), 
+            ("Anamnesis", "anamnesis"), 
+            ("Evolución", "evolucion"),
+            ("Ergoespirometría", "ergoespirometria"),
+            ("Laboratorio", "laboratorio")
+        ]
         for text, key in types:
             radio = QRadioButton(text)
             if key == "alta": radio.setChecked(True)

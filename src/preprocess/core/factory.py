@@ -1,6 +1,8 @@
 from preprocess.handlers.alta import ProcessorAlta
 from preprocess.handlers.anamnesis import ProcessorAnamnesis
 from preprocess.handlers.evolucion import ProcessorEvolucion
+from preprocess.handlers.ergoespirometria import ProcessorErgoespirometria
+from preprocess.handlers.laboratorio import ProcessorLaboratorio
 
 class ProcessorFactory:
     """Factory class to create appropriate document processors."""
@@ -12,7 +14,7 @@ class ProcessorFactory:
         
         Args:
             file_path (str): Path to the document file
-            document_type (str): Type of document ('alta', 'evolucion', 'anamnesis')
+            document_type (str): Type of document ('alta', 'evolucion', 'anamnesis', 'ergoespirometria', 'laboratorio')
             
         Returns:
             BaseProcessor: An instance of a specific document processor
@@ -23,7 +25,9 @@ class ProcessorFactory:
         processors = {
             'alta': ProcessorAlta,
             'evolucion': ProcessorEvolucion,
-            'anamnesis': ProcessorAnamnesis
+            'anamnesis': ProcessorAnamnesis,
+            'ergoespirometria': ProcessorErgoespirometria,
+            'laboratorio': ProcessorLaboratorio
         }
         if document_type not in processors:
             raise ValueError(f"Document type '{document_type}' not supported")
