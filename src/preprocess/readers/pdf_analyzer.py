@@ -1,9 +1,9 @@
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF
 import json
 import re
 import csv
 import os
-import numpy as np
+
 from collections import defaultdict
 
 class PDFLineAnalyzer:

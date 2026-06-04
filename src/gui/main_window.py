@@ -59,7 +59,10 @@ class MedicalReportApp(QMainWindow):
             ("Anamnesis", "anamnesis"), 
             ("Evolución", "evolucion"),
             ("Ergoespirometría", "ergoespirometria"),
-            ("Laboratorio", "laboratorio")
+            ("Laboratorio", "laboratorio"),
+            ("Tomografía (TC)", "tc"),
+            ("Gammagrafía", "gammagrafia"),
+            ("RMN", "rmn")
         ]
         for text, key in types:
             radio = QRadioButton(text)

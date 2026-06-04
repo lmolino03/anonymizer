@@ -1,15 +1,16 @@
 import unittest
+from pathlib import Path
 import sys
 import os
-from pathlib import Path
 
-# Add 'src' directory to module search path to allow relative imports
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
+# Add the 'src' directory to the Python path so the 'preprocess' module can be found
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from preprocess.core.factory import ProcessorFactory
-from preprocess.handlers.alta import ProcessorAlta
-from preprocess.handlers.anamnesis import ProcessorAnamnesis
-from preprocess.handlers.evolucion import ProcessorEvolucion
+from src.preprocess.core.factory import ProcessorFactory
+from src.preprocess.handlers.alta import ProcessorAlta
+from src.preprocess.handlers.anamnesis import ProcessorAnamnesis
+from src.preprocess.handlers.evolucion import ProcessorEvolucion
+from src.preprocess.handlers.rmn import ProcessorRMN
 
 class TestProcessorFactory(unittest.TestCase):
     """
@@ -39,6 +40,14 @@ class TestProcessorFactory(unittest.TestCase):
         """
         processor = ProcessorFactory.create_processor("dummy_path.pdf", "evolucion")
         self.assertIsInstance(processor, ProcessorEvolucion)
+
+    def test_create_rmn_processor(self):
+        """
+        Verifies that the factory returns a ProcessorRMN instance 
+        when the document type 'rmn' is requested.
+        """
+        processor = ProcessorFactory.create_processor("dummy_path.pdf", "rmn")
+        self.assertIsInstance(processor, ProcessorRMN)
 
     def test_invalid_document_type(self):
         """
