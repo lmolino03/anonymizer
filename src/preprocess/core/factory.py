@@ -1,6 +1,8 @@
 from preprocess.handlers.alta import ProcessorAlta
 from preprocess.handlers.anamnesis import ProcessorAnamnesis
 from preprocess.handlers.evolucion import ProcessorEvolucion
+from preprocess.handlers.coronariografia import ProcessorCoronariografia
+
 from preprocess.handlers.rmn import ProcessorRMN
 from preprocess.handlers.tc import ProcessorTC
 from preprocess.handlers.ecocardiograma import ProcessorEcocardiograma
@@ -27,6 +29,7 @@ class ProcessorFactory:
             'alta': ProcessorAlta,
             'evolucion': ProcessorEvolucion,
             'anamnesis': ProcessorAnamnesis,
+            'coronariografia': ProcessorCoronariografia,
             'rmn': ProcessorRMN,
             'tc': ProcessorTC,
             'gammagrafia': ProcessorGammagrafia,

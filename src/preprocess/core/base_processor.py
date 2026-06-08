@@ -83,3 +83,44 @@ class BaseProcessor(ABC):
         # Basic validation: check if it's a tuple or list
         if self.args is not None and not isinstance(self.args, (tuple, list)):
             logging.warning(f"Arguments should be a tuple or list, got {type(self.args)}")
+
+    def get_tables_json_data(self):
+        """Extracts tables with precise coordinates using PDFLineAnalyzer."""
+        from preprocess.readers.pdf_analyzer import PDFLineAnalyzer
+        analyzer = PDFLineAnalyzer(self.file_path)
+        tables_data = []
+        try:
+            analysis = analyzer.analyze_full_document()
+            for page in analysis.get("paginas", []):
+                for t_idx, table in enumerate(page.get("tablas", [])):
+                    formatted_table = {
+                        "pagina": page["pagina"],
+                        "tabla_id": t_idx + 1,
+                        "num_filas": table.get("num_rows", 0),
+                        "num_columnas": table.get("num_columns", 0),
+                        "bbox": table.get("bbox", [0, 0, 0, 0]),
+                        "celdas": []
+                    }
+                    for row in table.get("cells", []):
+                        for cell in row:
+                            bbox = cell.get("bbox", [0, 0, 0, 0])
+                            formatted_table["celdas"].append({
+                                "fila": cell.get("row", 0),
+                                "columna": cell.get("column", 0),
+                                "texto": cell.get("text", ""),
+                                "coordenadas": {
+                                    "x0": round(bbox[0], 2),
+                                    "y0": round(bbox[1], 2),
+                                    "x1": round(bbox[2], 2),
+                                    "y1": round(bbox[3], 2),
+                                    "ancho": round(bbox[2] - bbox[0], 2),
+                                    "alto": round(bbox[3] - bbox[1], 2)
+                                }
+                            })
+                    tables_data.append(formatted_table)
+            return tables_data
+        except Exception as e:
+            logging.error(f"Error extrayendo tablas a JSON en {self.file_path}: {e}")
+            return []
+        finally:
+            analyzer.close()
