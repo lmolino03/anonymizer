@@ -23,6 +23,11 @@ class PDFLineAnalyzer:
        self.doc = fitz.open(pdf_path)
        self.analysis_results = []
   
+   def close(self):
+       """Closes the PDF document."""
+       if getattr(self, "doc", None):
+           self.doc.close()
+  
    def rgb_to_hex(self, rgb_tuple):
        """Converts RGB tuple (0-1) to hexadecimal."""
        if not rgb_tuple or len(rgb_tuple) != 3:
@@ -419,12 +424,25 @@ class PDFLineAnalyzer:
       
        # Group spans into lines
        lines_dict = self.group_spans_into_lines(all_spans)
-      
+       page_min_x = min([span["bbox"][0] for span in all_spans]) if all_spans else 0
+       
        # Process each line
        for line_y in sorted(lines_dict.keys()):
-           spans_in_line = lines_dict[line_y]
+           spans_in_line = sorted(lines_dict[line_y], key=lambda s: s["bbox"][0])
           
-           full_text = "".join([span["texto"] for span in spans_in_line])
+           full_text = ""
+           last_x = None
+           for span in spans_in_line:
+               if last_x is not None:
+                   gap = span["bbox"][0] - last_x
+                   if gap > 3:
+                       # Calcular el número de espacios basándose en la distancia en píxeles (aprox 4.5px por espacio)
+                       num_espacios = int(gap / 4.5)
+                       espacios_a_añadir = max(1, num_espacios)
+                       full_text += " " * espacios_a_añadir
+               full_text += span["texto"]
+               last_x = span["bbox"][2]
+           
            first_span = spans_in_line[0]
            x0 = first_span["bbox"][0]
            main_span = max(spans_in_line, key=lambda x: len(x["texto"]))

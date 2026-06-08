@@ -62,7 +62,9 @@ class MedicalReportApp(QMainWindow):
             ("Laboratorio", "laboratorio"),
             ("Tomografía (TC)", "tc"),
             ("Gammagrafía", "gammagrafia"),
-            ("RMN", "rmn")
+            ("RMN", "rmn"),
+            ("Ecocardiograma", "ecocardiograma"), 
+            ("Coronariografía", "coronariografia")
         ]
         for text, key in types:
             radio = QRadioButton(text)

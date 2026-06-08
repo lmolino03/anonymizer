@@ -3,9 +3,10 @@ from preprocess.handlers.anamnesis import ProcessorAnamnesis
 from preprocess.handlers.evolucion import ProcessorEvolucion
 from preprocess.handlers.ergoespirometria import ProcessorErgoespirometria
 from preprocess.handlers.laboratorio import ProcessorLaboratorio
+from preprocess.handlers.coronariografia import ProcessorCoronariografia
 from preprocess.handlers.rmn import ProcessorRMN
 from preprocess.handlers.tc import ProcessorTC
-
+from preprocess.handlers.ecocardiograma import ProcessorEcocardiograma
 from preprocess.handlers.gammagrafia import ProcessorGammagrafia
 class ProcessorFactory:
     """Factory class to create appropriate document processors."""
@@ -31,9 +32,11 @@ class ProcessorFactory:
             'anamnesis': ProcessorAnamnesis,
             'ergoespirometria': ProcessorErgoespirometria,
             'laboratorio': ProcessorLaboratorio,
+            'coronariografia': ProcessorCoronariografia,
             'rmn': ProcessorRMN,
             'tc': ProcessorTC,
             'gammagrafia': ProcessorGammagrafia,
+            'ecocardiograma': ProcessorEcocardiograma,
         }
         if document_type not in processors:
             raise ValueError(f"Document type '{document_type}' not supported")
