@@ -4,3 +4,4 @@ from .evolucion import HojaEvolucion, RegistroEvolucion
 from .rmn import InformeRMN
 from .tc import InformeTC
 from .gammagrafia import HojaGammagrafia
+from .ecocardiograma import HojaEcocardiograma
