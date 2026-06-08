@@ -1,0 +1,6384 @@
+====================================================================================================
+DETAILED PDF ANALYSIS: ../BLAS2_Ejemplo Laboratorio.pdf
+====================================================================================================
+
+GENERAL INFORMATION:
+- Total pages: 3
+- File: ../BLAS2_Ejemplo Laboratorio.pdf
+
+DOCUMENT METADATA:
+- format: PDF 1.4
+- producer: iTextdotNET by ujihara.jp based on iText 1.4 (by lowagie.com)
+- creationDate: D:20260225100657+01'00'
+- modDate: D:20260225100657+01'00'
+- encryption: Standard V1 R2 40-bit RC4
+
+================================================================================
+PAGE 1
+================================================================================
+Dimensions: 595.0 x 842.0 pixels
+Total lines: 54
+Total detected tables: 5
+
+DETECTED TABLES:
+
+  TABLE 1:
+  - Position: X(18.0-298.6) Y(184.0-284.0)
+  - Dimensions: 3 rows x 1 columns
+  - Cell content:
+    Row 1: [Solicitante Prof.: (0000335528]
+    Row 2: [Fecha de solicitud]
+    Row 3: [05/03/2025 11:55]
+
+
+  TABLE 2:
+  - Position: X(18.0-18.0) Y(309.0-387.0)
+  - Dimensions: 3 rows x 0 columns
+  - Cell content:
+    Row 1: 
+    Row 2: 
+    Row 3: 
+
+
+  TABLE 3:
+  - Position: X(20.5-20.5) Y(367.0-435.0)
+  - Dimensions: 3 rows x 0 columns
+  - Cell content:
+    Row 1: 
+    Row 2: 
+    Row 3: 
+
+
+  TABLE 4:
+  - Position: X(28.0-473.0) Y(428.0-693.0)
+  - Dimensions: 20 rows x 3 columns
+  - Cell content:
+    Row 1: [-Leucocitos (recuento)] | [*2,83] | [x 10^3/µL]
+    Row 2: [-Hematíes (recuento)] | [4,23] | [x 10^6/µL]
+    Row 3: [-Hemoglobina] | [*12,8] | [g/dL]
+    Row 4: [-Hematocrito] | [*37,7] | [%]
+    Row 5: [-Volumen corpuscular medio] | [89,1] | [fL]
+    Row 6: [-Hemoglobina corpuscular media] | [30,3] | [pg]
+    Row 7: [-Concentración de hemoglobina ] | [34,0] | [g/dL]
+    Row 8: [-Dispersión de hematíes (volum] | [12,6] | [%]
+    Row 9: [-Plaquetas (recuento)] | [*94] | [x 10^3/µL]
+    Row 10: [-Volumen plaquetario medio] | [9,9] | [fL]
+    Row 11: [-Neutrófilos (recuento)] | [2,00] | [x 10^3/µL]
+    Row 12: [-Linfocitos (recuento)] | [*0,46] | [x 10^3/µL]
+    Row 13: [-Monocitos (recuento)] | [0,31] | [x 10^3/µL]
+    Row 14: [-Eosinófilos (recuento)] | [0,06] | [x 10^3/µL]
+    Row 15: [-Basófilos (recuento)] | [0,00] | [x 10^3/µL]
+    Row 16: [-Neutrófilos (porcentaje)] | [70,60] | [%]
+    Row 17: [-Linfocitos (porcentaje)] | [*16,20] | [%]
+    Row 18: [-Monocitos (porcentaje)] | [*10,80] | [%]
+    Row 19: [-Eosinófilos (porcentaje)] | [2,30] | [%]
+    Row 20: [-Basófilos (porcentaje)] | [0,10] | [%]
+
+
+  TABLE 5:
+  - Position: X(23.0-473.0) Y(712.0-784.0)
+  - Dimensions: 5 rows x 3 columns
+  - Cell content:
+    Row 1: [Tiempo de protrombina (segundo] | [14,7] | [s]
+    Row 2: [Tiempo de protrombina (porcent] | [79] | [%]
+    Row 3: [Tiempo de protrombina normaliz] | [1,15] | [INR]
+    Row 4: [Tiempo de tromboplastina parci] | [29,5] | [s]
+    Row 5: [Fibrinógeno (calculado)] | [361] | [mg/dL]
+
+------------------------------------------------------------
+LINE 1
+------------------------------------------------------------
+TEXT: 'Página 1 de 3'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 15 px
+- Lower Y coordinate: 28.29 px
+- Start X coordinate: 508.4 px
+- End X coordinate: 570.11 px
+- Left indentation: 508.4 px (85.45% of width)
+
+MAIN FORMAT:
+- Font: Helvetica
+- Size: 10.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: normal
+
+ADDITIONAL METADATA:
+- Length in characters: 13
+- Word count: 4
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 2
+------------------------------------------------------------
+TEXT: 'Hospital Universitario de Jaén'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 42 px
+- Lower Y coordinate: 61.21 px
+- Start X coordinate: 378.54 px
+- End X coordinate: 579.27 px
+- Left indentation: 378.54 px (63.62% of width)
+
+MAIN FORMAT:
+- Font: Helvetica-Bold
+- Size: 14.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold
+
+ADDITIONAL METADATA:
+- Length in characters: 30
+- Word count: 4
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 3
+------------------------------------------------------------
+TEXT: 'Nº Petición: 123385265'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 59 px
+- Lower Y coordinate: 72.45 px
+- Start X coordinate: 483.39 px
+- End X coordinate: 579.27 px
+- Left indentation: 483.39 px (81.24% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 10.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 22
+- Word count: 3
+- Span count: 2
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Nº Petición:'
+    - Position: X(483.39-531.77) Y(58.51-71.85)
+    - Font: Times-Roman
+    - Size: 10.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: ' 123385265'
+    - Position: X(531.77-579.27) Y(58.6-72.45)
+    - Font: Times-Bold
+    - Size: 10.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 4
+------------------------------------------------------------
+TEXT: 'INFORME DE LOS LABORATORIOS CLÍNICOS'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 86 px
+- Lower Y coordinate: 105.21 px
+- Start X coordinate: 142.29 px
+- End X coordinate: 451.09 px
+- Left indentation: 142.29 px (23.91% of width)
+
+MAIN FORMAT:
+- Font: Helvetica-Bold
+- Size: 14.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold
+
+ADDITIONAL METADATA:
+- Length in characters: 36
+- Word count: 5
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: Yes
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 5
+------------------------------------------------------------
+TEXT: 'UsuarioTipo Asistencia: Consulta Externa'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 114 px
+- Lower Y coordinate: 126.77 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 579.27 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 40
+- Word count: 4
+- Span count: 3
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Usuario'
+    - Position: X(18.01-48.51) Y(114.3-126.77)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Tipo Asistencia:'
+    - Position: X(452.52-514.77) Y(114.3-126.77)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 3:
+    - Text: ' Consulta Externa'
+    - Position: X(514.77-579.27) Y(114.22-126.23)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 6
+------------------------------------------------------------
+TEXT: 'Nombre:RAMONCIP CA (NUHSA):AN0265549322Fecha nac.:05/03/1958'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 127 px
+- Lower Y coordinate: 139.92 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 549.41 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 60
+- Word count: 4
+- Span count: 6
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Nombre:'
+    - Position: X(18.01-52.5) Y(127.46-139.92)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'RAMON'
+    - Position: X(74.7-108.2) Y(127.44-139.44)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'CIP CA (NUHSA):'
+    - Position: X(295.8-369.29) Y(127.46-139.92)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'AN0265549322'
+    - Position: X(380.84-438.84) Y(127.44-139.44)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 5:
+    - Text: 'Fecha nac.:'
+    - Position: X(451.71-495.7) Y(127.46-139.92)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 6:
+    - Text: '05/03/1958'
+    - Position: X(508.4-549.41) Y(127.44-139.44)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 7
+------------------------------------------------------------
+TEXT: 'Apellido 1:BEJARNHC:AN0265549322Sexo:Hombre'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 140 px
+- Lower Y coordinate: 152.82 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 537.9 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 43
+- Word count: 2
+- Span count: 6
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Apellido 1:'
+    - Position: X(18.01-60.26) Y(140.36-152.82)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'BEJAR'
+    - Position: X(74.7-102.2) Y(140.34-152.34)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'NHC:'
+    - Position: X(295.8-318.8) Y(140.36-152.82)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'AN0265549322'
+    - Position: X(380.84-438.84) Y(140.34-152.34)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 5:
+    - Text: 'Sexo:'
+    - Position: X(451.71-472.71) Y(140.36-152.82)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 6:
+    - Text: 'Hombre'
+    - Position: X(508.4-537.9) Y(140.34-152.34)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 8
+------------------------------------------------------------
+TEXT: 'Apellido 2:GONZALEZNASS:AN0265549322Código SNS:'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 153 px
+- Lower Y coordinate: 165.72 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 500.97 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 3
+- Span count: 5
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Apellido 2:'
+    - Position: X(18.01-60.26) Y(153.26-165.72)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'GONZALEZ'
+    - Position: X(74.7-122.69) Y(153.24-165.24)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'NASS:'
+    - Position: X(295.8-321.81) Y(153.26-165.72)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'AN0265549322'
+    - Position: X(380.84-438.84) Y(153.24-165.24)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 5:
+    - Text: 'Código SNS:'
+    - Position: X(451.71-500.97) Y(153.26-165.72)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 9
+------------------------------------------------------------
+TEXT: 'DNI:075006022D'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 166 px
+- Lower Y coordinate: 178.62 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 121.7 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 14
+- Word count: 1
+- Span count: 2
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: Yes
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'DNI:'
+    - Position: X(18.01-37.5) Y(166.16-178.62)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: '075006022D'
+    - Position: X(74.7-121.7) Y(166.14-178.14)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 10
+------------------------------------------------------------
+TEXT: 'SolicitanteDestinatario'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 184 px
+- Lower Y coordinate: 196.52 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 346.13 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 23
+- Word count: 1
+- Span count: 2
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Solicitante'
+    - Position: X(18.01-58.51) Y(184.06-196.52)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Destinatario'
+    - Position: X(298.64-346.13) Y(184.06-196.52)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 11
+------------------------------------------------------------
+TEXT: 'Prof.:(00003355287) TRAPERO MARTINEZ, ANA MARIAProf.:(00003355287) TRAPERO MARTINEZ, ANA MARIA'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 197 px
+- Lower Y coordinate: 209.68 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 537.8 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 94
+- Word count: 9
+- Span count: 4
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Prof.:'
+    - Position: X(18.01-40.25) Y(197.21-209.68)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: '(00003355287) TRAPERO MARTINEZ, ANA MARIA'
+    - Position: X(53.44-257.17) Y(197.19-209.2)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'Prof.:'
+    - Position: X(298.64-320.88) Y(197.21-209.68)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: '(00003355287) TRAPERO MARTINEZ, ANA MARIA'
+    - Position: X(334.07-537.8) Y(197.19-209.2)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 12
+------------------------------------------------------------
+TEXT: 'Centro:Centro de Diagnóstico y Tratamiento de Jaén - A.ComplejoCentro:Centro de Diagnóstico y Tratamiento de Jaén - A.Complejo'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 210 px
+- Lower Y coordinate: 222.57 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 548.79 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 126
+- Word count: 17
+- Span count: 4
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Centro:'
+    - Position: X(18.01-48.0) Y(210.11-222.57)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Centro de Diagnóstico y Tratamiento de Jaén - A.Complejo'
+    - Position: X(53.44-268.16) Y(210.09-222.1)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'Centro:'
+    - Position: X(298.64-328.62) Y(210.11-222.57)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'Centro de Diagnóstico y Tratamiento de Jaén - A.Complejo'
+    - Position: X(334.07-548.79) Y(210.09-222.1)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 13
+------------------------------------------------------------
+TEXT: 'Hospitalario de JaénHospitalario de Jaén'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 220 px
+- Lower Y coordinate: 232.0 px
+- Start X coordinate: 53.44 px
+- End X coordinate: 407.56 px
+- Left indentation: 53.44 px (8.98% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 40
+- Word count: 5
+- Span count: 2
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Hospitalario de Jaén'
+    - Position: X(53.44-126.93) Y(219.99-232.0)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: 'Hospitalario de Jaén'
+    - Position: X(334.07-407.56) Y(219.99-232.0)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 14
+------------------------------------------------------------
+TEXT: 'Servicio: (000138) Aparato Digestivo GeneralServicio: (000138) Aparato Digestivo General'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 233 px
+- Lower Y coordinate: 245.38 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 466.29 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 88
+- Word count: 9
+- Span count: 4
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Servicio:'
+    - Position: X(18.01-52.0) Y(232.91-245.38)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' (000138) Aparato Digestivo General'
+    - Position: X(52.0-185.66) Y(232.83-244.9)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'Servicio:'
+    - Position: X(298.64-332.63) Y(232.91-245.38)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: ' (000138) Aparato Digestivo General'
+    - Position: X(332.63-466.29) Y(232.83-244.9)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 15
+------------------------------------------------------------
+TEXT: 'Fecha de solicitudCarácter de la petición'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 251 px
+- Lower Y coordinate: 263.27 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 386.37 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 41
+- Word count: 6
+- Span count: 2
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Fecha de solicitud'
+    - Position: X(18.01-87.01) Y(250.81-263.27)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Carácter de la petición'
+    - Position: X(298.64-386.37) Y(250.81-263.27)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 16
+------------------------------------------------------------
+TEXT: '05/03/2025 11:55Rutina'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 264 px
+- Lower Y coordinate: 276.38 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 322.64 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 22
+- Word count: 2
+- Span count: 2
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '05/03/2025 11:55'
+    - Position: X(18.01-81.76) Y(264.37-276.38)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: 'Rutina'
+    - Position: X(298.64-322.64) Y(264.37-276.38)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 17
+------------------------------------------------------------
+TEXT: 'Motivo de DemandaMotivo de ConsultaJuicio Clínico'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 282 px
+- Lower Y coordinate: 294.75 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 444.94 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 49
+- Word count: 6
+- Span count: 3
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Motivo de Demanda'
+    - Position: X(18.01-96.0) Y(282.29-294.75)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Motivo de Consulta'
+    - Position: X(205.09-280.6) Y(282.29-294.75)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 3:
+    - Text: 'Juicio Clínico'
+    - Position: X(392.18-444.94) Y(282.29-294.75)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 18
+------------------------------------------------------------
+TEXT: 'ControlDesconocido953008821'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 296 px
+- Lower Y coordinate: 307.86 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 432.68 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 27
+- Word count: 1
+- Span count: 3
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Control'
+    - Position: X(18.01-45.51) Y(295.85-307.86)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: 'Desconocido'
+    - Position: X(205.09-252.08) Y(295.85-307.86)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '953008821'
+    - Position: X(392.18-432.68) Y(295.85-307.86)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 19
+------------------------------------------------------------
+TEXT: 'Laboratorio'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 309 px
+- Lower Y coordinate: 321.23 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 65.01 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 11
+- Word count: 1
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 20
+------------------------------------------------------------
+TEXT: '(005064) Análisis Clínicos General - Hospital Universitario de Jaén'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 322 px
+- Lower Y coordinate: 334.33 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 262.47 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 67
+- Word count: 9
+- Span count: 1
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 21
+------------------------------------------------------------
+TEXT: 'Nº de muestra/laboratorioToma de muestrasÚltimo resultadoFecha del informe'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 340 px
+- Lower Y coordinate: 352.71 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 542.46 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 74
+- Word count: 8
+- Span count: 4
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Nº de muestra/laboratorio'
+    - Position: X(18.01-118.47) Y(340.25-352.71)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Toma de muestras'
+    - Position: X(158.32-229.32) Y(340.25-352.71)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 3:
+    - Text: 'Último resultado'
+    - Position: X(298.64-363.39) Y(340.25-352.71)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'Fecha del informe'
+    - Position: X(472.97-542.46) Y(340.25-352.71)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 22
+------------------------------------------------------------
+TEXT: '5183327516/09/2025 09:3917/09/2025 12:1817/09/2025 12:40'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 354 px
+- Lower Y coordinate: 365.81 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 536.72 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 56
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '51833275'
+    - Position: X(18.01-54.01) Y(353.81-365.81)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '16/09/2025 09:39'
+    - Position: X(158.32-222.08) Y(353.81-365.81)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '17/09/2025 12:18'
+    - Position: X(298.64-362.4) Y(353.81-365.81)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '17/09/2025 12:40'
+    - Position: X(472.97-536.72) Y(353.81-365.81)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 23
+------------------------------------------------------------
+TEXT: 'Pruebas Solicitadas'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 367 px
+- Lower Y coordinate: 379.19 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 93.26 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 19
+- Word count: 2
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 24
+------------------------------------------------------------
+TEXT: 'PruebaResultadoUnidadValores referencia'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 389 px
+- Lower Y coordinate: 401.27 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 543.69 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 39
+- Word count: 2
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Prueba'
+    - Position: X(18.01-46.01) Y(388.8-401.27)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Resultado'
+    - Position: X(298.64-337.14) Y(388.8-401.27)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 3:
+    - Text: 'Unidad'
+    - Position: X(416.28-444.79) Y(388.8-401.27)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'Valores referencia'
+    - Position: X(472.97-543.69) Y(388.8-401.27)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 25
+------------------------------------------------------------
+TEXT: 'HEMATOLOGÍA GENERAL'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 403 px
+- Lower Y coordinate: 415.1 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 135.77 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 19
+- Word count: 2
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: Yes
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 26
+------------------------------------------------------------
+TEXT: 'Hemograma completo'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 415 px
+- Lower Y coordinate: 427.35 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 103.24 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 18
+- Word count: 2
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 27
+------------------------------------------------------------
+TEXT: '-Leucocitos (recuento)*2,83x 10^3/µL3,70 - 9,70'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 428 px
+- Lower Y coordinate: 440.25 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Leucocitos (recuento)'
+    - Position: X(28.01-109.73) Y(428.24-440.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*2,83'
+    - Position: X(298.64-320.06) Y(428.24-440.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^3/µL'
+    - Position: X(416.28-453.25) Y(428.24-440.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '3,70 - 9,70'
+    - Position: X(472.97-511.97) Y(428.24-440.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 28
+------------------------------------------------------------
+TEXT: '-Hematíes (recuento)4,23x 10^6/µL4,00 - 5,50'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 441 px
+- Lower Y coordinate: 453.15 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 44
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Hematíes (recuento)'
+    - Position: X(28.01-104.23) Y(441.15-453.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '4,23'
+    - Position: X(304.31-320.06) Y(441.15-453.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^6/µL'
+    - Position: X(416.28-453.25) Y(441.15-453.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '4,00 - 5,50'
+    - Position: X(472.97-511.97) Y(441.15-453.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 29
+------------------------------------------------------------
+TEXT: '-Hemoglobina*12,8g/dL13,0 - 18,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 454 px
+- Lower Y coordinate: 466.05 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 32
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Hemoglobina'
+    - Position: X(28.01-80.0) Y(454.05-466.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*12,8'
+    - Position: X(298.64-320.06) Y(454.05-466.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'g/dL'
+    - Position: X(416.28-433.28) Y(454.05-466.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '13,0 - 18,0'
+    - Position: X(472.97-511.97) Y(454.05-466.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 30
+------------------------------------------------------------
+TEXT: '-Hematocrito*37,7%40,0 - 54,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 467 px
+- Lower Y coordinate: 478.95 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 29
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Hematocrito'
+    - Position: X(28.01-76.0) Y(466.95-478.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*37,7'
+    - Position: X(298.64-320.06) Y(466.95-478.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(466.95-478.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '40,0 - 54,0'
+    - Position: X(472.97-511.97) Y(466.95-478.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 31
+------------------------------------------------------------
+TEXT: '-Volumen corpuscular medio89,1fL82,0 - 95,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 480 px
+- Lower Y coordinate: 491.85 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 43
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Volumen corpuscular medio'
+    - Position: X(28.01-133.49) Y(479.85-491.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '89,1'
+    - Position: X(304.31-320.06) Y(479.85-491.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'fL'
+    - Position: X(416.28-424.77) Y(479.85-491.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '82,0 - 95,0'
+    - Position: X(472.97-511.97) Y(479.85-491.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 32
+------------------------------------------------------------
+TEXT: '-Hemoglobina corpuscular media30,3pg27,0 - 32,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 493 px
+- Lower Y coordinate: 504.75 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Hemoglobina corpuscular media'
+    - Position: X(28.01-148.48) Y(492.74-504.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '30,3'
+    - Position: X(304.31-320.06) Y(492.74-504.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'pg'
+    - Position: X(416.28-425.28) Y(492.74-504.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '27,0 - 32,0'
+    - Position: X(472.97-511.97) Y(492.74-504.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 33
+------------------------------------------------------------
+TEXT: '-Concentración de hemoglobina corpuscular media34,0g/dL32,0 - 36,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 506 px
+- Lower Y coordinate: 517.65 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 66
+- Word count: 7
+- Span count: 4
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Concentración de hemoglobina corpuscular media'
+    - Position: X(28.01-211.97) Y(505.65-517.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '34,0'
+    - Position: X(304.31-320.06) Y(505.65-517.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'g/dL'
+    - Position: X(416.28-433.28) Y(505.65-517.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '32,0 - 36,0'
+    - Position: X(472.97-511.97) Y(505.65-517.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 34
+------------------------------------------------------------
+TEXT: '-Dispersión de hematíes (volumen)12,6%11,0 - 16,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 519 px
+- Lower Y coordinate: 530.55 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 49
+- Word count: 6
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Dispersión de hematíes (volumen)'
+    - Position: X(28.01-154.74) Y(518.54-530.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '12,6'
+    - Position: X(304.31-320.06) Y(518.54-530.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(518.54-530.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '11,0 - 16,0'
+    - Position: X(472.97-511.97) Y(518.54-530.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 35
+------------------------------------------------------------
+TEXT: '-Plaquetas (recuento)*94x 10^3/µL130 - 450'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 531 px
+- Lower Y coordinate: 543.45 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 42
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Plaquetas (recuento)'
+    - Position: X(28.01-104.73) Y(531.45-543.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*94'
+    - Position: X(298.64-313.31) Y(531.45-543.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^3/µL'
+    - Position: X(416.28-453.25) Y(531.45-543.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '130 - 450'
+    - Position: X(472.97-507.47) Y(531.45-543.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 36
+------------------------------------------------------------
+TEXT: '-Volumen plaquetario medio9,9fL7,0 - 11,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 544 px
+- Lower Y coordinate: 556.35 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 41
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Volumen plaquetario medio'
+    - Position: X(28.01-131.99) Y(544.35-556.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '9,9'
+    - Position: X(304.31-315.56) Y(544.35-556.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'fL'
+    - Position: X(416.28-424.77) Y(544.35-556.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '7,0 - 11,0'
+    - Position: X(472.97-507.47) Y(544.35-556.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 37
+------------------------------------------------------------
+TEXT: '-Neutrófilos (recuento)2,00x 10^3/µL2,00 - 7,50'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 557 px
+- Lower Y coordinate: 569.25 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Neutrófilos (recuento)'
+    - Position: X(28.01-111.23) Y(557.24-569.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '2,00'
+    - Position: X(304.31-320.06) Y(557.24-569.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^3/µL'
+    - Position: X(416.28-453.25) Y(557.24-569.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '2,00 - 7,50'
+    - Position: X(472.97-511.97) Y(557.24-569.25)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 38
+------------------------------------------------------------
+TEXT: '-Linfocitos (recuento)*0,46x 10^3/µL1,00 - 4,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 570 px
+- Lower Y coordinate: 582.15 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Linfocitos (recuento)'
+    - Position: X(28.01-107.23) Y(570.15-582.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*0,46'
+    - Position: X(298.64-320.06) Y(570.15-582.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^3/µL'
+    - Position: X(416.28-453.25) Y(570.15-582.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '1,00 - 4,00'
+    - Position: X(472.97-511.97) Y(570.15-582.15)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 39
+------------------------------------------------------------
+TEXT: '-Monocitos (recuento)0,31x 10^3/µL0,00 - 1,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 583 px
+- Lower Y coordinate: 595.05 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 45
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Monocitos (recuento)'
+    - Position: X(28.01-108.74) Y(583.04-595.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '0,31'
+    - Position: X(304.31-320.06) Y(583.04-595.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^3/µL'
+    - Position: X(416.28-453.25) Y(583.04-595.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,00 - 1,00'
+    - Position: X(472.97-511.97) Y(583.04-595.05)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 40
+------------------------------------------------------------
+TEXT: '-Eosinófilos (recuento)0,06x 10^3/µL0,00 - 0,30'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 596 px
+- Lower Y coordinate: 607.95 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Eosinófilos (recuento)'
+    - Position: X(28.01-111.24) Y(595.95-607.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '0,06'
+    - Position: X(304.31-320.06) Y(595.95-607.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^3/µL'
+    - Position: X(416.28-453.25) Y(595.95-607.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,00 - 0,30'
+    - Position: X(472.97-511.97) Y(595.95-607.95)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 41
+------------------------------------------------------------
+TEXT: '-Basófilos (recuento)0,00x 10^3/µL0,00 - 0,10'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 609 px
+- Lower Y coordinate: 620.85 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 45
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Basófilos (recuento)'
+    - Position: X(28.01-104.24) Y(608.85-620.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '0,00'
+    - Position: X(304.31-320.06) Y(608.85-620.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'x 10^3/µL'
+    - Position: X(416.28-453.25) Y(608.85-620.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,00 - 0,10'
+    - Position: X(472.97-511.97) Y(608.85-620.85)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 42
+------------------------------------------------------------
+TEXT: '-Neutrófilos (porcentaje)70,60%40,00 - 75,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 622 px
+- Lower Y coordinate: 633.75 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 520.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 44
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Neutrófilos (porcentaje)'
+    - Position: X(28.01-117.73) Y(621.74-633.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '70,60'
+    - Position: X(304.31-324.56) Y(621.74-633.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(621.74-633.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '40,00 - 75,00'
+    - Position: X(472.97-520.97) Y(621.74-633.75)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 43
+------------------------------------------------------------
+TEXT: '-Linfocitos (porcentaje)*16,20%20,00 - 45,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 635 px
+- Lower Y coordinate: 646.65 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 520.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 44
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Linfocitos (porcentaje)'
+    - Position: X(28.01-113.73) Y(634.65-646.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*16,20'
+    - Position: X(298.64-324.56) Y(634.65-646.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(634.65-646.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '20,00 - 45,00'
+    - Position: X(472.97-520.97) Y(634.65-646.65)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 44
+------------------------------------------------------------
+TEXT: '-Monocitos (porcentaje)*10,80%2,00 - 10,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 648 px
+- Lower Y coordinate: 659.55 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 516.47 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 42
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Monocitos (porcentaje)'
+    - Position: X(28.01-115.24) Y(647.54-659.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*10,80'
+    - Position: X(298.64-324.56) Y(647.54-659.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(647.54-659.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '2,00 - 10,00'
+    - Position: X(472.97-516.47) Y(647.54-659.55)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 45
+------------------------------------------------------------
+TEXT: '-Eosinófilos (porcentaje)2,30%0,00 - 6,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 660 px
+- Lower Y coordinate: 672.45 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 41
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Eosinófilos (porcentaje)'
+    - Position: X(28.01-117.74) Y(660.45-672.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '2,30'
+    - Position: X(304.31-320.06) Y(660.45-672.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(660.45-672.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,00 - 6,00'
+    - Position: X(472.97-511.97) Y(660.45-672.45)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 46
+------------------------------------------------------------
+TEXT: '-Basófilos (porcentaje)0,10%0,00 - 1,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 673 px
+- Lower Y coordinate: 685.35 px
+- Start X coordinate: 28.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 28.01 px (4.71% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 39
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '-Basófilos (porcentaje)'
+    - Position: X(28.01-110.74) Y(673.35-685.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '0,10'
+    - Position: X(304.31-320.06) Y(673.35-685.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(673.35-685.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,00 - 1,00'
+    - Position: X(472.97-511.97) Y(673.35-685.35)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 47
+------------------------------------------------------------
+TEXT: 'HEMOSTASIA/FIBRINOLISIS'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 700 px
+- Lower Y coordinate: 712.23 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 143.04 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 23
+- Word count: 1
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: Yes
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 48
+------------------------------------------------------------
+TEXT: 'Tiempo de protrombina (segundos)14,7s11,0 - 15,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 712 px
+- Lower Y coordinate: 724.48 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 48
+- Word count: 6
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Tiempo de protrombina (segundos)'
+    - Position: X(23.01-150.24) Y(712.47-724.48)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '14,7'
+    - Position: X(304.31-320.06) Y(712.47-724.48)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 's'
+    - Position: X(416.28-419.78) Y(712.47-724.48)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '11,0 - 15,0'
+    - Position: X(472.97-511.97) Y(712.47-724.48)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 49
+------------------------------------------------------------
+TEXT: 'Tiempo de protrombina (porcentaje)79%70 - 120'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 725 px
+- Lower Y coordinate: 737.38 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 45
+- Word count: 6
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Tiempo de protrombina (porcentaje)'
+    - Position: X(23.01-154.23) Y(725.37-737.38)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '79'
+    - Position: X(304.31-313.31) Y(725.37-737.38)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '%'
+    - Position: X(416.28-423.77) Y(725.37-737.38)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '70 - 120'
+    - Position: X(472.97-502.97) Y(725.37-737.38)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 50
+------------------------------------------------------------
+TEXT: 'Tiempo de protrombina normalizado (INR)1,15INR0,80 - 1,20'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 738 px
+- Lower Y coordinate: 750.28 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 511.96 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 57
+- Word count: 7
+- Span count: 4
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Tiempo de protrombina normalizado (INR)'
+    - Position: X(23.01-179.48) Y(738.27-750.28)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '1,15'
+    - Position: X(304.31-320.06) Y(738.27-750.28)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'INR'
+    - Position: X(416.28-431.77) Y(738.27-750.28)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,80 - 1,20'
+    - Position: X(472.97-511.96) Y(738.27-750.28)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 51
+------------------------------------------------------------
+TEXT: 'Tiempo de tromboplastina parcial activada (segundos)29,5s25,0 - 38,4'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 751 px
+- Lower Y coordinate: 763.18 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 68
+- Word count: 8
+- Span count: 4
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Tiempo de tromboplastina parcial activada (segundos)'
+    - Position: X(23.01-218.72) Y(751.17-763.18)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '29,5'
+    - Position: X(304.31-320.06) Y(751.17-763.18)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 's'
+    - Position: X(416.28-419.78) Y(751.17-763.18)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '25,0 - 38,4'
+    - Position: X(472.97-511.97) Y(751.17-763.18)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 52
+------------------------------------------------------------
+TEXT: 'Fibrinógeno (calculado)361mg/dL150 - 400'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 764 px
+- Lower Y coordinate: 776.08 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 40
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Fibrinógeno (calculado)'
+    - Position: X(23.01-109.74) Y(764.07-776.08)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '361'
+    - Position: X(304.31-317.81) Y(764.07-776.08)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(764.07-776.08)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '150 - 400'
+    - Position: X(472.97-507.47) Y(764.07-776.08)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 53
+------------------------------------------------------------
+TEXT: 'BIOQUÍMICA GENERAL (SANGRE)'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 790 px
+- Lower Y coordinate: 802.96 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 169.01 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 27
+- Word count: 3
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: Yes
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 54
+------------------------------------------------------------
+TEXT: 'Glucosa81mg/dL70 - 99'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 803 px
+- Lower Y coordinate: 815.21 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 498.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 21
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Glucosa'
+    - Position: X(23.01-52.5) Y(803.2-815.21)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '81'
+    - Position: X(304.31-313.31) Y(803.2-815.21)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(803.2-815.21)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '70 - 99'
+    - Position: X(472.97-498.47) Y(803.2-815.21)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+
+================================================================================
+PAGE 2
+================================================================================
+Dimensions: 595.0 x 842.0 pixels
+Total lines: 57
+Total detected tables: 10
+
+DETECTED TABLES:
+
+  TABLE 1:
+  - Position: X(20.5-20.5) Y(71.0-289.0)
+  - Dimensions: 4 rows x 0 columns
+  - Cell content:
+    Row 1: 
+    Row 2: 
+    Row 3: 
+    Row 4: 
+
+
+  TABLE 2:
+  - Position: X(23.0-473.0) Y(133.0-179.0)
+  - Dimensions: 3 rows x 3 columns
+  - Cell content:
+    Row 1: [Urea] | [*59] | [mg/dL]
+    Row 2: [Creatinina] | [0,95] | [mg/dL]
+    Row 3: [Ácido úrico Filtrado glomerula] | [4,6 82] | [mg/dL mL/min]
+
+
+  TABLE 3:
+  - Position: X(23.0-85.0) Y(183.0-332.0)
+  - Dimensions: 3 rows x 1 columns
+  - Cell content:
+    Row 1: [(Observaciones: Colesterol Col]
+    Row 2: [(Observaciones: Colesterol de ]
+    Row 3: [(Observaciones:]
+
+
+  TABLE 4:
+  - Position: X(23.0-473.0) Y(225.0-321.0)
+  - Dimensions: 4 rows x 3 columns
+  - Cell content:
+    Row 1: [Colesterol de HDL] | [*37] | [mg/dL]
+    Row 2: [Colesterol de LDL (calculado) ] | [102  Los niveles deseables de ] | [mg/dL]
+    Row 3: [Colesterol de VLDL (calculado)] | [21] | [mg/dL]
+    Row 4: [Colesterol no HDL (calculado) ] | [123  Los niveles deseables de ] | [mg/dL]
+
+
+  TABLE 5:
+  - Position: X(23.0-23.0) Y(269.0-352.0)
+  - Dimensions: 3 rows x 0 columns
+  - Cell content:
+    Row 1: 
+    Row 2: 
+    Row 3: 
+
+
+  TABLE 6:
+  - Position: X(23.0-23.0) Y(322.0-396.0)
+  - Dimensions: 3 rows x 0 columns
+  - Cell content:
+    Row 1: 
+    Row 2: 
+    Row 3: 
+
+
+  TABLE 7:
+  - Position: X(23.0-473.0) Y(364.0-626.0)
+  - Dimensions: 17 rows x 3 columns
+  - Cell content:
+    Row 1: [Colesterol/Colesterol de HDL (] | [*4,32] | [ratio]
+    Row 2: [Triglicéridos/Colesterol de HD] | [*2,78] | [ratio]
+    Row 3: [Bilirrubina total] | [1,17] | [mg/dL]
+    Row 4: [Lactato deshidrogenasa] | [193] | [U/L]
+    Row 5: [Gamma glutamiltransferasa] | [*626] | [U/L]
+    Row 6: [Aspartato transaminasa] | [*65] | [U/L]
+    Row 7: [Alanina transaminasa] | [*51] | [U/L]
+    Row 8: [Triacilglicerol lipasa] | [*67] | [U/L]
+    Row 9: [Fosfatasa alcalina] | [*412] | [U/L]
+    Row 10: [alfa-Amilasa] | [70] | [U/L]
+    Row 11: [Sodio] | [*147] | [mEq/L]
+    Row 12: [Potasio] | [4,1] | [mEq/L]
+    Row 13: [Calcio] | [9,5] | [mg/dL]
+    Row 14: [Calcio (corregido; proteínas)] | [9,9] | [mg/dL]
+    Row 15: [Fósforo] | [3,0] | [mg/dL]
+    Row 16: [Magnesio] | [2,10] | [mg/dL]
+    Row 17: [Hierro Estado nutricional, índ] | [*50 4] | [µg/dL]
+
+
+  TABLE 8:
+  - Position: X(23.0-473.0) Y(580.0-626.0)
+  - Dimensions: 3 rows x 3 columns
+  - Cell content:
+    Row 1: [Fósforo] | [3,0] | [mg/dL]
+    Row 2: [Magnesio] | [2,10] | [mg/dL]
+    Row 3: [Hierro Estado nutricional, índ] | [*50 4] | [µg/dL]
+
+
+  TABLE 9:
+  - Position: X(20.5-20.5) Y(663.0-807.0)
+  - Dimensions: 3 rows x 0 columns
+  - Cell content:
+    Row 1: 
+    Row 2: 
+    Row 3: 
+
+
+  TABLE 10:
+  - Position: X(23.0-473.0) Y(701.0-786.0)
+  - Dimensions: 4 rows x 3 columns
+  - Cell content:
+    Row 1: [Prealbúmina] | [*0,1] | [mg/dL]
+    Row 2: [Ferritina VITAMINAS (SANGRE)] | [102,8] | [ng/mL]
+    Row 3: [Vitamina B12] | [*798] | [pg/mL]
+    Row 4: [Vitamina D (25 OH) (Observacio] | [26,2] | [ng/mL Se considera insuficienc]
+
+------------------------------------------------------------
+LINE 1
+------------------------------------------------------------
+TEXT: 'Perteneciente a: BEJAR GONZALEZ, RAMON - AN0265549322Página 2 de 3'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 15 px
+- Lower Y coordinate: 28.29 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 576.49 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Helvetica
+- Size: 10.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: normal
+
+ADDITIONAL METADATA:
+- Length in characters: 66
+- Word count: 10
+- Span count: 2
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Perteneciente a: BEJAR GONZALEZ, RAMON - AN0265549322'
+    - Position: X(18.01-303.68) Y(14.55-28.29)
+    - Font: Helvetica
+    - Size: 10.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: normal
+  SPAN 2:
+    - Text: 'Página 2 de 3'
+    - Position: X(514.78-576.49) Y(14.55-28.29)
+    - Font: Helvetica
+    - Size: 10.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: normal
+
+------------------------------------------------------------
+LINE 2
+------------------------------------------------------------
+TEXT: 'Nº de muestra/laboratorioToma de muestrasÚltimo resultadoFecha del informe'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 45 px
+- Lower Y coordinate: 57.02 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 542.46 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 74
+- Word count: 8
+- Span count: 4
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Nº de muestra/laboratorio'
+    - Position: X(18.01-118.47) Y(44.55-57.02)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Toma de muestras'
+    - Position: X(158.32-229.32) Y(44.55-57.02)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 3:
+    - Text: 'Último resultado'
+    - Position: X(298.64-363.39) Y(44.55-57.02)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'Fecha del informe'
+    - Position: X(472.97-542.46) Y(44.55-57.02)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #3a558c (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 3
+------------------------------------------------------------
+TEXT: '5183327516/09/2025 09:3917/09/2025 12:1817/09/2025 12:40'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 58 px
+- Lower Y coordinate: 70.12 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 536.72 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 56
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '51833275'
+    - Position: X(18.01-54.01) Y(58.11-70.12)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '16/09/2025 09:39'
+    - Position: X(158.32-222.08) Y(58.11-70.12)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: '17/09/2025 12:18'
+    - Position: X(298.64-362.4) Y(58.11-70.12)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '17/09/2025 12:40'
+    - Position: X(472.97-536.72) Y(58.11-70.12)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 4
+------------------------------------------------------------
+TEXT: 'Pruebas Solicitadas'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 71 px
+- Lower Y coordinate: 83.5 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 93.26 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 19
+- Word count: 2
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 5
+------------------------------------------------------------
+TEXT: 'PruebaResultadoUnidadValores referencia'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 93 px
+- Lower Y coordinate: 105.57 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 543.69 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 39
+- Word count: 2
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Prueba'
+    - Position: X(18.01-46.01) Y(93.11-105.57)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: 'Resultado'
+    - Position: X(298.64-337.14) Y(93.11-105.57)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 3:
+    - Text: 'Unidad'
+    - Position: X(416.28-444.79) Y(93.11-105.57)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 4:
+    - Text: 'Valores referencia'
+    - Position: X(472.97-543.69) Y(93.11-105.57)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+
+------------------------------------------------------------
+LINE 6
+------------------------------------------------------------
+TEXT: 'Albúmina4,5g/dL3,5 - 5,2'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 107 px
+- Lower Y coordinate: 118.93 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 24
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Albúmina'
+    - Position: X(23.01-59.01) Y(106.92-118.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '4,5'
+    - Position: X(304.31-315.56) Y(106.92-118.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'g/dL'
+    - Position: X(416.28-433.28) Y(106.92-118.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '3,5 - 5,2'
+    - Position: X(472.97-502.97) Y(106.92-118.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 7
+------------------------------------------------------------
+TEXT: 'Proteínas totales6,6g/dL6,4 - 8,3'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 120 px
+- Lower Y coordinate: 131.83 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 33
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Proteínas totales'
+    - Position: X(23.01-82.25) Y(119.82-131.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '6,6'
+    - Position: X(304.31-315.56) Y(119.82-131.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'g/dL'
+    - Position: X(416.28-433.28) Y(119.82-131.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '6,4 - 8,3'
+    - Position: X(472.97-502.97) Y(119.82-131.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 8
+------------------------------------------------------------
+TEXT: 'Urea*59mg/dL10 - 50'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 133 px
+- Lower Y coordinate: 144.73 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 498.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 19
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Urea'
+    - Position: X(23.01-40.49) Y(132.72-144.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*59'
+    - Position: X(298.64-313.31) Y(132.72-144.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(132.72-144.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '10 - 50'
+    - Position: X(472.97-498.47) Y(132.72-144.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 9
+------------------------------------------------------------
+TEXT: 'Creatinina0,95mg/dL0,70 - 1,20'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 146 px
+- Lower Y coordinate: 157.63 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 30
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Creatinina'
+    - Position: X(23.01-60.5) Y(145.62-157.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '0,95'
+    - Position: X(304.31-320.06) Y(145.62-157.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(145.62-157.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,70 - 1,20'
+    - Position: X(472.97-511.97) Y(145.62-157.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 10
+------------------------------------------------------------
+TEXT: 'Ácido úrico4,6mg/dL3,4 - 7,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 159 px
+- Lower Y coordinate: 170.53 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 28
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Ácido úrico'
+    - Position: X(23.01-65.75) Y(158.52-170.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '4,6'
+    - Position: X(304.31-315.56) Y(158.52-170.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(158.52-170.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '3,4 - 7,0'
+    - Position: X(472.97-502.97) Y(158.52-170.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 11
+------------------------------------------------------------
+TEXT: 'Filtrado glomerular/1,73 m^2 (estimado)82mL/min'
+
+TABLE LOCATION:
+- This line is WITHIN a table
+- Table ID: 1
+- Row: 3
+- Column: 1
+- Cell BBox: [23.01, 159, 301.47, 179]
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 171 px
+- Lower Y coordinate: 183.43 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 445.28 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 4
+- Span count: 3
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Filtrado glomerular/1,73 m^2 (estimado)'
+    - Position: X(23.01-170.22) Y(171.42-183.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '82'
+    - Position: X(304.31-313.31) Y(171.42-183.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mL/min'
+    - Position: X(416.28-445.28) Y(171.42-183.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 12
+------------------------------------------------------------
+TEXT: '(Observaciones: FG 60-89: No ERC a no ser que presente albuminuria, hematuria, alteraciones en la imagen o en la anatomía patológica. Estimación del'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 183 px
+- Lower Y coordinate: 195.37 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 576.67 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 148
+- Word count: 23
+- Span count: 2
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '(Observaciones:'
+    - Position: X(23.01-85.0) Y(182.9-195.37)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' FG 60-89: No ERC a no ser que presente albuminuria, hematuria, alteraciones en la imagen o en la anatomía patológica. Estimación del'
+    - Position: X(85.0-576.67) Y(182.82-194.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 13
+------------------------------------------------------------
+TEXT: 'Filtrado Glomerular ecuación CKD-EPI 2009)'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 193 px
+- Lower Y coordinate: 204.73 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 190.48 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 42
+- Word count: 5
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 14
+------------------------------------------------------------
+TEXT: 'Colesterol160mg/dL100 - 200'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 212 px
+- Lower Y coordinate: 223.83 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 27
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Colesterol'
+    - Position: X(23.01-60.01) Y(211.82-223.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '160'
+    - Position: X(304.31-317.81) Y(211.82-223.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(211.82-223.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '100 - 200'
+    - Position: X(472.97-507.47) Y(211.82-223.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 15
+------------------------------------------------------------
+TEXT: 'Colesterol de HDL*37mg/dL40 -'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 225 px
+- Lower Y coordinate: 236.73 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 487.22 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 29
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Colesterol de HDL'
+    - Position: X(23.01-91.5) Y(224.72-236.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*37'
+    - Position: X(298.64-313.31) Y(224.72-236.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(224.72-236.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '40 -'
+    - Position: X(472.97-487.22) Y(224.72-236.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 16
+------------------------------------------------------------
+TEXT: 'Colesterol de LDL (calculado)102mg/dL100 - 160'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 238 px
+- Lower Y coordinate: 249.63 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 46
+- Word count: 6
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Colesterol de LDL (calculado)'
+    - Position: X(23.01-133.23) Y(237.62-249.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '102'
+    - Position: X(304.31-317.81) Y(237.62-249.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(237.62-249.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '100 - 160'
+    - Position: X(472.97-507.47) Y(237.62-249.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 17
+------------------------------------------------------------
+TEXT: '(Observaciones: Los niveles deseables de cLDL recomendados en función del Riesgo Cardiovascular (RCV) del paciente: Si la categoria de RCV es'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 249 px
+- Lower Y coordinate: 261.57 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 561.41 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 141
+- Word count: 21
+- Span count: 2
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '(Observaciones:'
+    - Position: X(23.01-85.0) Y(249.1-261.57)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' Los niveles deseables de cLDL recomendados en función del Riesgo Cardiovascular (RCV) del paciente: Si la categoria de RCV es'
+    - Position: X(85.0-561.41) Y(249.02-261.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 18
+------------------------------------------------------------
+TEXT: 'muy elevada, el cLDL deseable < 55 mg/dL Si la categoria de RCV es elevada, el cLDL deseable < 70 mg/dL Si la categoria de RCV es moderada, el'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 259 px
+- Lower Y coordinate: 270.93 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 562.8 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 142
+- Word count: 29
+- Span count: 1
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 19
+------------------------------------------------------------
+TEXT: 'cLDL deseable < 100 mg/dL Si la categoría de RCV es baja, el cLDL deseable < 116 mg/dL)'
+
+TABLE LOCATION:
+- This line is WITHIN a table
+- Table ID: 3
+- Row: 2
+- Column: 1
+- Cell BBox: [23.01, 238, 302.42, 288]
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 269 px
+- Lower Y coordinate: 280.83 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 359.6 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 87
+- Word count: 18
+- Span count: 1
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 20
+------------------------------------------------------------
+TEXT: 'Colesterol de VLDL (calculado)21mg/dL14 - 70'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 288 px
+- Lower Y coordinate: 299.93 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 498.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 44
+- Word count: 6
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Colesterol de VLDL (calculado)'
+    - Position: X(23.01-139.73) Y(287.92-299.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '21'
+    - Position: X(304.31-313.31) Y(287.92-299.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(287.92-299.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '14 - 70'
+    - Position: X(472.97-498.47) Y(287.92-299.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 21
+------------------------------------------------------------
+TEXT: 'Colesterol no HDL (calculado)123mg/dL- 131'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 301 px
+- Lower Y coordinate: 312.83 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 491.72 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 42
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Colesterol no HDL (calculado)'
+    - Position: X(23.01-134.73) Y(300.82-312.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '123'
+    - Position: X(304.31-317.81) Y(300.82-312.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(300.82-312.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '- 131'
+    - Position: X(472.97-491.72) Y(300.82-312.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 22
+------------------------------------------------------------
+TEXT: '(Observaciones: Los niveles deseables de C no-HDL recomendados en función del Riesgo Cardiovascular (RCV) del paciente: Si la categoría de RCV es'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 312 px
+- Lower Y coordinate: 324.77 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 578.66 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 145
+- Word count: 22
+- Span count: 2
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '(Observaciones:'
+    - Position: X(23.01-85.0) Y(312.3-324.77)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' Los niveles deseables de C no-HDL recomendados en función del Riesgo Cardiovascular (RCV) del paciente: Si la categoría de RCV es'
+    - Position: X(85.0-578.66) Y(312.22-324.23)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 23
+------------------------------------------------------------
+TEXT: 'muy elevado, el C no-HDL deseable es <85 mg/dL. Si la categoría de RCV es elevado, el C no-HDL deseable es <100 mg/dL. Si la categoría de RCV es'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 322 px
+- Lower Y coordinate: 334.13 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 573.57 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 144
+- Word count: 29
+- Span count: 1
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 24
+------------------------------------------------------------
+TEXT: 'moderado, el C no-HDL deseable es <130 mg/dL.)'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 332 px
+- Lower Y coordinate: 344.03 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 206.3 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 46
+- Word count: 8
+- Span count: 1
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 25
+------------------------------------------------------------
+TEXT: 'Triglicéridos103mg/dL30 - 150'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 351 px
+- Lower Y coordinate: 363.13 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 29
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Triglicéridos'
+    - Position: X(23.01-69.5) Y(351.12-363.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '103'
+    - Position: X(304.31-317.81) Y(351.12-363.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(351.12-363.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '30 - 150'
+    - Position: X(472.97-502.97) Y(351.12-363.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 26
+------------------------------------------------------------
+TEXT: 'Colesterol/Colesterol de HDL*4,32ratio- 3,50'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 364 px
+- Lower Y coordinate: 376.03 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 493.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 44
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Colesterol/Colesterol de HDL'
+    - Position: X(23.01-131.0) Y(364.02-376.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*4,32'
+    - Position: X(298.64-320.06) Y(364.02-376.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'ratio'
+    - Position: X(416.28-432.77) Y(364.02-376.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '- 3,50'
+    - Position: X(472.97-493.97) Y(364.02-376.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 27
+------------------------------------------------------------
+TEXT: '(Observaciones: Objetivo en paciente de muy alto riesgo cardiovascular: < 3,5 en varones y < 3 en mujeres.)'
+
+TABLE LOCATION:
+- This line is WITHIN a table
+- Table ID: 6
+- Row: 1
+- Column: 1
+- Cell BBox: [23.01, 364, 301.47, 395]
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 376 px
+- Lower Y coordinate: 387.97 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 417.33 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 107
+- Word count: 18
+- Span count: 2
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '(Observaciones:'
+    - Position: X(23.01-85.0) Y(375.5-387.97)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' Objetivo en paciente de muy alto riesgo cardiovascular: < 3,5 en varones y < 3 en mujeres.)'
+    - Position: X(85.0-417.33) Y(375.42-387.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 28
+------------------------------------------------------------
+TEXT: 'Triglicéridos/Colesterol de HDL*2,78ratio- 2,00'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 395 px
+- Lower Y coordinate: 406.53 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 493.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Triglicéridos/Colesterol de HDL'
+    - Position: X(23.01-140.49) Y(394.52-406.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*2,78'
+    - Position: X(298.64-320.06) Y(394.52-406.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'ratio'
+    - Position: X(416.28-432.77) Y(394.52-406.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '- 2,00'
+    - Position: X(472.97-493.97) Y(394.52-406.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 29
+------------------------------------------------------------
+TEXT: '(Observaciones: Si el cociente TG/c-HDL es >2, indica presencia de partículas LDL pequeñas y densas potencialmente aterogénicas.)'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 406 px
+- Lower Y coordinate: 418.47 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 508.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 129
+- Word count: 17
+- Span count: 2
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '(Observaciones:'
+    - Position: X(23.01-85.0) Y(406.0-418.47)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' Si el cociente TG/c-HDL es >2, indica presencia de partículas LDL pequeñas y densas potencialmente aterogénicas.)'
+    - Position: X(85.0-508.47) Y(405.92-417.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 30
+------------------------------------------------------------
+TEXT: 'Bilirrubina total1,17mg/dL0,00 - 1,20'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 425 px
+- Lower Y coordinate: 437.03 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 37
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Bilirrubina total'
+    - Position: X(23.01-80.76) Y(425.02-437.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '1,17'
+    - Position: X(304.31-320.06) Y(425.02-437.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(425.02-437.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,00 - 1,20'
+    - Position: X(472.97-511.97) Y(425.02-437.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 31
+------------------------------------------------------------
+TEXT: 'Lactato deshidrogenasa193U/L0 - 250'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 438 px
+- Lower Y coordinate: 449.93 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 498.46 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 35
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Lactato deshidrogenasa'
+    - Position: X(23.01-107.73) Y(437.92-449.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '193'
+    - Position: X(304.31-317.81) Y(437.92-449.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'U/L'
+    - Position: X(416.28-430.77) Y(437.92-449.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0 - 250'
+    - Position: X(472.97-498.46) Y(437.92-449.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 32
+------------------------------------------------------------
+TEXT: 'Gamma glutamiltransferasa*626U/L8 - 61'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 451 px
+- Lower Y coordinate: 462.83 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 493.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 38
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Gamma glutamiltransferasa'
+    - Position: X(23.01-122.74) Y(450.82-462.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*626'
+    - Position: X(298.64-317.81) Y(450.82-462.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'U/L'
+    - Position: X(416.28-430.78) Y(450.82-462.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '8 - 61'
+    - Position: X(472.97-493.97) Y(450.82-462.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 33
+------------------------------------------------------------
+TEXT: 'Aspartato transaminasa*65U/L0 - 40'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 464 px
+- Lower Y coordinate: 475.73 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 493.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 34
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Aspartato transaminasa'
+    - Position: X(23.01-107.24) Y(463.72-475.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*65'
+    - Position: X(298.64-313.31) Y(463.72-475.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'U/L'
+    - Position: X(416.28-430.78) Y(463.72-475.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0 - 40'
+    - Position: X(472.97-493.97) Y(463.72-475.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 34
+------------------------------------------------------------
+TEXT: 'Alanina transaminasa*51U/L0 - 41'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 477 px
+- Lower Y coordinate: 488.63 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 493.96 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 32
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Alanina transaminasa'
+    - Position: X(23.01-100.74) Y(476.62-488.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*51'
+    - Position: X(298.64-313.31) Y(476.62-488.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'U/L'
+    - Position: X(416.28-430.77) Y(476.62-488.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0 - 41'
+    - Position: X(472.97-493.96) Y(476.62-488.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 35
+------------------------------------------------------------
+TEXT: 'Triacilglicerol lipasa*67U/L13 - 60'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 490 px
+- Lower Y coordinate: 501.53 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 498.46 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 35
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Triacilglicerol lipasa'
+    - Position: X(23.01-97.74) Y(489.52-501.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*67'
+    - Position: X(298.64-313.31) Y(489.52-501.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'U/L'
+    - Position: X(416.28-430.77) Y(489.52-501.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '13 - 60'
+    - Position: X(472.97-498.46) Y(489.52-501.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 36
+------------------------------------------------------------
+TEXT: 'Fosfatasa alcalina*412U/L40 - 129'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 502 px
+- Lower Y coordinate: 514.43 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 33
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Fosfatasa alcalina'
+    - Position: X(23.01-87.24) Y(502.42-514.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*412'
+    - Position: X(298.64-317.81) Y(502.42-514.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'U/L'
+    - Position: X(416.28-430.78) Y(502.42-514.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '40 - 129'
+    - Position: X(472.97-502.97) Y(502.42-514.43)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 37
+------------------------------------------------------------
+TEXT: 'alfa-Amilasa70U/L28 - 100'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 515 px
+- Lower Y coordinate: 527.33 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.96 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 25
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'alfa-Amilasa'
+    - Position: X(23.01-69.49) Y(515.32-527.33)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '70'
+    - Position: X(304.31-313.31) Y(515.32-527.33)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'U/L'
+    - Position: X(416.28-430.77) Y(515.32-527.33)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '28 - 100'
+    - Position: X(472.97-502.96) Y(515.32-527.33)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 38
+------------------------------------------------------------
+TEXT: 'Sodio*147mEq/L136 - 145'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 528 px
+- Lower Y coordinate: 540.23 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 23
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Sodio'
+    - Position: X(23.01-44.01) Y(528.22-540.23)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*147'
+    - Position: X(298.64-317.81) Y(528.22-540.23)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mEq/L'
+    - Position: X(416.28-441.28) Y(528.22-540.23)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '136 - 145'
+    - Position: X(472.97-507.47) Y(528.22-540.23)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 39
+------------------------------------------------------------
+TEXT: 'Potasio4,1mEq/L3,5 - 5,1'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 541 px
+- Lower Y coordinate: 553.13 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 24
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Potasio'
+    - Position: X(23.01-49.51) Y(541.12-553.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '4,1'
+    - Position: X(304.31-315.56) Y(541.12-553.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mEq/L'
+    - Position: X(416.28-441.28) Y(541.12-553.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '3,5 - 5,1'
+    - Position: X(472.97-502.97) Y(541.12-553.13)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 40
+------------------------------------------------------------
+TEXT: 'Calcio9,5mg/dL8,5 - 10,2'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 554 px
+- Lower Y coordinate: 566.03 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 24
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Calcio'
+    - Position: X(23.01-46.51) Y(554.02-566.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '9,5'
+    - Position: X(304.31-315.56) Y(554.02-566.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(554.02-566.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '8,5 - 10,2'
+    - Position: X(472.97-507.47) Y(554.02-566.03)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 41
+------------------------------------------------------------
+TEXT: 'Calcio (corregido; proteínas)9,9mg/dL8,5 - 10,2'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 567 px
+- Lower Y coordinate: 578.93 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Calcio (corregido; proteínas)'
+    - Position: X(23.01-126.98) Y(566.92-578.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '9,9'
+    - Position: X(304.31-315.56) Y(566.92-578.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(566.92-578.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '8,5 - 10,2'
+    - Position: X(472.97-507.47) Y(566.92-578.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 42
+------------------------------------------------------------
+TEXT: 'Fósforo3,0mg/dL2,7 - 4,5'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 580 px
+- Lower Y coordinate: 591.83 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 24
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Fósforo'
+    - Position: X(23.01-51.01) Y(579.82-591.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '3,0'
+    - Position: X(304.31-315.56) Y(579.82-591.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(579.82-591.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '2,7 - 4,5'
+    - Position: X(472.97-502.97) Y(579.82-591.83)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 43
+------------------------------------------------------------
+TEXT: 'Magnesio2,10mg/dL1,70 - 2,55'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 593 px
+- Lower Y coordinate: 604.73 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 28
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Magnesio'
+    - Position: X(23.01-58.5) Y(592.72-604.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '2,10'
+    - Position: X(304.31-320.06) Y(592.72-604.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(592.72-604.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '1,70 - 2,55'
+    - Position: X(472.97-511.97) Y(592.72-604.73)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 44
+------------------------------------------------------------
+TEXT: 'Hierro*50µg/dL59 - 158'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 606 px
+- Lower Y coordinate: 617.63 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 22
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Hierro'
+    - Position: X(23.01-46.5) Y(605.62-617.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*50'
+    - Position: X(298.64-313.31) Y(605.62-617.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'µg/dL'
+    - Position: X(416.28-437.78) Y(605.62-617.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '59 - 158'
+    - Position: X(472.97-502.97) Y(605.62-617.63)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 45
+------------------------------------------------------------
+TEXT: 'Estado nutricional, índice CONUT (informe)4'
+
+TABLE LOCATION:
+- This line is WITHIN a table
+- Table ID: 6
+- Row: 17
+- Column: 1
+- Cell BBox: [23.01, 606, 301.47, 626]
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 619 px
+- Lower Y coordinate: 630.53 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 308.81 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 43
+- Word count: 5
+- Span count: 2
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Estado nutricional, índice CONUT (informe)'
+    - Position: X(23.01-185.23) Y(618.52-630.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '4'
+    - Position: X(304.31-308.81) Y(618.52-630.53)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 46
+------------------------------------------------------------
+TEXT: '(Observaciones: Estudio nutricional (CONUT, basado en cifras de colesterol, albúmina y leucocitos) : Riesgo BAJO de desnutrición.)'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 630 px
+- Lower Y coordinate: 642.47 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 508.69 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 130
+- Word count: 17
+- Span count: 2
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '(Observaciones:'
+    - Position: X(23.01-85.0) Y(630.0-642.47)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' Estudio nutricional (CONUT, basado en cifras de colesterol, albúmina y leucocitos) : Riesgo BAJO de desnutrición.)'
+    - Position: X(85.0-508.69) Y(629.92-641.93)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 47
+------------------------------------------------------------
+TEXT: 'PROTEÍNAS ESPECÍFICAS (SANGRE)'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 663 px
+- Lower Y coordinate: 675.0 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 178.02 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 30
+- Word count: 3
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: Yes
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 48
+------------------------------------------------------------
+TEXT: 'alfa-1-Glicoproteína ácida64,8mg/dL50,0 - 120,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 675 px
+- Lower Y coordinate: 687.26 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 516.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 47
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'alfa-1-Glicoproteína ácida'
+    - Position: X(23.01-117.72) Y(675.25-687.26)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '64,8'
+    - Position: X(304.31-320.06) Y(675.25-687.26)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(675.25-687.26)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '50,0 - 120,0'
+    - Position: X(472.97-516.47) Y(675.25-687.26)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 49
+------------------------------------------------------------
+TEXT: 'Proteína C reactiva3,1mg/L0,0 - 5,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 688 px
+- Lower Y coordinate: 700.16 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 502.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 35
+- Word count: 5
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Proteína C reactiva'
+    - Position: X(23.01-91.99) Y(688.15-700.16)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '3,1'
+    - Position: X(304.31-315.56) Y(688.15-700.16)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/L'
+    - Position: X(416.28-435.78) Y(688.15-700.16)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '0,0 - 5,0'
+    - Position: X(472.97-502.97) Y(688.15-700.16)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 50
+------------------------------------------------------------
+TEXT: 'Prealbúmina*0,1mg/dL20,0 - 40,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 701 px
+- Lower Y coordinate: 713.06 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 511.97 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 31
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Prealbúmina'
+    - Position: X(23.01-68.5) Y(701.05-713.06)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*0,1'
+    - Position: X(298.64-315.56) Y(701.05-713.06)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'mg/dL'
+    - Position: X(416.28-440.28) Y(701.05-713.06)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '20,0 - 40,0'
+    - Position: X(472.97-511.97) Y(701.05-713.06)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 51
+------------------------------------------------------------
+TEXT: 'Ferritina102,8ng/mL30,0 - 400,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 714 px
+- Lower Y coordinate: 725.96 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 516.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 31
+- Word count: 3
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Ferritina'
+    - Position: X(23.01-54.0) Y(713.95-725.96)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '102,8'
+    - Position: X(304.31-324.56) Y(713.95-725.96)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'ng/mL'
+    - Position: X(416.28-440.28) Y(713.95-725.96)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '30,0 - 400,0'
+    - Position: X(472.97-516.47) Y(713.95-725.96)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 52
+------------------------------------------------------------
+TEXT: 'VITAMINAS (SANGRE)'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 740 px
+- Lower Y coordinate: 752.83 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 116.25 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 18
+- Word count: 2
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: Yes
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 53
+------------------------------------------------------------
+TEXT: 'Vitamina B12*798pg/mL197 - 771'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 753 px
+- Lower Y coordinate: 765.09 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 30
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Vitamina B12'
+    - Position: X(23.01-73.76) Y(753.08-765.09)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '*798'
+    - Position: X(298.64-317.81) Y(753.08-765.09)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'pg/mL'
+    - Position: X(416.28-440.28) Y(753.08-765.09)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '197 - 771'
+    - Position: X(472.97-507.47) Y(753.08-765.09)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 54
+------------------------------------------------------------
+TEXT: 'Vitamina D (25 OH)26,2ng/mL20,0 - 100,0'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 766 px
+- Lower Y coordinate: 777.98 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 516.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 39
+- Word count: 6
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Vitamina D (25 OH)'
+    - Position: X(23.01-97.74) Y(765.98-777.98)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '26,2'
+    - Position: X(304.31-320.06) Y(765.98-777.98)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'ng/mL'
+    - Position: X(416.28-440.28) Y(765.98-777.98)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '20,0 - 100,0'
+    - Position: X(472.97-516.47) Y(765.98-777.98)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 55
+------------------------------------------------------------
+TEXT: '(Observaciones: < 12 ng/mlSe considera deficiencia Vitamina D (25OH) 12-20 ng/mlSe considera insuficiencia Vitamina D (25OH) >20 ng/ml Se'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 777 px
+- Lower Y coordinate: 789.92 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 566.34 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 137
+- Word count: 19
+- Span count: 4
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: '(Observaciones:'
+    - Position: X(23.01-85.0) Y(777.46-789.92)
+    - Font: Times-Bold
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: bold, monospace
+  SPAN 2:
+    - Text: ' < 12 ng/ml'
+    - Position: X(85.0-126.83) Y(777.38-789.39)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'Se considera deficiencia Vitamina D (25OH) 12-20 ng/ml'
+    - Position: X(133.58-342.29) Y(777.38-789.39)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: 'Se considera insuficiencia Vitamina D (25OH) >20 ng/ml Se'
+    - Position: X(346.79-566.34) Y(777.38-789.39)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+------------------------------------------------------------
+LINE 56
+------------------------------------------------------------
+TEXT: 'considera suficiencia Vitamina D (25OH) >100 ng/ml Se considera riesgo de toxicidad Vitamina D (25OH))'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 787 px
+- Lower Y coordinate: 799.28 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 414.01 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 102
+- Word count: 15
+- Span count: 1
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 57
+------------------------------------------------------------
+TEXT: 'Ácido fólico16,6ng/mL3,9 - 26,8'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 806 px
+- Lower Y coordinate: 818.39 px
+- Start X coordinate: 23.01 px
+- End X coordinate: 507.47 px
+- Left indentation: 23.01 px (3.87% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 31
+- Word count: 4
+- Span count: 4
+- Likely title: Yes
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Ácido fólico'
+    - Position: X(23.01-68.25) Y(806.38-818.39)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 2:
+    - Text: '16,6'
+    - Position: X(304.31-320.06) Y(806.38-818.39)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 3:
+    - Text: 'ng/mL'
+    - Position: X(416.28-440.28) Y(806.38-818.39)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+  SPAN 4:
+    - Text: '3,9 - 26,8'
+    - Position: X(472.97-507.47) Y(806.38-818.39)
+    - Font: Times-Roman
+    - Size: 9.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: monospace
+
+
+================================================================================
+PAGE 3
+================================================================================
+Dimensions: 595.0 x 842.0 pixels
+Total lines: 4
+Total detected tables: 0
+
+------------------------------------------------------------
+LINE 1
+------------------------------------------------------------
+TEXT: 'Perteneciente a: BEJAR GONZALEZ, RAMON - AN0265549322Página 3 de 3'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 15 px
+- Lower Y coordinate: 28.29 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 579.27 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Helvetica
+- Size: 10.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: normal
+
+ADDITIONAL METADATA:
+- Length in characters: 66
+- Word count: 10
+- Span count: 2
+- Likely title: No
+- Contains numbers: Yes
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+SPAN DETAILS:
+  SPAN 1:
+    - Text: 'Perteneciente a: BEJAR GONZALEZ, RAMON - AN0265549322'
+    - Position: X(18.01-303.68) Y(14.55-28.29)
+    - Font: Helvetica
+    - Size: 10.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: normal
+  SPAN 2:
+    - Text: 'Página 3 de 3'
+    - Position: X(517.56-579.27) Y(14.55-28.29)
+    - Font: Helvetica
+    - Size: 10.0 pt
+    - Color: #000000 (0, 0, 0)
+    - Styles: normal
+
+------------------------------------------------------------
+LINE 2
+------------------------------------------------------------
+TEXT: 'Validado por'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 50 px
+- Lower Y coordinate: 62.02 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 68.77 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Bold
+- Size: 9.0 points
+- Color (hex): #3a558c
+- Color (RGB): (0.22745098039215686, 0.3333333333333333, 0.5490196078431373)
+- Styles: bold, monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 12
+- Word count: 2
+- Span count: 1
+- Likely title: Yes
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 3
+------------------------------------------------------------
+TEXT: 'Validado por sistema según criterios establecidos., ; Validación técnica; System Validation Daemon Daemon, ; Aurora Úrsula Muñoz - FEA Análisis'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 63 px
+- Lower Y coordinate: 75.12 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 556.43 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 143
+- Word count: 20
+- Span count: 1
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+------------------------------------------------------------
+LINE 4
+------------------------------------------------------------
+TEXT: 'Clínicos, ; NIETO HERNANDEZ, MARIA DEL MAR'
+
+LOCATION: Outside tables (free text)
+
+POSITION AND INDENTATION:
+- Upper Y coordinate: 73 px
+- Lower Y coordinate: 85.02 px
+- Start X coordinate: 18.01 px
+- End X coordinate: 218.49 px
+- Left indentation: 18.01 px (3.03% of width)
+
+MAIN FORMAT:
+- Font: Times-Roman
+- Size: 9.0 points
+- Color (hex): #000000
+- Color (RGB): (0, 0, 0)
+- Styles: monospace
+
+ADDITIONAL METADATA:
+- Length in characters: 42
+- Word count: 7
+- Span count: 1
+- Likely title: No
+- Contains numbers: No
+- All caps: No
+- Leading spaces: 0
+- Trailing spaces: 0
+
+
