@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF
+import pymupdf as fitz  # PyMuPDF
 import json
 import logging
 from collections import defaultdict
@@ -6,7 +6,6 @@ import re
 
 
 from preprocess.readers.pdf_analyzer import PDFLineAnalyzer
-
 import traceback
 
 class PDFReader:
@@ -80,20 +79,99 @@ class PDFReader:
             analyzer.close()
 
     @staticmethod
-    def extract_only_text(pdf_path, include_tables=True):
+    def extract_only_text(pdf_path, include_tables=True, clean_medical_report=True):
         """
         Extracts only the text from the PDF simply while respecting the detected structure.
+        Can clean medical report formats by removing template text and empty fields.
         """
         analyzer = PDFLineAnalyzer(pdf_path)
         try:
             analysis = analyzer.analyze_full_document()
             texto_completo = []
+            
+            in_patient_data_section = False
+            stop_extraction = False
+            
             for page in analysis["paginas"]:
-                texto_completo.append(f"\n--- PAGE {page['pagina']} ---\n")
+                if stop_extraction:
+                    break
+                    
                 for line in page["lineas"]:
+                    if stop_extraction:
+                        break
+                        
                     if not include_tables and line["ubicacion_tabla"]["ubicacion"] == "dentro_tabla":
                         continue
-                    texto_completo.append(line["texto_completo"])
+                        
+                    if not clean_medical_report:
+                        texto_completo.append(line["texto_completo"])
+                        continue
+                        
+                    line_text_parts = []
+                    last_x1 = None
+                    for span in line["spans_detallados"]:
+                        texto = span["texto"].strip()
+                        if not texto:
+                            continue
+                            
+                        is_bold = "bold" in span["estilos"]
+                        is_large = span["tamaño"] > 9.0
+                        color = span["color_hex"]
+                        
+                        if is_bold and is_large:
+                            texto_lower = texto.lower()
+                            if "paciente" in texto_lower or "peticionario" in texto_lower:
+                                in_patient_data_section = True
+                                continue
+                            elif "datos del informe" in texto_lower or "datos de informe" in texto_lower or "datos clínicos" in texto_lower or "sospecha diagnóstica" in texto_lower:
+                                in_patient_data_section = False
+                                last_x1 = span.get("posicion", {}).get("x1")
+                                line_text_parts.append(texto)
+                                continue
+                                
+                        texto_lower = texto.lower()
+                        is_hospital_header = any(h in texto_lower for h in [
+                            "complejo hospitalario", 
+                            "servicio:", 
+                            "unidad:", 
+                            "teléfono:"
+                        ])
+                        
+                        if is_hospital_header:
+                            continue
+                            
+                        if in_patient_data_section:
+                            continue
+                            
+                        if last_x1 is not None:
+                            distance = span.get("posicion", {}).get("x0", 0) - last_x1
+                            if distance > 15:
+                                # Calculamos el número de espacios de forma proporcional a la distancia real
+                                num_spaces = max(5, int(distance / 3))
+                                line_text_parts.append(" " * num_spaces)
+                            else:
+                                line_text_parts.append(" ")
+                                
+                        line_text_parts.append(texto)
+                        last_x1 = span.get("posicion", {}).get("x1")
+                        
+                    if line_text_parts:
+                        line_text = "".join(line_text_parts)
+                        
+                        line_text_lower = line_text.lower()
+                        if line_text_lower.startswith("estado del informe:"):
+                            stop_extraction = True
+                            break
+                            
+                        if re.match(r"^page \d+ of \d+$", line_text_lower):
+                            continue
+                        if line_text_lower.startswith("código de informe:"):
+                            continue
+                        if line_text_lower.startswith("http://") or line_text_lower.startswith("https://"):
+                            continue
+                            
+                        texto_completo.append(line_text)
+                        
             return "\n".join(texto_completo)
         finally:
             analyzer.close()

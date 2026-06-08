@@ -1,0 +1,4665 @@
+{
+  "archivo": "2025_6 TC.pdf",
+  "total_paginas": 2,
+  "metadatos": {
+    "format": "PDF 1.7",
+    "title": "http://emdae.complejohospitalariodejaen.sas.junta-andalucia.es/",
+    "author": "Urbano Moral, Jose Angel",
+    "subject": "",
+    "keywords": "",
+    "creator": "",
+    "producer": "Microsoft: Print To PDF",
+    "creationDate": "D:20260305135706+01'00'",
+    "modDate": "D:20260305135706+01'00'",
+    "trapped": "",
+    "encryption": null
+  },
+  "paginas": [
+    {
+      "pagina": 1,
+      "dimensiones": {
+        "ancho": 594.75,
+        "alto": 841.5
+      },
+      "tablas": [
+        {
+          "bbox": [
+            404.08,
+            92,
+            404.08,
+            142
+          ],
+          "num_rows": 3,
+          "num_columns": 0,
+          "rows_y": [
+            92,
+            107,
+            122,
+            142
+          ],
+          "columns_x": [
+            404.08
+          ],
+          "cells": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "bbox": [
+            55.5,
+            166,
+            55.5,
+            320
+          ],
+          "num_rows": 3,
+          "num_columns": 0,
+          "rows_y": [
+            166,
+            257,
+            300,
+            320
+          ],
+          "columns_x": [
+            55.5
+          ],
+          "cells": [
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "bbox": [
+            59.25,
+            257,
+            59.25,
+            554
+          ],
+          "num_rows": 10,
+          "num_columns": 0,
+          "rows_y": [
+            257,
+            300,
+            390,
+            422,
+            444,
+            454,
+            483,
+            494,
+            513,
+            534,
+            554
+          ],
+          "columns_x": [
+            59.25
+          ],
+          "cells": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "bbox": [
+            61.12,
+            483,
+            61.12,
+            554
+          ],
+          "num_rows": 4,
+          "num_columns": 0,
+          "rows_y": [
+            483,
+            494,
+            513,
+            534,
+            554
+          ],
+          "columns_x": [
+            61.12
+          ],
+          "cells": [
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "bbox": [
+            61.12,
+            584,
+            61.12,
+            789
+          ],
+          "num_rows": 15,
+          "num_columns": 0,
+          "rows_y": [
+            584,
+            595,
+            614,
+            625,
+            645,
+            654,
+            664,
+            673,
+            683,
+            702,
+            721,
+            731,
+            750,
+            760,
+            769,
+            789
+          ],
+          "columns_x": [
+            61.12
+          ],
+          "cells": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        }
+      ],
+      "lineas": [
+        {
+          "numero_linea": 1,
+          "texto_completo": "Page 1 of 2",
+          "posicion": {
+            "y_superior": 0,
+            "y_inferior": 13.28,
+            "x_inicio": 486.4,
+            "x_final": 540.72
+          },
+          "sangria": {
+            "pixels": 486.4,
+            "percentage": 81.78
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F6",
+            "tamaño": 12.0,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "monospace"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Page 1 of 2",
+              "posicion": {
+                "x0": 486.4,
+                "y0": 0.0,
+                "x1": 540.72,
+                "y1": 13.28
+              },
+              "fuente": "CIDFont+F6",
+              "tamaño": 12.0,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "monospace"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 11,
+            "num_palabras": 4,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 2,
+          "texto_completo": "Complejo Hospitalario de Jaén",
+          "posicion": {
+            "y_superior": 73,
+            "y_inferior": 87.13,
+            "x_inicio": 351.17,
+            "x_final": 534.39
+          },
+          "sangria": {
+            "pixels": 351.17,
+            "percentage": 59.04
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 12.0,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Complejo Hospitalario de Jaén",
+              "posicion": {
+                "x0": 351.17,
+                "y0": 72.66,
+                "x1": 534.39,
+                "y1": 87.13
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 12.0,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 29,
+            "num_palabras": 4,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 3,
+          "texto_completo": "Servicio: Radiodiagnóstico",
+          "posicion": {
+            "y_superior": 92,
+            "y_inferior": 102.48,
+            "x_inicio": 404.08,
+            "x_final": 523.86
+          },
+          "sangria": {
+            "pixels": 404.08,
+            "percentage": 67.94
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 9.0,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Servicio: Radiodiagnóstico",
+              "posicion": {
+                "x0": 404.08,
+                "y0": 91.63,
+                "x1": 523.86,
+                "y1": 102.48
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 9.0,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 26,
+            "num_palabras": 2,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 4,
+          "texto_completo": "Unidad:",
+          "posicion": {
+            "y_superior": 107,
+            "y_inferior": 117.83,
+            "x_inicio": 404.08,
+            "x_final": 439.19
+          },
+          "sangria": {
+            "pixels": 404.08,
+            "percentage": 67.94
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 9.0,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Unidad:",
+              "posicion": {
+                "x0": 404.08,
+                "y0": 106.98,
+                "x1": 439.19,
+                "y1": 117.83
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 9.0,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 7,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 5,
+          "texto_completo": "Teléfono: ",
+          "posicion": {
+            "y_superior": 122,
+            "y_inferior": 132.27,
+            "x_inicio": 404.08,
+            "x_final": 445.43
+          },
+          "sangria": {
+            "pixels": 404.08,
+            "percentage": 67.94
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Teléfono: ",
+              "posicion": {
+                "x0": 404.08,
+                "y0": 122.32,
+                "x1": 445.43,
+                "y1": 132.27
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 10,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 1
+          }
+        },
+        {
+          "numero_linea": 6,
+          "texto_completo": "Informe de Resultados de Pruebas de Imagen",
+          "posicion": {
+            "y_superior": 141,
+            "y_inferior": 154.97,
+            "x_inicio": 156.66,
+            "x_final": 433.22
+          },
+          "sangria": {
+            "pixels": 156.66,
+            "percentage": 26.34
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 12.0,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Informe de Resultados de Pruebas de Imagen",
+              "posicion": {
+                "x0": 156.66,
+                "y0": 140.51,
+                "x1": 433.22,
+                "y1": 154.97
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 12.0,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 42,
+            "num_palabras": 7,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 7,
+          "texto_completo": "Identificación del paciente",
+          "posicion": {
+            "y_superior": 166,
+            "y_inferior": 177.98,
+            "x_inicio": 55.5,
+            "x_final": 185.83
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 9.75,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Identificación del paciente",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 166.22,
+                "x1": 185.83,
+                "y1": 177.98
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 9.75,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 27,
+            "num_palabras": 3,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 8,
+          "texto_completo": "PrimerORTEGASegundoSANJUANNombre:MANUEL",
+          "posicion": {
+            "y_superior": 198,
+            "y_inferior": 208.15,
+            "x_inicio": 55.5,
+            "x_final": 528.76
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#316982",
+            "color_rgb": [
+              0.19215686274509805,
+              0.4117647058823529,
+              0.5098039215686274
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Primer",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 198.21,
+                "x1": 83.32,
+                "y1": 208.15
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "ORTEGA",
+              "posicion": {
+                "x0": 129.32,
+                "y0": 198.21,
+                "x1": 163.58,
+                "y1": 208.15
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Segundo",
+              "posicion": {
+                "x0": 196.53,
+                "y0": 198.21,
+                "x1": 232.68,
+                "y1": 208.15
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 4,
+              "texto": "SANJUAN",
+              "posicion": {
+                "x0": 254.81,
+                "y0": 198.21,
+                "x1": 294.25,
+                "y1": 208.15
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 5,
+              "texto": "Nombre:",
+              "posicion": {
+                "x0": 415.58,
+                "y0": 198.21,
+                "x1": 451.57,
+                "y1": 208.15
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 6,
+              "texto": "MANUEL",
+              "posicion": {
+                "x0": 493.51,
+                "y0": 198.21,
+                "x1": 528.76,
+                "y1": 208.15
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 39,
+            "num_palabras": 1,
+            "num_spans": 6,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 9,
+          "texto_completo": "Apellido:Apellido:",
+          "posicion": {
+            "y_superior": 208,
+            "y_inferior": 218.11,
+            "x_inicio": 55.5,
+            "x_final": 232.99
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#316982",
+            "color_rgb": [
+              0.19215686274509805,
+              0.4117647058823529,
+              0.5098039215686274
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Apellido:",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 208.16,
+                "x1": 91.97,
+                "y1": 218.11
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "Apellido:",
+              "posicion": {
+                "x0": 196.53,
+                "y0": 208.16,
+                "x1": 232.99,
+                "y1": 218.11
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 18,
+            "num_palabras": 1,
+            "num_spans": 2,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 10,
+          "texto_completo": "CIP CA (NUHSA):AN0272084694Nº HISTORIA42411 (Hospital General del H. U. de Jaén)DNI/T.Residente/25904229L",
+          "posicion": {
+            "y_superior": 223,
+            "y_inferior": 232.56,
+            "x_inicio": 55.5,
+            "x_final": 533.64
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "CIP CA (NUHSA):",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 222.61,
+                "x1": 126.51,
+                "y1": 232.56
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "AN0272084694",
+              "posicion": {
+                "x0": 129.32,
+                "y0": 222.61,
+                "x1": 193.83,
+                "y1": 232.56
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Nº HISTORIA",
+              "posicion": {
+                "x0": 196.53,
+                "y0": 222.61,
+                "x1": 252.28,
+                "y1": 232.56
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 4,
+              "texto": "42411 (Hospital General del H. U. de Jaén)",
+              "posicion": {
+                "x0": 254.81,
+                "y0": 222.61,
+                "x1": 411.19,
+                "y1": 232.56
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 5,
+              "texto": "DNI/T.Residente/",
+              "posicion": {
+                "x0": 415.58,
+                "y0": 222.61,
+                "x1": 490.62,
+                "y1": 232.56
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 6,
+              "texto": "25904229L",
+              "posicion": {
+                "x0": 493.51,
+                "y0": 222.61,
+                "x1": 533.64,
+                "y1": 232.56
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 105,
+            "num_palabras": 11,
+            "num_spans": 6,
+            "es_titulo": false,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 11,
+          "texto_completo": "CLÍNICA:Pasaporte:",
+          "posicion": {
+            "y_superior": 233,
+            "y_inferior": 242.52,
+            "x_inicio": 196.53,
+            "x_final": 460.3
+          },
+          "sangria": {
+            "pixels": 196.53,
+            "percentage": 33.04
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#316982",
+            "color_rgb": [
+              0.19215686274509805,
+              0.4117647058823529,
+              0.5098039215686274
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "CLÍNICA:",
+              "posicion": {
+                "x0": 196.53,
+                "y0": 232.57,
+                "x1": 235.23,
+                "y1": 242.52
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "Pasaporte:",
+              "posicion": {
+                "x0": 415.58,
+                "y0": 232.57,
+                "x1": 460.3,
+                "y1": 242.52
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 18,
+            "num_palabras": 1,
+            "num_spans": 2,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 12,
+          "texto_completo": "Fecha18 / 03 / 1949Teléfono:657955371Sexo:Masculino",
+          "posicion": {
+            "y_superior": 247,
+            "y_inferior": 256.96,
+            "x_inicio": 55.5,
+            "x_final": 529.12
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Fecha",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 247.01,
+                "x1": 79.75,
+                "y1": 256.96
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "18 / 03 / 1949",
+              "posicion": {
+                "x0": 129.32,
+                "y0": 247.01,
+                "x1": 181.98,
+                "y1": 256.96
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Teléfono:",
+              "posicion": {
+                "x0": 196.53,
+                "y0": 247.01,
+                "x1": 235.46,
+                "y1": 256.96
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 4,
+              "texto": "657955371",
+              "posicion": {
+                "x0": 254.81,
+                "y0": 247.01,
+                "x1": 295.34,
+                "y1": 256.96
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 5,
+              "texto": "Sexo:",
+              "posicion": {
+                "x0": 415.58,
+                "y0": 247.01,
+                "x1": 438.77,
+                "y1": 256.96
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 6,
+              "texto": "Masculino",
+              "posicion": {
+                "x0": 493.51,
+                "y0": 247.01,
+                "x1": 529.12,
+                "y1": 256.96
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 51,
+            "num_palabras": 5,
+            "num_spans": 6,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 13,
+          "texto_completo": "Nacimiento:",
+          "posicion": {
+            "y_superior": 257,
+            "y_inferior": 266.92,
+            "x_inicio": 55.5,
+            "x_final": 105.67
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#316982",
+            "color_rgb": [
+              0.19215686274509805,
+              0.4117647058823529,
+              0.5098039215686274
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Nacimiento:",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 256.97,
+                "x1": 105.67,
+                "y1": 266.92
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 11,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 14,
+          "texto_completo": "Episodio:5896319NASS:310026647342Cód. SNS:",
+          "posicion": {
+            "y_superior": 271,
+            "y_inferior": 281.36,
+            "x_inicio": 55.5,
+            "x_final": 456.16
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Episodio:",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 271.42,
+                "x1": 93.35,
+                "y1": 281.36
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "5896319",
+              "posicion": {
+                "x0": 129.32,
+                "y0": 271.42,
+                "x1": 160.84,
+                "y1": 281.36
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "NASS:",
+              "posicion": {
+                "x0": 196.53,
+                "y0": 271.42,
+                "x1": 221.97,
+                "y1": 281.36
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 4,
+              "texto": "310026647342",
+              "posicion": {
+                "x0": 254.81,
+                "y0": 271.42,
+                "x1": 308.85,
+                "y1": 281.36
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 5,
+              "texto": "Cód. SNS:",
+              "posicion": {
+                "x0": 415.58,
+                "y0": 271.42,
+                "x1": 456.16,
+                "y1": 281.36
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 42,
+            "num_palabras": 2,
+            "num_spans": 5,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 15,
+          "texto_completo": "Datos Peticionario",
+          "posicion": {
+            "y_superior": 300,
+            "y_inferior": 311.86,
+            "x_inicio": 55.5,
+            "x_final": 145.2
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 9.75,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Datos Peticionario",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 300.1,
+                "x1": 145.2,
+                "y1": 311.86
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 9.75,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 18,
+            "num_palabras": 2,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 16,
+          "texto_completo": "Centro:Edificio de Admisión y UrgenciasTeléfono Centro:Cama:3",
+          "posicion": {
+            "y_superior": 332,
+            "y_inferior": 342.03,
+            "x_inicio": 55.5,
+            "x_final": 464.92
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Centro:",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 332.09,
+                "x1": 86.27,
+                "y1": 342.03
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "Edificio de Admisión y Urgencias",
+              "posicion": {
+                "x0": 114.36,
+                "y0": 332.09,
+                "x1": 231.98,
+                "y1": 342.03
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Teléfono Centro:",
+              "posicion": {
+                "x0": 244.32,
+                "y0": 332.09,
+                "x1": 313.45,
+                "y1": 342.03
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 4,
+              "texto": "Cama:",
+              "posicion": {
+                "x0": 358.3,
+                "y0": 332.09,
+                "x1": 384.54,
+                "y1": 342.03
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 5,
+              "texto": "3",
+              "posicion": {
+                "x0": 460.42,
+                "y0": 332.09,
+                "x1": 464.92,
+                "y1": 342.03
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 61,
+            "num_palabras": 6,
+            "num_spans": 5,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 17,
+          "texto_completo": "CNP:00012452069Unidad Funcional:002610Servicio:Medicina Intensiva",
+          "posicion": {
+            "y_superior": 347,
+            "y_inferior": 356.48,
+            "x_inicio": 55.5,
+            "x_final": 528.14
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "CNP:",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 346.53,
+                "x1": 75.78,
+                "y1": 356.48
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "00012452069",
+              "posicion": {
+                "x0": 114.36,
+                "y0": 346.53,
+                "x1": 163.9,
+                "y1": 356.48
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Unidad Funcional:",
+              "posicion": {
+                "x0": 244.32,
+                "y0": 346.53,
+                "x1": 318.91,
+                "y1": 356.48
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 4,
+              "texto": "002610",
+              "posicion": {
+                "x0": 327.28,
+                "y0": 346.53,
+                "x1": 354.3,
+                "y1": 356.48
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 5,
+              "texto": "Servicio:",
+              "posicion": {
+                "x0": 358.3,
+                "y0": 346.53,
+                "x1": 394.18,
+                "y1": 356.48
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 6,
+              "texto": "Medicina Intensiva",
+              "posicion": {
+                "x0": 460.42,
+                "y0": 346.53,
+                "x1": 528.14,
+                "y1": 356.48
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 65,
+            "num_palabras": 3,
+            "num_spans": 6,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 18,
+          "texto_completo": "Peticionario:COLMENERO AGUILAR, CRISPINCategoría Profesional:",
+          "posicion": {
+            "y_superior": 361,
+            "y_inferior": 370.92,
+            "x_inicio": 55.5,
+            "x_final": 450.43
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Peticionario:",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 360.98,
+                "x1": 108.03,
+                "y1": 370.92
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "COLMENERO AGUILAR, CRISPIN",
+              "posicion": {
+                "x0": 114.36,
+                "y0": 360.98,
+                "x1": 232.96,
+                "y1": 370.92
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Categoría Profesional:",
+              "posicion": {
+                "x0": 358.3,
+                "y0": 360.98,
+                "x1": 450.43,
+                "y1": 370.92
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 61,
+            "num_palabras": 4,
+            "num_spans": 3,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 19,
+          "texto_completo": "Datos del Informe",
+          "posicion": {
+            "y_superior": 390,
+            "y_inferior": 401.42,
+            "x_inicio": 55.5,
+            "x_final": 144.37
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 9.75,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Datos del Informe",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 389.66,
+                "x1": 144.37,
+                "y1": 401.42
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 9.75,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 17,
+            "num_palabras": 3,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 20,
+          "texto_completo": "Informe Principal ",
+          "posicion": {
+            "y_superior": 422,
+            "y_inferior": 433.25,
+            "x_inicio": 55.5,
+            "x_final": 137.22
+          },
+          "sangria": {
+            "pixels": 55.5,
+            "percentage": 9.33
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 9.0,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Informe Principal ",
+              "posicion": {
+                "x0": 55.5,
+                "y0": 422.39,
+                "x1": 137.22,
+                "y1": 433.25
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 9.0,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 18,
+            "num_palabras": 2,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 1
+          }
+        },
+        {
+          "numero_linea": 21,
+          "texto_completo": "Código de Informe:  29714945",
+          "posicion": {
+            "y_superior": 444,
+            "y_inferior": 453.69,
+            "x_inicio": 63.0,
+            "x_final": 175.09
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Código de Informe:  29714945",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 443.74,
+                "x1": 175.09,
+                "y1": 453.69
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 28,
+            "num_palabras": 4,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 22,
+          "texto_completo": "Fecha de Informe:  16 / 12 / 2024",
+          "posicion": {
+            "y_superior": 454,
+            "y_inferior": 463.65,
+            "x_inicio": 63.0,
+            "x_final": 188.19
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Fecha de Informe:  16 / 12 / 2024",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 453.7,
+                "x1": 188.19,
+                "y1": 463.65
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 33,
+            "num_palabras": 8,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 23,
+          "texto_completo": "Datos Clínicos / Sospecha Diagnóstica",
+          "posicion": {
+            "y_superior": 483,
+            "y_inferior": 492.56,
+            "x_inicio": 59.25,
+            "x_final": 217.45
+          },
+          "sangria": {
+            "pixels": 59.25,
+            "percentage": 9.96
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Datos Clínicos / Sospecha Diagnóstica",
+              "posicion": {
+                "x0": 59.25,
+                "y0": 482.61,
+                "x1": 217.45,
+                "y1": 492.56
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 37,
+            "num_palabras": 5,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 24,
+          "texto_completo": "- Justificación Clínica: Perforación gástrica con sutura simple hace 5 días.",
+          "posicion": {
+            "y_superior": 494,
+            "y_inferior": 503.26,
+            "x_inicio": 63.0,
+            "x_final": 332.57
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "- Justificación Clínica: Perforación gástrica con sutura simple hace 5 días.",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 494.06,
+                "x1": 332.57,
+                "y1": 503.26
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 76,
+            "num_palabras": 11,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 25,
+          "texto_completo": "- Sospecha diagnóstica: Descartar dehiscencia de sutura",
+          "posicion": {
+            "y_superior": 513,
+            "y_inferior": 522.7,
+            "x_inicio": 63.0,
+            "x_final": 271.63
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "- Sospecha diagnóstica: Descartar dehiscencia de sutura",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 513.5,
+                "x1": 271.63,
+                "y1": 522.7
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 55,
+            "num_palabras": 7,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 26,
+          "texto_completo": "Exploraciones Realizadas",
+          "posicion": {
+            "y_superior": 534,
+            "y_inferior": 544.38,
+            "x_inicio": 59.25,
+            "x_final": 163.8
+          },
+          "sangria": {
+            "pixels": 59.25,
+            "percentage": 9.96
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Exploraciones Realizadas",
+              "posicion": {
+                "x0": 59.25,
+                "y0": 534.44,
+                "x1": 163.8,
+                "y1": 544.38
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 24,
+            "num_palabras": 2,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 27,
+          "texto_completo": "FechaExploraciónCódigo",
+          "posicion": {
+            "y_superior": 549,
+            "y_inferior": 558.83,
+            "x_inicio": 64.49,
+            "x_final": 514.21
+          },
+          "sangria": {
+            "pixels": 64.49,
+            "percentage": 10.84
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#316982",
+            "color_rgb": [
+              0.19215686274509805,
+              0.4117647058823529,
+              0.5098039215686274
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Fecha",
+              "posicion": {
+                "x0": 64.49,
+                "y0": 548.88,
+                "x1": 85.87,
+                "y1": 558.83
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "Exploración",
+              "posicion": {
+                "x0": 189.83,
+                "y0": 548.88,
+                "x1": 231.52,
+                "y1": 558.83
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Código",
+              "posicion": {
+                "x0": 489.31,
+                "y0": 548.88,
+                "x1": 514.21,
+                "y1": 558.83
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 22,
+            "num_palabras": 1,
+            "num_spans": 3,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 28,
+          "texto_completo": "16 / 12 / 2024TC con Contraste I.V. de Abdomen",
+          "posicion": {
+            "y_superior": 563,
+            "y_inferior": 572.53,
+            "x_inicio": 64.49,
+            "x_final": 316.54
+          },
+          "sangria": {
+            "pixels": 64.49,
+            "percentage": 10.84
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "16 / 12 / 2024",
+              "posicion": {
+                "x0": 64.49,
+                "y0": 562.58,
+                "x1": 117.15,
+                "y1": 572.53
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "TC con Contraste I.V. de Abdomen",
+              "posicion": {
+                "x0": 189.83,
+                "y0": 562.58,
+                "x1": 316.54,
+                "y1": 572.53
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 46,
+            "num_palabras": 10,
+            "num_spans": 2,
+            "es_titulo": false,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 29,
+          "texto_completo": "Anatomías Estudiadas",
+          "posicion": {
+            "y_superior": 584,
+            "y_inferior": 593.72,
+            "x_inicio": 59.25,
+            "x_final": 150.6
+          },
+          "sangria": {
+            "pixels": 59.25,
+            "percentage": 9.96
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Anatomías Estudiadas",
+              "posicion": {
+                "x0": 59.25,
+                "y0": 583.77,
+                "x1": 150.6,
+                "y1": 593.72
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 20,
+            "num_palabras": 2,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 30,
+          "texto_completo": "- ABD- : Abdomen",
+          "posicion": {
+            "y_superior": 595,
+            "y_inferior": 604.43,
+            "x_inicio": 63.0,
+            "x_final": 129.92
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "- ABD- : Abdomen",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 595.22,
+                "x1": 129.92,
+                "y1": 604.43
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 16,
+            "num_palabras": 4,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 31,
+          "texto_completo": "Hallazgos",
+          "posicion": {
+            "y_superior": 614,
+            "y_inferior": 623.65,
+            "x_inicio": 59.25,
+            "x_final": 99.26
+          },
+          "sangria": {
+            "pixels": 59.25,
+            "percentage": 9.96
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Hallazgos",
+              "posicion": {
+                "x0": 59.25,
+                "y0": 613.7,
+                "x1": 99.26,
+                "y1": 623.65
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 9,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 32,
+          "texto_completo": "Tc de Abdomen y Pelvis Urgente:",
+          "posicion": {
+            "y_superior": 625,
+            "y_inferior": 634.35,
+            "x_inicio": 63.0,
+            "x_final": 194.09
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F4",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "bold",
+              "italic"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Tc de Abdomen y Pelvis Urgente:",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 625.15,
+                "x1": 194.09,
+                "y1": 634.35
+              },
+              "fuente": "CIDFont+F4",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "bold",
+                "italic"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 31,
+            "num_palabras": 6,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 33,
+          "texto_completo": "Técnica y procedimiento:",
+          "posicion": {
+            "y_superior": 645,
+            "y_inferior": 653.8,
+            "x_inicio": 63.0,
+            "x_final": 162.47
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F4",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "bold",
+              "italic"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Técnica y procedimiento:",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 644.59,
+                "x1": 162.47,
+                "y1": 653.8
+              },
+              "fuente": "CIDFont+F4",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "bold",
+                "italic"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 24,
+            "num_palabras": 3,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 34,
+          "texto_completo": "Equipo multidetector. Se realizan cortes axiales desde las cúpulas diafragmáticas hasta la sínfisis del pubis sin y tras la ",
+          "posicion": {
+            "y_superior": 654,
+            "y_inferior": 663.28,
+            "x_inicio": 63.0,
+            "x_final": 501.3
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Equipo multidetector. Se realizan cortes axiales desde las cúpulas diafragmáticas hasta la sínfisis del pubis sin y tras la ",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 654.07,
+                "x1": 501.3,
+                "y1": 663.28
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 124,
+            "num_palabras": 19,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 1
+          }
+        },
+        {
+          "numero_linea": 35,
+          "texto_completo": "administración de contraste oral (gastrografin diluido al 5%) y de contraste yodado por vía intravenosa en fase portal.",
+          "posicion": {
+            "y_superior": 664,
+            "y_inferior": 672.76,
+            "x_inicio": 63.0,
+            "x_final": 490.77
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "administración de contraste oral (gastrografin diluido al 5%) y de contraste yodado por vía intravenosa en fase portal.",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 663.56,
+                "x1": 490.77,
+                "y1": 672.76
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 119,
+            "num_palabras": 18,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 36,
+          "texto_completo": "No se han observado reacciones agudas al la administración de CIV.",
+          "posicion": {
+            "y_superior": 673,
+            "y_inferior": 682.25,
+            "x_inicio": 63.0,
+            "x_final": 315.64
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "No se han observado reacciones agudas al la administración de CIV.",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 673.04,
+                "x1": 315.64,
+                "y1": 682.25
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 66,
+            "num_palabras": 11,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 37,
+          "texto_completo": "No evidencia de artefactos que degraden imagen de manera significativa.",
+          "posicion": {
+            "y_superior": 683,
+            "y_inferior": 691.73,
+            "x_inicio": 63.0,
+            "x_final": 332.16
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "No evidencia de artefactos que degraden imagen de manera significativa.",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 682.52,
+                "x1": 332.16,
+                "y1": 691.73
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 71,
+            "num_palabras": 10,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 38,
+          "texto_completo": "Hallazgos:",
+          "posicion": {
+            "y_superior": 702,
+            "y_inferior": 711.17,
+            "x_inicio": 63.0,
+            "x_final": 104.25
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F5",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Hallazgos:",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 701.97,
+                "x1": 104.25,
+                "y1": 711.17
+              },
+              "fuente": "CIDFont+F5",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 10,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 39,
+          "texto_completo": "En cortes torácicos bajos se aprecia un moderado derrame pleural bilateral. Mínima lamina de derrame pericardico. Leve ",
+          "posicion": {
+            "y_superior": 721,
+            "y_inferior": 730.61,
+            "x_inicio": 63.0,
+            "x_final": 507.72
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "En cortes torácicos bajos se aprecia un moderado derrame pleural bilateral. Mínima lamina de derrame pericardico. Leve ",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 721.41,
+                "x1": 507.72,
+                "y1": 730.61
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 119,
+            "num_palabras": 17,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 1
+          }
+        },
+        {
+          "numero_linea": 40,
+          "texto_completo": "cardiomegalia.",
+          "posicion": {
+            "y_superior": 731,
+            "y_inferior": 740.1,
+            "x_inicio": 63.0,
+            "x_final": 116.64
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "cardiomegalia.",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 730.89,
+                "x1": 116.64,
+                "y1": 740.1
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 14,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 41,
+          "texto_completo": "En la exploración actual no se evidencia extravasación de contraste oral ni neumoperitoneo que sugiera dehiscencia de sutura. ",
+          "posicion": {
+            "y_superior": 750,
+            "y_inferior": 759.54,
+            "x_inicio": 63.0,
+            "x_final": 530.25
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "En la exploración actual no se evidencia extravasación de contraste oral ni neumoperitoneo que sugiera dehiscencia de sutura. ",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 750.34,
+                "x1": 530.25,
+                "y1": 759.54
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 126,
+            "num_palabras": 18,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 1
+          }
+        },
+        {
+          "numero_linea": 42,
+          "texto_completo": "Mínima cantidad de líquido libre en ambas gotieras parietocolicas e interasas, sin apreciar colecciones organizadas.",
+          "posicion": {
+            "y_superior": 760,
+            "y_inferior": 769.02,
+            "x_inicio": 63.0,
+            "x_final": 487.12
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Mínima cantidad de líquido libre en ambas gotieras parietocolicas e interasas, sin apreciar colecciones organizadas.",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 759.82,
+                "x1": 487.12,
+                "y1": 769.02
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 116,
+            "num_palabras": 15,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 43,
+          "texto_completo": "Resto de exploración superponible con estudio previo del día 11/11/2024.",
+          "posicion": {
+            "y_superior": 769,
+            "y_inferior": 778.51,
+            "x_inicio": 63.0,
+            "x_final": 332.17
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F3",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Resto de exploración superponible con estudio previo del día 11/11/2024.",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 769.3,
+                "x1": 332.17,
+                "y1": 778.51
+              },
+              "fuente": "CIDFont+F3",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 72,
+            "num_palabras": 10,
+            "num_spans": 1,
+            "es_titulo": false,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 44,
+          "texto_completo": "http://emdae.complejohospitalariodejaen.sas.junta-andalucia.es/ec/informeExterno?ac...05/03/2026",
+          "posicion": {
+            "y_superior": 828,
+            "y_inferior": 841.17,
+            "x_inicio": 54.0,
+            "x_final": 540.72
+          },
+          "sangria": {
+            "pixels": 54.0,
+            "percentage": 9.08
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F6",
+            "tamaño": 12.0,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "monospace"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "http://emdae.complejohospitalariodejaen.sas.junta-andalucia.es/ec/informeExterno?ac...",
+              "posicion": {
+                "x0": 54.0,
+                "y0": 827.89,
+                "x1": 475.39,
+                "y1": 841.17
+              },
+              "fuente": "CIDFont+F6",
+              "tamaño": 12.0,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "monospace"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "05/03/2026",
+              "posicion": {
+                "x0": 486.07,
+                "y0": 827.89,
+                "x1": 540.72,
+                "y1": 841.17
+              },
+              "fuente": "CIDFont+F6",
+              "tamaño": 12.0,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "monospace"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 96,
+            "num_palabras": 1,
+            "num_spans": 2,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        }
+      ]
+    },
+    {
+      "pagina": 2,
+      "dimensiones": {
+        "ancho": 594.75,
+        "alto": 841.5
+      },
+      "tablas": [
+        {
+          "bbox": [
+            55.88,
+            152.62,
+            534.38,
+            209.62
+          ],
+          "num_rows": 1,
+          "num_columns": 1,
+          "rows_y": [
+            152.62,
+            209.62
+          ],
+          "columns_x": [
+            55.88,
+            534.38
+          ],
+          "cells": [
+            [
+              {
+                "row": 0,
+                "column": 0,
+                "bbox": [
+                  55.88,
+                  152.62,
+                  534.38,
+                  209.62
+                ],
+                "text": "Estado del Informe: Firmado Fecha Firma: 16 / 12 / 2024 El informe ha sido firmado por: URBANO CATARAIN, SEBASTIAN Categoría Profesional:"
+              }
+            ]
+          ]
+        }
+      ],
+      "lineas": [
+        {
+          "numero_linea": 1,
+          "texto_completo": "Page 2 of 2",
+          "posicion": {
+            "y_superior": 0,
+            "y_inferior": 13.28,
+            "x_inicio": 486.4,
+            "x_final": 540.72
+          },
+          "sangria": {
+            "pixels": 486.4,
+            "percentage": 81.78
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F6",
+            "tamaño": 12.0,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "monospace"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Page 2 of 2",
+              "posicion": {
+                "x0": 486.4,
+                "y0": 0.0,
+                "x1": 540.72,
+                "y1": 13.28
+              },
+              "fuente": "CIDFont+F6",
+              "tamaño": 12.0,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "monospace"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 11,
+            "num_palabras": 4,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 2,
+          "texto_completo": "Indicación diagnóstica",
+          "posicion": {
+            "y_superior": 92,
+            "y_inferior": 101.78,
+            "x_inicio": 59.25,
+            "x_final": 152.73
+          },
+          "sangria": {
+            "pixels": 59.25,
+            "percentage": 9.96
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Indicación diagnóstica",
+              "posicion": {
+                "x0": 59.25,
+                "y0": 91.83,
+                "x1": 152.73,
+                "y1": 101.78
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 22,
+            "num_palabras": 2,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 3,
+          "texto_completo": "-",
+          "posicion": {
+            "y_superior": 103,
+            "y_inferior": 113.23,
+            "x_inicio": 63.0,
+            "x_final": 65.99
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "-",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 103.28,
+                "x1": 65.99,
+                "y1": 113.23
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 1,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 4,
+          "texto_completo": "Recomendaciones",
+          "posicion": {
+            "y_superior": 122,
+            "y_inferior": 132.18,
+            "x_inicio": 59.25,
+            "x_final": 134.09
+          },
+          "sangria": {
+            "pixels": 59.25,
+            "percentage": 9.96
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#387895",
+            "color_rgb": [
+              0.2196078431372549,
+              0.47058823529411764,
+              0.5843137254901961
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Recomendaciones",
+              "posicion": {
+                "x0": 59.25,
+                "y0": 122.23,
+                "x1": 134.09,
+                "y1": 132.18
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#387895",
+              "color_rgb": [
+                0.2196078431372549,
+                0.47058823529411764,
+                0.5843137254901961
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 15,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 5,
+          "texto_completo": "-",
+          "posicion": {
+            "y_superior": 134,
+            "y_inferior": 143.63,
+            "x_inicio": 63.0,
+            "x_final": 65.99
+          },
+          "sangria": {
+            "pixels": 63.0,
+            "percentage": 10.59
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "-",
+              "posicion": {
+                "x0": 63.0,
+                "y0": 133.69,
+                "x1": 65.99,
+                "y1": 143.63
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 1,
+            "num_palabras": 1,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 6,
+          "texto_completo": "Estado del Informe:FirmadoFecha Firma:",
+          "posicion": {
+            "y_superior": 155,
+            "y_inferior": 164.82,
+            "x_inicio": 56.25,
+            "x_final": 396.92
+          },
+          "sangria": {
+            "pixels": 56.25,
+            "percentage": 9.46
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "dentro_tabla",
+            "tabla_id": 0,
+            "fila": 0,
+            "columna": 0,
+            "celda_bbox": [
+              55.88,
+              152.62,
+              534.38,
+              209.62
+            ]
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#316982",
+            "color_rgb": [
+              0.19215686274509805,
+              0.4117647058823529,
+              0.5098039215686274
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "Estado del Informe:",
+              "posicion": {
+                "x0": 56.25,
+                "y0": 154.88,
+                "x1": 138.46,
+                "y1": 164.82
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "Firmado",
+              "posicion": {
+                "x0": 199.91,
+                "y0": 154.88,
+                "x1": 229.35,
+                "y1": 164.82
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Fecha Firma:",
+              "posicion": {
+                "x0": 343.58,
+                "y0": 154.88,
+                "x1": 396.92,
+                "y1": 164.82
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 38,
+            "num_palabras": 4,
+            "num_spans": 3,
+            "es_titulo": true,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 7,
+          "texto_completo": "16 / 12 / 2024",
+          "posicion": {
+            "y_superior": 167,
+            "y_inferior": 177.02,
+            "x_inicio": 56.25,
+            "x_final": 108.9
+          },
+          "sangria": {
+            "pixels": 56.25,
+            "percentage": 9.46
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "dentro_tabla",
+            "tabla_id": 0,
+            "fila": 0,
+            "columna": 0,
+            "celda_bbox": [
+              55.88,
+              152.62,
+              534.38,
+              209.62
+            ]
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F2",
+            "tamaño": 8.25,
+            "color_hex": "#333333",
+            "color_rgb": [
+              0.2,
+              0.2,
+              0.2
+            ],
+            "estilos": [
+              "normal"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "16 / 12 / 2024",
+              "posicion": {
+                "x0": 56.25,
+                "y0": 167.08,
+                "x1": 108.9,
+                "y1": 177.02
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 14,
+            "num_palabras": 5,
+            "num_spans": 1,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 8,
+          "texto_completo": "El informe ha sido firmado por:URBANO CATARAIN, SEBASTIANCategoría Profesional:",
+          "posicion": {
+            "y_superior": 182,
+            "y_inferior": 192.21,
+            "x_inicio": 56.25,
+            "x_final": 435.71
+          },
+          "sangria": {
+            "pixels": 56.25,
+            "percentage": 9.46
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "dentro_tabla",
+            "tabla_id": 0,
+            "fila": 0,
+            "columna": 0,
+            "celda_bbox": [
+              55.88,
+              152.62,
+              534.38,
+              209.62
+            ]
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F1",
+            "tamaño": 8.25,
+            "color_hex": "#316982",
+            "color_rgb": [
+              0.19215686274509805,
+              0.4117647058823529,
+              0.5098039215686274
+            ],
+            "estilos": [
+              "bold"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "El informe ha sido firmado por:",
+              "posicion": {
+                "x0": 56.25,
+                "y0": 182.26,
+                "x1": 184.63,
+                "y1": 192.21
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "URBANO CATARAIN, SEBASTIAN",
+              "posicion": {
+                "x0": 199.91,
+                "y0": 182.26,
+                "x1": 319.51,
+                "y1": 192.21
+              },
+              "fuente": "CIDFont+F2",
+              "tamaño": 8.25,
+              "color_hex": "#333333",
+              "color_rgb": [
+                0.2,
+                0.2,
+                0.2
+              ],
+              "estilos": [
+                "normal"
+              ]
+            },
+            {
+              "span_numero": 3,
+              "texto": "Categoría Profesional:",
+              "posicion": {
+                "x0": 343.58,
+                "y0": 182.26,
+                "x1": 435.71,
+                "y1": 192.21
+              },
+              "fuente": "CIDFont+F1",
+              "tamaño": 8.25,
+              "color_hex": "#316982",
+              "color_rgb": [
+                0.19215686274509805,
+                0.4117647058823529,
+                0.5098039215686274
+              ],
+              "estilos": [
+                "bold"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 79,
+            "num_palabras": 9,
+            "num_spans": 3,
+            "es_titulo": false,
+            "tiene_numeros": false,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        },
+        {
+          "numero_linea": 9,
+          "texto_completo": "http://emdae.complejohospitalariodejaen.sas.junta-andalucia.es/ec/informeExterno?ac...05/03/2026",
+          "posicion": {
+            "y_superior": 828,
+            "y_inferior": 841.17,
+            "x_inicio": 54.0,
+            "x_final": 540.72
+          },
+          "sangria": {
+            "pixels": 54.0,
+            "percentage": 9.08
+          },
+          "ubicacion_tabla": {
+            "ubicacion": "fuera_tabla",
+            "tabla_id": null,
+            "fila": null,
+            "columna": null,
+            "celda_bbox": null
+          },
+          "formato_principal": {
+            "fuente": "CIDFont+F6",
+            "tamaño": 12.0,
+            "color_hex": "#000000",
+            "color_rgb": [
+              0,
+              0,
+              0
+            ],
+            "estilos": [
+              "monospace"
+            ]
+          },
+          "spans_detallados": [
+            {
+              "span_numero": 1,
+              "texto": "http://emdae.complejohospitalariodejaen.sas.junta-andalucia.es/ec/informeExterno?ac...",
+              "posicion": {
+                "x0": 54.0,
+                "y0": 827.89,
+                "x1": 475.39,
+                "y1": 841.17
+              },
+              "fuente": "CIDFont+F6",
+              "tamaño": 12.0,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "monospace"
+              ]
+            },
+            {
+              "span_numero": 2,
+              "texto": "05/03/2026",
+              "posicion": {
+                "x0": 486.07,
+                "y0": 827.89,
+                "x1": 540.72,
+                "y1": 841.17
+              },
+              "fuente": "CIDFont+F6",
+              "tamaño": 12.0,
+              "color_hex": "#000000",
+              "color_rgb": [
+                0,
+                0,
+                0
+              ],
+              "estilos": [
+                "monospace"
+              ]
+            }
+          ],
+          "metadatos": {
+            "longitud_caracteres": 96,
+            "num_palabras": 1,
+            "num_spans": 2,
+            "es_titulo": true,
+            "tiene_numeros": true,
+            "es_mayusculas": false,
+            "espacios_iniciales": 0,
+            "espacios_finales": 0
+          }
+        }
+      ]
+    }
+  ]
+}

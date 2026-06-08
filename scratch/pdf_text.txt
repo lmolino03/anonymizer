@@ -1,0 +1,89 @@
+Informe de Resultados de Pruebas de Imagen
+Complejo Hospitalario de Jaén
+Servicio: Radiodiagnóstico
+Unidad:
+Teléfono: 
+Identificación del paciente
+Primer
+Apellido:
+ORTEGA
+Segundo
+Apellido:
+SANJUAN
+Nombre:
+MANUEL
+CIP CA (NUHSA): AN0272084694 Nº HISTORIA
+CLÍNICA:
+42411 (Hospital General del H. U. de Jaén) DNI/T.Residente/
+Pasaporte:
+25904229L
+Fecha
+Nacimiento:
+18 / 03 / 1949
+Teléfono:
+657955371
+Sexo:
+Masculino
+Episodio:
+5896319
+NASS:
+310026647342
+Cód. SNS:
+Datos Peticionario
+Centro:
+Edificio de Admisión y Urgencias
+Teléfono Centro:
+Cama:
+3
+CNP:
+00012452069
+Unidad Funcional:
+002610 Servicio:
+Medicina Intensiva
+Peticionario: COLMENERO AGUILAR, CRISPIN
+Categoría Profesional:
+Datos del Informe
+Informe Principal 
+Código de Informe:  29714945
+Fecha de Informe:  16 / 12 / 2024
+Datos Clínicos / Sospecha Diagnóstica
+- Justificación Clínica: Perforación gástrica con sutura simple hace 5 días.
+- Sospecha diagnóstica: Descartar dehiscencia de sutura
+Exploraciones Realizadas
+Anatomías Estudiadas
+- ABD- : Abdomen
+Hallazgos
+Tc de Abdomen y Pelvis Urgente:
+Técnica y procedimiento:
+Equipo multidetector. Se realizan cortes axiales desde las cúpulas diafragmáticas hasta la sínfisis del pubis sin y tras la 
+administración de contraste oral (gastrografin diluido al 5%) y de contraste yodado por vía intravenosa en fase portal.
+No se han observado reacciones agudas al la administración de CIV.
+No evidencia de artefactos que degraden imagen de manera significativa.
+Hallazgos:
+En cortes torácicos bajos se aprecia un moderado derrame pleural bilateral. Mínima lamina de derrame pericardico. Leve 
+cardiomegalia.
+En la exploración actual no se evidencia extravasación de contraste oral ni neumoperitoneo que sugiera dehiscencia de sutura. 
+Mínima cantidad de líquido libre en ambas gotieras parietocolicas e interasas, sin apreciar colecciones organizadas.
+Resto de exploración superponible con estudio previo del día 11/11/2024.
+Fecha
+Exploración
+Código
+16 / 12 / 2024
+TC con Contraste I.V. de Abdomen
+Page 1 of 2
+05/03/2026
+http://emdae.complejohospitalariodejaen.sas.junta-andalucia.es/ec/informeExterno?ac...
+Indicación diagnóstica
+-
+Recomendaciones
+-
+Estado del Informe:
+Firmado
+Fecha Firma:
+16 / 12 / 2024
+El informe ha sido firmado por:
+URBANO CATARAIN, SEBASTIAN
+Categoría Profesional:
+Page 2 of 2
+05/03/2026
+http://emdae.complejohospitalariodejaen.sas.junta-andalucia.es/ec/informeExterno?ac...
