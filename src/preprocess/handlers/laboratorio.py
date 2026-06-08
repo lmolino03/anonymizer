@@ -97,8 +97,8 @@ class ProcessorLaboratorio(BaseProcessor):
                 break
                 
             if start_collecting and not is_personal:
-                # Also remove numeric codes or date patterns
-                if re.match(r'^\d+$', stripped_line):
+                # Also remove numeric codes or date patterns (but keep shorter result numbers)
+                if re.match(r'^\d{5,}$', stripped_line):
                     continue
                 if re.match(r'^\d{2}/\d{2}/\d{4}.*$', stripped_line):
                     continue
@@ -143,6 +143,12 @@ class ProcessorLaboratorio(BaseProcessor):
                     end_idx = len(current_text)
                     
                 sections[header] = current_text[start_idx:end_idx].strip()
+                
+        # Parse and format tests in each section
+        for header in headers:
+            if header in sections:
+                parsed_tests = self._parse_section_to_tests(header, sections[header])
+                sections[header] = self._format_tests(parsed_tests)
                 
         # Store in class variables as requested
         self.inicio = "" # No intro text remains after cleaning personal data
@@ -355,51 +361,115 @@ class ProcessorLaboratorio(BaseProcessor):
     def _merge_wrapped_lines(self, content):
         """
         Merges lines separated only for visual formatting.
+        For laboratory reports, return content as-is to preserve test blocks.
         """
-        if not content:
-            return ""
+        return content
+
+    def _is_unit(self, line):
+        line_clean = line.strip().lower()
+        known_units = {
+            'g/dl', '%', 'fl', 'pg', 's', 'inr', 'mg/dl', 'ml/min', 'ratio', 'u/l',
+            'meq/l', 'µg/dl', 'ug/dl', 'ng/ml', 'pg/ml', 'mg/l', 'x 10^3/µl', 'x 10^6/µl',
+            'x 10^3/l', 'x 10^6/l'
+        }
+        if line_clean in known_units:
+            return True
+        if '10^' in line_clean:
+            return True
+        if '/' in line_clean and not any(char.isdigit() for char in line_clean):
+            return True
+        return False
+
+    def _is_reference_range(self, line):
+        # Matches patterns like 3,70 - 9,70 or 40 - or - 131 or 8 - 61
+        return bool(re.match(r'^\s*\*?\s*(?:[0-9.,]+\s*-\s*[0-9.,]*|-\s*[0-9.,]+)\s*$', line))
+
+    def _is_result(self, line):
+        # Matches numbers with optional asterisk prefix, e.g. *2,83 or 4,23 or 81
+        return bool(re.match(r'^\s*\*?\s*-?[0-9]+(?:,[0-9]+)?\s*$', line))
+
+    def _parse_section_to_tests(self, section_name, text_content):
+        lines = [line.strip() for line in text_content.split('\n') if line.strip()]
         
-        end_punctuation = {'.', '!', '?', ':', ';'}
-        list_markers = ['-', '•', '*', '·']
+        # Filter out header matching the section name
+        if lines and lines[0].upper() == section_name.upper():
+            lines = lines[1:]
+            
+        tests = []
+        current_test = {
+            'name': None,
+            'result': '',
+            'unit': '',
+            'reference': '',
+            'observations': []
+        }
         
-        lines = content.split('\n')
-        merged_lines = []
-        current_line = ""
+        in_observation = False
         
         for line in lines:
-            stripped = line.strip()
-            
-            if not stripped:
-                if current_line:
-                    merged_lines.append(current_line)
-                    current_line = ""
-                merged_lines.append("")
-                continue
-            
-            is_list_item = any(stripped.startswith(marker) for marker in list_markers)
-            is_numbered = len(stripped) > 2 and stripped[0].isdigit() and stripped[1] in '.)-'
-            
-            if is_list_item or is_numbered:
-                if current_line:
-                    merged_lines.append(current_line)
-                current_line = stripped
-                continue
-            
-            if current_line:
-                last_char = current_line.rstrip()[-1] if current_line.rstrip() else ''
-                
-                if last_char in end_punctuation:
-                    merged_lines.append(current_line)
-                    current_line = stripped
+            # Check observations
+            if line.startswith('(Observaciones:') or in_observation:
+                current_test['observations'].append(line)
+                if line.endswith(')'):
+                    in_observation = False
                 else:
-                    current_line += " " + stripped
+                    in_observation = True
+            elif self._is_reference_range(line):
+                current_test['reference'] = line
+            elif self._is_unit(line):
+                current_test['unit'] = line
+            elif self._is_result(line):
+                current_test['result'] = line
             else:
-                current_line = stripped
-        
-        if current_line:
-            merged_lines.append(current_line)
-        
-        return '\n'.join(merged_lines)
+                # It's a test name candidate
+                if current_test['name'] is not None:
+                    # Save previous test if it has any data
+                    if (current_test['result'] or current_test['unit'] or 
+                        current_test['reference'] or current_test['observations']):
+                        tests.append(current_test)
+                    current_test = {
+                        'name': line,
+                        'result': '',
+                        'unit': '',
+                        'reference': '',
+                        'observations': []
+                    }
+                else:
+                    current_test['name'] = line
+                    
+        if current_test['name'] and (current_test['result'] or current_test['unit'] or 
+                                     current_test['reference'] or current_test['observations']):
+            tests.append(current_test)
+            
+        return tests
+
+    def _format_tests(self, tests):
+        formatted_blocks = []
+        for test in tests:
+            name = test['name'].lstrip('-').strip()
+            result = test['result'].strip()
+            unit = test['unit'].strip()
+            
+            # Combine reference and observations
+            ref_parts = []
+            if test['reference']:
+                ref_parts.append(test['reference'].strip())
+            if test['observations']:
+                obs_str = " ".join(test['observations']).strip()
+                ref_parts.append(obs_str)
+            valores_referencia = " ".join(ref_parts)
+            
+            resultado_str = f"Resultado:{result}" if result.startswith('*') else f"Resultado: {result}"
+            
+            block = (
+                f"Prueba: {name}\n"
+                f"{resultado_str}\n"
+                f"Unidad: {unit}\n"
+                f"Valores Referencia: {valores_referencia}"
+            )
+            formatted_blocks.append(block)
+            
+        return "\n\n".join(formatted_blocks)
 
     def _generate_markdown_content(self, case_id=None, file_name=None):
         """
